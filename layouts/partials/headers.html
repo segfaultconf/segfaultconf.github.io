@@ -4,5 +4,5 @@
 <link rel="shortcut icon" href="favicon.ico">
 <title>{{- .Site.Title -}}</title>
 
-{{ $style := resources.Get "sass/main.sass" | resources.ToCSS (dict "targetPath" "segfault-styles.css" "enableSourceMap" true) }}
-<link rel="stylesheet" href="{{ $style.Permalink }}">
+{{ $style := resources.Get "sass/main.sass" | resources.ToCSS (dict "targetPath" "segfault-styles.css" "enableSourceMap" true) | fingerprint -}}
+<link rel="stylesheet" href="{{ $style.RelPermalink }}">

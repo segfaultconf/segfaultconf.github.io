@@ -1,6 +1,6 @@
 ["segfault-masterclass"]
 segfaultLogo = true
-background_img = "images/segfault-masterclass.png"
+# background_img = "images/segfault-masterclass.png"
 title = "masteclass"
 text = "Festiwal online."
 description = "Codzienna prezentacja w wersji reżyserskiej, z komentarzem prelegenta + live z pytaniami do naszych gości."
