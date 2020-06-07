@@ -1,0 +1,79 @@
+.bg-gradient-horizontal
+    background-image: url("../images/gradient-horizontal.png")
+    background-size: cover
+
+.bg-gradient-vertical-primary
+    background-image: url("../images/gradient-vertical-primary.png")
+    background-size: cover
+
+.bg-gradient-vertical-secondary
+    background-image: url("../images/gradient-vertical-secondary.png")
+    background-size: cover
+
+.bg-gradient-vertical-white-primary
+    background-image: url("../images/gradient-vertical-white-primary.png")
+    background-size: cover
+
+.bg-md-primary
+    +bp-md
+        background-color: $primary !important
+
+.bg-md-white
+    +bp-md
+        background-color: $white !important
+
+.bg-md-transparent
+    +bp-md
+        background-color: transparent !important
+
+.text-md-primary
+    +bp-md
+        color: $primary !important
+
+.text-md-secondary
+    +bp-md
+        color: $secondary !important
+    
+.font-medium
+    +font-medium
+
+.font-bold
+    +font-bold
+
+@each $font-size, $line-height in $font-sizes
+  .font-#{$font-size}
+    line-height: $line-height
+    +responsive-font($font-size)
+
+.list-unstyled
+    list-style: none
+    margin: 0
+    padding: 0
+
+.rounded
+    border-radius: 50%
+
+.overflow-x-scroll
+    overflow-x: scroll
+
+.w-100
+    width: 100%
+
+.el-animated
+    opacity: 0
+    transform: translateY(30px)
+    transition: .5s
+    &.come-in
+        transform: translateY(0)
+        opacity: 1
+
+.text-wrap
+    white-space: normal
+
+.size-animation
+    display: inline-block
+    transition: transform .15s ease-in-out
+    transform-origin: left center
+
+    &:hover
+        transform: scale(1.1)

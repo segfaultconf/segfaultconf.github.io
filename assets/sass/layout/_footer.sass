@@ -1,0 +1,31 @@
+.footer
+    padding: 15px 30px
+    position: relative
+    overflow: hidden
+
+    +bp-xl
+        padding: 30px 60px
+
+    .icon-instagram
+        font-size: 20px
+        +bp-md
+            font-size: 28px
+
+    .logo
+        z-index: 1
+
+    &__socials
+        +bp-lg
+            position: absolute
+            right: 30px
+            top: 20px
+        +bp-xl
+            top: 70px
+            right: 60px
+
+    .list__item
+        +media-breakpoint-down(sm)
+            padding-left: 0
+            margin-left: 0
+            &::before
+                display: none

@@ -1,0 +1,66 @@
+.section
+    padding: 30px 0
+    position: relative
+    +bp-md
+        padding: 40px 0
+
+    &--1
+        .section__title
+            max-width: 255px
+            
+            +bp-md
+                max-width: none
+
+    &--o-czym-mowimy
+        background: url("../images/key-visual.jpg") no-repeat
+        background-size: 861px 683px
+        background-position-x: calc(100% + 200px)
+        background-position-y: 100%
+        padding-bottom: 150px
+
+    &--text
+        p
+            margin: 0
+        
+        h1, h2, h3, h4
+            margin: 30px 0
+
+    &__title
+        +font-bold
+        margin-bottom: 30px
+        word-break: break-word
+        position: relative
+        z-index: 1
+        +media-breakpoint-down(md)
+            font-size: 36px
+        +bp-md
+            &::before
+                display: block
+                content: " "
+                margin-top: 70px
+                visibility: hidden
+
+    &__background
+        position: absolute
+        z-index: -1
+        top: 0
+        right: 0
+        height: 480px
+        text-align: right
+        overflow: hidden
+        +bp-md
+            height: 550px
+
+        img, video
+            height: 100%
+            width: auto
+            max-width: none
+
+    &__gradient-overlay
+        position: absolute
+        top: 0
+        right: 0
+        left: 0
+        height: 480px
+        +bp-md
+            height: 550px

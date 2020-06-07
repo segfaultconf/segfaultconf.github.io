@@ -1,0 +1,55 @@
+.border
+
+    &--bottom
+        border-bottom: 2px solid
+
+    &--top
+        border-top: 2px solid
+
+
+.fancy-border
+    position: relative
+    transition: transform .3s ease-in-out 0s !important
+    display: block
+    +bp-md
+        margin: 10px
+
+    &::after
+        content: ""
+        position: absolute
+        top: 0
+        right: 0
+        bottom: 0
+        left: 0
+        border: 2px solid $primary
+        pointer-events: none
+        transition: transform .3s ease-in-out 0s !important
+        +bp-md
+            top: -10px
+            right: 10px
+            bottom: 10px
+            left: -10px
+
+    &:hover
+        +bp-md
+            transform: translate(-10px, -10px)
+
+            &::after
+                transform: translate(10px, 10px)
+
+    &--accent
+        &::after
+            border-color: $accent
+
+    &--narrow
+        &::after
+            top: -5px
+            right: 5px
+            bottom: 5px
+            left: -5px 
+        &:hover
+            +bp-md
+                transform: translate(-5px, -5px)
+
+                &::after
+                    transform: translate(5px, 5px)

@@ -1,0 +1,58 @@
+=bp-xs
+    +media-breakpoint-up(xs)
+        @content
+
+=bp-sm
+    +media-breakpoint-up(sm)
+        @content
+
+=bp-md
+    +media-breakpoint-up(md)
+        @content
+
+=bp-lg
+    +media-breakpoint-up(lg)
+        @content
+
+=bp-xl
+    +media-breakpoint-up(xl)
+        @content
+
+=clear-list-style
+    list-style: none
+    margin: 0
+    padding: 0
+
+=font-bold
+    font-family: spacemono-bold
+
+=font-medium
+    font-family: chakrapetch-medium
+
+=responsive-font($font-size)
+    @if $font-size > 24
+        font-size: #{$font-size * .73}px
+    @else if $font-size > 16
+        font-size: #{$font-size * .7}px
+    @else
+        font-size: #{$font-size * .95}px
+    +bp-md
+        font-size: #{$font-size}px
+
+=font-icon-props
+    font-family: "segfault-icons"
+    font-style: normal
+    font-weight: normal
+    speak: none
+    display: inline-block
+    text-decoration: none
+    margin-right: .2em
+    text-align: center
+    font-variant: normal
+    text-transform: none
+    line-height: 1em
+
+=reset-list-style
+    list-style: none
+    margin: 0
+    padding: 0

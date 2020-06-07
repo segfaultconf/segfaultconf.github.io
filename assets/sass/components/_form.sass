@@ -1,0 +1,23 @@
+.input
+    appearance: none
+    border-radius: 0
+    color: inherit
+    border-color: inherit
+    display: inline-block
+    border-width: 2px 
+    border-style: solid
+    background: transparent
+    padding: 10px 15px
+    height: 40px
+    min-width: 275px
+    max-width: 100%
+    transition: box-shadow .15s ease-in-out
+
+
+    &:focus
+        outline: none
+        box-shadow: 0 0 0 0.2rem transparentize($white, .5)        
+
+    &::placeholder
+        color: inherit
+        +font-bold

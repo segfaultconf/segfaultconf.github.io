@@ -1,0 +1,13 @@
+.breadcrumbs
+    display: flex
+    &__item
+        font-size: 14px
+        color: $light
+
+        &:last-of-type
+            &::after
+                display: none
+
+        &::after
+           content: "/"
+           padding: 0 5px

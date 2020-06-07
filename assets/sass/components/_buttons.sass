@@ -1,0 +1,83 @@
+.button 
+    display: inline-block
+    +font-bold
+    text-align: center
+    white-space: nowrap
+    vertical-align: middle
+    user-select: none
+    background-color: transparent
+    border: 2px solid transparent
+    padding: 6px 12px
+    font-size: 1em
+    line-height: 1.5
+    min-width: 160px
+    transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out, transform .15s ease-in-out
+    +bp-lg
+        min-width: 213.5px
+    &:hover
+        text-decoration: none
+        transform: scale(1.1)
+    &:focus
+        outline: none
+
+    &--outline-primary
+        border-color: $primary
+        color: $primary
+        &:hover
+            color: $primary
+        &:focus
+            box-shadow: 0 0 0 0.2rem transparentize($primary, .5)
+
+    &--outline-white
+        border-color: $white
+        color: $white
+        &:hover
+            color: $white
+        &:focus
+            box-shadow: 0 0 0 0.2rem transparentize($white, .5)
+
+    &--accent
+        background-color: $accent
+        border-color: $accent
+        color: $white
+        &:hover
+            color: $white
+        &:focus
+            box-shadow: 0 0 0 0.2rem transparentize($accent, .5)
+
+    &--link
+        min-width: auto
+        padding: 0
+        border: none
+        &:hover
+            transform: none
+
+    &--expandable
+        position: relative
+        padding-right: 20px
+        overflow: hidden
+        transition: opacity .3s ease-in-out, height .3s ease-in-out
+        &:before
+            +font-icon-props
+            @extend .icon-chevron-down
+            position: absolute
+            right: 0
+            top: calc(50% - 2px)
+            font-size: 8px
+            transition: 0.25s
+
+    &--expanded
+        &:before
+            transform: rotate(-180deg)
+
+    &--hidden
+        opacity: 0
+        height: 0
+        overflow: hidden
+        pointer-events: none
+        margin: 0 !important
+
+    &--disabled
+        background-color: $light
+        cursor: not-allowed
+        pointer-events: none

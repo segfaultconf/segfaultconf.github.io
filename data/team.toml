@@ -1,0 +1,24 @@
+[["organizers"]]
+name = "Jarosław Pałka"
+desc = "Chief Procrastinator Officer"
+photo = "team-jarek.jpg"
+
+[["organizers"]]
+name = "Justyna Bień"
+desc = "Chief Entertainment Officer"
+photo = "team-justyna.jpg"
+
+[["organizers"]]
+name = "Wiktor Sztajerowski"
+desc = "Chief Wizard Officer"
+photo = "team-wiktor.jpg"
+
+[["organizers"]]
+name = "Jakub Marchwicki"
+desc = "Chief Mob Officer"
+photo = "team-jakub.jpg"
+
+[["sales"]]
+name = "Olga Hawrylec"
+desc = "<strong>Senior Concierge</strong><br /><a class=text-white href=mailto:partnerzy@segfault.events>partnerzy@segfault.events</a><br />+48 12 361 2402"
+photo = "team-olga.jpg"

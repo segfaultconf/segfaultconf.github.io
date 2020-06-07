@@ -1,0 +1,8 @@
+<meta charset="utf-8">
+<meta name="description" content="">
+<meta name="viewport" content="height=device-height, width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no, target-densitydpi=device-dpi">
+<link rel="shortcut icon" href="favicon.ico">
+<title>{{- .Site.Title -}}</title>
+
+{{ $style := resources.Get "sass/main.sass" | resources.ToCSS (dict "targetPath" "segfault-styles.css" "enableSourceMap" true) }}
+<link rel="stylesheet" href="{{ $style.Permalink }}">

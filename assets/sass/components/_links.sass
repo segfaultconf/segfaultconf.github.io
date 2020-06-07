@@ -1,0 +1,64 @@
+.link
+    position: relative
+
+    &::after
+        content: ''
+        position: absolute
+        bottom: 0
+        left: 0
+        width: 100%
+        border-bottom: 1px solid
+        transition: width .3s ease-in-out
+
+    &--multiline
+        &::after
+            display: none
+
+        .underline
+            +bp-md
+                height: 100%
+                width: calc(100%)
+                background-image: linear-gradient(transparent calc(100% - 1px), $white 1px)
+                background-repeat: no-repeat
+                background-size: 100% 90%
+                transition: background-size .3s ease-in-out
+
+    &:hover
+        &::after
+            width: 0
+        .underline
+            +bp-md
+                background-size: 0% 90%
+
+    &--forward
+
+        &:hover
+            .icon-arrow
+                transform: translateX(10px)
+
+        &::after
+            width: calc(100% - 35px)
+
+        .icon-arrow
+            transition: transform .3s cubic-bezier(0.6, 0, 0.3, 1)
+
+    &--back
+
+        &:hover
+            .icon-arrow-back
+                transform: translateX(-10px)
+
+        &::after
+            width: calc(100% - 43px)
+            left: 43px
+
+        .icon-arrow-back
+            transition: transform .3s cubic-bezier(0.6, 0, 0.3, 1)
+            margin-right: 8px
+            margin-left: 0
+
+    [class^="icon-"]
+        font-size: 8px
+        margin-left: 8px
+        pointer-events: none
+        display: inline-block

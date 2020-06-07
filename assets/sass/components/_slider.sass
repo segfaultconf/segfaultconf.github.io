@@ -1,0 +1,58 @@
+.slider
+  $slider: &
+  margin: 0 auto 20px
+
+  &--mobile-only
+    +bp-md
+      #{$slider}
+        &__wrapper
+          overflow: visible
+          margin-bottom: 0
+        &__container
+          position: static
+          display: flex
+          flex-wrap: wrap
+        &__buttons
+          display: none
+
+  &__wrapper
+    overflow: hidden
+    position: relative
+    margin-bottom: 20px
+
+  &__container
+    height: 100%
+    display: flex
+    align-items: center
+    transition: 1s
+    position: absolute
+    left: 0
+
+  &__slide
+    height: 100%
+
+  &__buttons
+    text-align: center
+    position: relative
+
+    &--primary
+      .slider__button
+        border-color: $primary
+        &--active, &:hover
+          background-color: $primary
+
+  &__button
+    border-radius: 50%
+    padding: 0
+    margin: 0 5px
+    width: 14px
+    height: 14px
+    border: solid 2px $accent
+    background-color: transparent
+    transition: all 0.4s ease-in-out
+
+    &--active, &:hover
+      background-color: $accent
+
+    &:focus
+      outline: none

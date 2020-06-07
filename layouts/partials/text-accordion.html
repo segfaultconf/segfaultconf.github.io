@@ -1,0 +1,15 @@
+<div class="accordion" data-accordion="{{ .id }}">
+    <button class="button button--expandable button--link text-accent el-animated" data-accordion-open data-accordion-id="{{ .id }}" aria-expanded="false"
+      aria-controls="{{ .id }}">
+      <span class="link">czytaj więcej</span>
+    </button>
+    <div class="accordion__content accordion__content--collapsed" id="{{ .id }}" aria-hidden="true">
+      <div>
+        <p class="m-0 py-3 {{ .textClass }}">{{ .text }}</p>
+        <button class="button button--expandable button--link button--expanded text-accent" data-accordion-close data-accordion-id="{{ .id }}" aria-expanded="false" 
+          aria-controls="{{ .id }}">
+          <span class="link">zwiń</span>
+        </button>
+      </div>
+    </div>
+  </div>

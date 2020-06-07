@@ -1,0 +1,58 @@
+.banner
+    padding: 50px 0
+    position: relative
+    +bp-md
+        height: 452px
+
+    &--small
+        +bp-md
+            height: 363px
+
+    &__wrapper
+        height: 287px
+        position: absolute
+        top: 0
+        right: 0
+        left: 0
+        +bp-md
+            height: 100%
+
+        ~div
+            position: relative
+
+    &__background
+        position: absolute
+        top: 0
+        right: 0
+        height: 287px
+        text-align: right
+        overflow: hidden
+        +bp-md
+            height: 100%
+
+        img
+            height: 100%
+            width: auto
+            max-width: none
+            
+            &:hover
+                filter: grayscale(1)
+
+    &__gradient-overlay
+        position: absolute
+        top: 0
+        right: 0
+        left: 0
+        height: 287px
+        +bp-md
+            height: 100%
+
+    &__title
+        font-size: 24px
+        +font-bold
+        margin-bottom: 30px
+        word-break: break-word
+        position: relative
+        z-index: 1
+        +bp-md
+            font-size: 48px

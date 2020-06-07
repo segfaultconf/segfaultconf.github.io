@@ -1,0 +1,70 @@
+.player
+    width: 950px
+    max-width: 100%
+    margin-top: 30px
+    +bp-sm
+        padding: 40px 40px 50px
+    +bp-md
+        margin-top: 60px
+    +media-breakpoint-down(sm)
+        background: none
+        &::after
+            display: none
+
+    &--small
+        width: 333px
+        height: 188px
+        padding: 0
+
+    &--single
+        width: 725px
+
+        +bp-md
+            height: 455px
+            display: flex
+            align-items: center
+            justify-content: center
+            
+        .player__video-container
+            width: 615px
+    
+    &__video-container
+        width: 516px
+        max-width: 100%
+
+    &__video
+        position: relative
+        padding-bottom: 56.4%
+        height: 0
+        overflow: hidden
+
+        iframe
+            position: absolute
+            top: 0
+            left: 0
+            width: 100%
+            height: 100%
+
+    &__playlist
+        margin-bottom: 0
+        padding: 10px
+        list-style-type: none
+        +bp-xl
+            padding: 0 0 0 30px
+        li
+            padding-bottom: 10px
+            position: relative
+            padding-left: 30px
+            color: $primary
+            +bp-md
+                color: $white
+
+            &:before
+                +font-icon-props
+                @extend .icon-youtube
+                // color: $primary
+                // color: $white
+                position: absolute
+                left: 0
+                top: 6px
+

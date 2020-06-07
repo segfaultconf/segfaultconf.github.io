@@ -1,0 +1,56 @@
+["segfault-masterclass"]
+segfaultLogo = true
+background_img = "images/segfault-masterclass.png"
+title = "masteclass"
+text = "Festiwal online."
+description = "Codzienna prezentacja w wersji reżyserskiej, z komentarzem prelegenta + live z pytaniami do naszych gości."
+promoted = true
+forSale = false
+href = "#masterclass"
+
+["segfault-podcast"]
+segfaultLogo = true
+background_img = "images/online-audio.png"
+title = "audio"
+text = "Nasz podcast."
+description = "Słuchowisko techniczno-programistyczne o nowych / starych trendach w branżuni."
+promoted = true
+forSale = false
+href = "#podcast"
+
+["segfault-webinars"]
+segfaultLogo = true
+title = "online"
+text = "Webinar online."
+description = "Wersje reżyserskie najlepszych prezentacji + dyskusja z prelegentem"
+promoted = true
+forSale = false
+href = "#online"
+
+["hello-dave"]
+background_img = "images/online-hello-dave.png"
+title = "Hello Dave"
+text = "Kompilatory.od/nowa."
+description = "Jak komputery rozumieją języki programowania."
+promoted = false
+forSale = false
+href = "#hello-dave"
+
+
+# [
+#   { 
+#   },
+#   {     
+
+#   },
+#   { 
+
+#   },
+#   { 
+#     "category": "workshops", 
+#     "text": "Konferencja to za mało? <br> Weź udział w warsztatach!",
+#     "promoted": false,
+#     "upcoming": false,
+#     "forSale": false
+#   }
+# ]

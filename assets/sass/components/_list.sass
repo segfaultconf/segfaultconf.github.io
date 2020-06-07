@@ -1,0 +1,91 @@
+.list
+    +reset-list-style
+    &__item
+        position: relative
+        margin-left: 70px
+        padding-bottom: 24px
+        @extend .icon-list-decorator
+        +bp-sm
+            margin-left: 100px
+
+        &::before
+            display: inline-block
+            +font-icon-props
+            position: absolute
+            left: -70px
+            top: 8px
+            font-size: .75rem
+            color: $primary
+            +bp-sm
+                font-size: 1rem
+                top: 10px
+                left: -100px
+
+        &--small
+            margin-left: 55px
+            padding-bottom: 0
+            &::before
+                font-size: .55rem
+                top: 8px
+                left: -55px
+
+        &--mid
+            margin-left: 70px
+            padding-bottom: 0
+            &::before
+                font-size: .75rem
+                top: 6px
+                left: -70px
+
+        &--linked
+            &::after
+                content: ''
+                height: 100%
+                position: absolute
+                left: -71px
+                top: 12px
+                border-left: 3px solid
+                color: $primary
+                +bp-sm
+                    border-left: 4px solid
+                    top: 16px
+                    left: -101px
+            
+            &:last-of-type
+                &::after
+                    display: none
+
+        &--bordered
+            border-top: 2px solid $secondary
+            padding: 20px 0
+
+            &::before
+                top: 30px
+
+            &::after
+               height: calc(100% + 4px) 
+               top: 36px
+
+            &:last-of-type
+                border-bottom: 2px solid $secondary
+
+        &--accent
+            &::before, &::after
+                color: $accent
+
+        &--secondary
+            &::before, &::after
+                color: $secondary
+
+    &--responsive
+        +media-breakpoint-down(sm)
+            .list__item
+                margin-left: 0
+
+                &::before
+                    display: none
+                
+                &::after
+                    display: none
+
+

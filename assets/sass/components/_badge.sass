@@ -1,0 +1,44 @@
+.badge
+    display: inline-flex
+    justify-content: center
+    align-items: center
+    height: 20px
+    padding: 0 13px
+    background-color: $white
+    color: $primary
+    font-size: 12px
+    +font-bold
+    text-align: center
+    white-space: nowrap
+
+    +bp-md
+        height: 24px
+
+
+    &--pill
+        border-radius: 40px
+        padding: 0 20px
+
+    &--circle
+        border-radius: 50%
+        width: 20px
+        padding: 0
+        
+        +bp-md
+            width: 24px
+
+    &--primary
+        background-color: $primary
+        color: $white
+
+    &--secondary
+        background-color: $secondary
+        color: $white
+
+    &--accent
+        background-color: $accent
+        color: $white
+
+    &--disabled
+        background-color: $light
+        color: $white

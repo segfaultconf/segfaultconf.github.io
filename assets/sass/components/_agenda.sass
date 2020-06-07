@@ -1,0 +1,63 @@
+.agenda
+    margin-top: 60px
+
+    &__tab
+        +media-breakpoint-down(sm)
+            font-size: 14px
+        +bp-md
+            cursor: auto
+            pointer-events: none
+
+        &--active
+            +media-breakpoint-down(sm)
+                color: $accent
+                position: relative
+
+                &::after
+                    content: ''
+                    position: absolute
+                    bottom: 0
+                    left: 0
+                    width: 100%
+                    border-bottom: 1px solid
+                    transition: width .3s ease-in-out
+
+                &:hover
+                    color: $accent
+
+    &__header
+        padding-left: 35px
+        text-align: center
+        +font-bold
+        font-size: 22px
+        padding-bottom: 20px
+        +bp-md
+            padding-left: 200px
+
+    &__hour
+        width: 50px
+        flex: 0 0 50px
+        font-size: 14px
+        padding: 0 10px
+
+        +bp-md
+            font-size: 24px
+            width: 100px
+            flex: 0 0 100px
+            padding: 0
+
+    p
+        margin-bottom: .5rem
+
+        .badge
+            +bp-lg
+                transform: translateY(-5px)
+
+    [class*="col-"]
+        padding: 0 10px
+
+    .row
+        margin: 0 -10px
+
+    .container
+        padding: 0 10px

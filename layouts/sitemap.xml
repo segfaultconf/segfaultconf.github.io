@@ -1,0 +1,7 @@
+{{ printf "<?xml version=\"1.0\" encoding=\"utf-8\" standalone=\"yes\" ?>" | safeHTML }}
+<sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+    <!-- https://support.google.com/webmasters/answer/75712?hl=en -->
+    <sitemap>
+        <loc>{{ .Site.BaseURL }}/sitemap-root.xml</loc>
+    </sitemap>
+</sitemapindex>

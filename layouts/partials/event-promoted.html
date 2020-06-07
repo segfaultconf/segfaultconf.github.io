@@ -1,0 +1,49 @@
+{{ if .promoted }}
+  <article class="slider__slide event event--detailed fancy-border mx-auto">
+    <div class="event__wrapper">
+
+      {{ if .background_img }}
+      <div style="background-image: url('{{ .background_img }}')" class="event__image"></div>
+      {{ end }}
+
+      <div class="event__gradient-overlay bg-gradient-horizontal"></div>
+
+      <div class="event__content">
+
+        {{ if .segfaultLogo }}
+        <div class="el-animated">
+          <svg class="event__logo white">
+            <use xlink:href="#svg-segfault-logo" />
+          </svg>
+        </div>
+        {{ end }}
+
+        {{ if .title }}
+          <h2 class="el-animated text-white">{{ .title}} </h2>
+        {{ end }}      
+
+        <div class="event__text text-white el-animated">
+        {{ if .text }}
+          <p>{{ .text }}</p>
+        {{ end }}
+        {{ if .description }}
+          <p class="event__text--small">{{ .description }}</p>
+        {{ end }}
+        </div>
+
+        {{ if .forSale }}    
+        <div class="el-animated">
+          <a href="#" class="button button--accent">kup bilet</a>
+        </div>
+        {{ end }}
+
+        {{ if .href }}
+          <div class="py-3 text-right el-animated">
+            <a href="{{ .href }}" class="link link--forward text-white font-bold">więcej<span class="icon-arrow"></span></a>
+          </div>  
+        {{ end }}
+      </div>
+    </div>
+
+  </article>
+{{ end }}
