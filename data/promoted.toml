@@ -6,7 +6,7 @@ text = "Festiwal online."
 description = "Codzienna prezentacja w wersji reżyserskiej, z komentarzem prelegenta + live z pytaniami do naszych gości."
 promoted = true
 forSale = false
-href = "#masterclass"
+href = "summer-masterclass-2020/"
 
 ["segfault-podcast"]
 segfaultLogo = true

@@ -12,12 +12,12 @@
                         <use xlink:href="#svg-segfault-logo" />
                     </svg>
                 </h1>
-            </a>
-            {{/*  @@if (context.subheader) {
+            </a>            
+            {{ if .CurrentSection.Title }}
             <p class="font-18 text-secondary ml-3 mb-2 d-none d-md-block">
-                @@subheader
+                {{ .CurrentSection.Title }}
             </p>
-            }  */}}
+            {{ end }}
         </div>
         <div id="siteMenu" class="menu">
             <button id="menuBtn" class="menu__button" aria-controls="siteMenuInside" aria-expanded="false" aria-label="Otwórz menu">
@@ -26,7 +26,16 @@
                 <span></span>
             </button>
             <div id="siteMenuInside" class="menu__container" aria-labelledby="menuBtn">
-                <!-- <div class="dropdown order-3 order-md-1">
+                {{ if (eq .CurrentSection.Type "event")}} 
+                <ul class="menu-items text-center list-unstyled">
+                    <li class="mb-1 float-lg-left"><a href="/{{.Section}}#speakers">Prelegenci</a></li>
+                    <li class="mb-1 float-lg-left"><a href="/{{.Section}}#agenda">Agenda</a></li>
+                    <li class="mb-1 float-lg-left"><a href="/{{.Section}}#partners">Partnerzy</a></li>
+                </ul>
+                {{/*  <button class="button button--outline-primary order-2 order-md-2">zostań partnerem</button>  */}}
+                <a href="#tickets" class="button button--accent order-1 order-md-3">kup bilet</a>
+
+                {{/*  <div class="dropdown order-3 order-md-1">
                     <button class="dropdown__button button button--expandable button--link text-primary mt-3 mx-lg-2 pb-2">
                         <span class="link">nadchodzące wydarzenia</span>
                     </button>
@@ -36,21 +45,16 @@
                         <li class="dropdown__item"><a href="#">Łódź 2020</a></li>
                         <li class="dropdown__item"><a href="#">Kielce 2020</a></li>
                     </ul>
-                </div> -->
-                <!-- <button class="button button--outline-primary mt-3 mx-lg-2 mb-2 order-2 order-md-2">zostań partnerem</button> -->
-                <!-- <a href="/single-event.html#tickets" class="button button--accent mt-3 mx-lg-2 mb-2 order-1 order-md-3">konferencja online</a> -->
-                {{/*  @@if (context.eventLinks) {
-                }  */}}
-                    <ul class="menu-items text-center list-unstyled">
-                        <!-- TODO: tutaj menu i deep links -->
-                        <li class="mb-1 float-lg-left"><a href="#konferencja">Segfault masterclass</a></li>
-                        <li class="mb-1 float-lg-left"><a href="#podcast">Podcasty</a></li>
-                        <li class="mb-1 float-lg-left"><a href="#online">Webinary</a></li>
-                        <li class="mb-1 float-lg-left"><a href="#hello-dave">Hello Dave</a></li>                        
-                        <li class="mb-1 float-lg-left"><a href="#o-nas">O nas</a></li>
-                    </ul>
-                {{/*  @@if (context.eventLinks) {
-                }  */}}
+                </div>  */}}
+                {{ else }}
+                <ul class="menu-items text-center list-unstyled">
+                    <li class="mb-1 float-lg-left"><a href="#konferencja">Segfault masterclass</a></li>
+                    <li class="mb-1 float-lg-left"><a href="#podcast">Podcasty</a></li>
+                    <li class="mb-1 float-lg-left"><a href="#online">Webinary</a></li>
+                    <li class="mb-1 float-lg-left"><a href="#hello-dave">Hello Dave</a></li>                        
+                    <li class="mb-1 float-lg-left"><a href="#o-nas">O nas</a></li>
+                </ul>
+                {{ end }}
             </div>
         </div>
     </div>

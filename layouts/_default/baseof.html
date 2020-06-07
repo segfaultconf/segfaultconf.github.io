@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="PL-pl">
+
+    <head>
+        {{ partial "headers.html" . }}
+    </head>
+
+    <body>
+    <!--[if IE]>
+      <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+    <![endif]-->        
+
+    {{ partial "navigation.html" . }}
+
+    <main>
+    {{ block "main" . }}
+        {{ .Content }}
+    {{ end }}
+    </main>
+    
+    {{ partial "footer.html" }}
+    {{ partial "svg.html" }}
+
+    {{ $main := resources.Get "js/main.js" -}}
+    {{ $accordion := resources.Get "js/accordion.js" -}}
+    {{ $linkify := resources.Get "js/linkify.js" -}}
+    {{ $menu := resources.Get "js/menu.js" -}}
+    {{ $player := resources.Get "js/player.js" -}}
+    {{ $randomgallery := resources.Get "js/random-gallery.js" -}}
+    {{ $slider := resources.Get "js/slider.js" | fingerprint -}}
+    {{ $js := slice $main $accordion $linkify $menu $player $randomgallery $slider | resources.Concat "js/segfault-bundle.js" | fingerprint -}}
+    <script defer src="{{ $js.RelPermalink }}"></script>
+  </body>
+</html>

@@ -1,4 +1,5 @@
 baseURL = "https://segfault.events/"
 languageCode = "pl-pl"
-title = "Segfault. Po prostu"
+title = "Segfault"
 staticDir = ["segfault-static"]
+disableKinds = ["RSS", "taxonomyTerm"]
