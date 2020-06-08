@@ -1,0 +1,42 @@
+title = "Storming stormingiem, ale sprawiedliwość musi być po naszej stronie"
+abstract = """Technika Event Storming zdobywa ostatnio dużą popularność.
+
+Podchodząc jednak do modelowania aplikacji jest coś więcej. Nie tylko postit’ami żyje warsztat.
+
+To ludzie, cel, psychologia i wiele innych powiązanych i pomocnych metod.
+
+W trakcie prezentacji chcę przedstawić kilka porad i wniosków odpowiadając na pytania:
+
+* Jak wyznaczyć cel?
+* Jak prowadzić warsztat?
+* Kogo zaprosić na spotkanie?
+* Czy wszystkie elementy składowe Event Storming’u musz mieć miejsce na sesji?
+* Kto powinien prowadzić spotkanie?
+* Co zrobić dalej po sesji Event Storming?
+* Gdzie można wykorzystać?
+* Z czym powiązać?
+* Jak radzić sobie z ludźmi?
+"""
+
+[links]
+# youtube = "3zOv3kFWnYc"
+
+[opengraph]
+# fb = "adam_dudczak-og.png"
+# twitter = "adam_dudczak-og-sq.png"
+
+[[speakers]]
+name = "Krzysztof Owsiany"
+bio = """Jako dzieciak zakochałem się w programowaniu, a było to już ponad ćwierć wieku temu. Od tego czasu miałem wiele różnych związków językowo-technologicznych.
+
+Obecnie najmocniej rozwijam się w obszarach .NET w powiązaniu z DDD, Event Storming’iem, Event Modeling’iem, Clean Code, TDD. Continuous Development - tak można nazwać pasjonata IT dlatego ciągle się rozwijam i uwielbiam poznawać nowe technologie.
+
+Wyszedłem też do ludzi i występuję na różnych Polskich konferencjach i meetup-ach. Dzieląc się swoją wiedzą i doświadczeniami.
+
+Od 2017 roku prowadzę też blog MrDev.pl. Udało mi się też wystartować podcast o konferencjach i wystąpieniach publicznych After.conf.
+
+Przeprowadziłem też kilkukrotnie warsztaty dotyczące: GIT Flow, TDD, Event Storming, Event Modeling.
+
+Moja najświeższa działalność to modelowanie aplikacji z wykorzystaniem Event Storming i Event Modeling. Można śledzić te poczynania w daily vlog’u Moje 5 minut."""
+photo = "krzysztof_owsiany.jpg"
+

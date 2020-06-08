@@ -1,0 +1,14 @@
+title = "Live refactoring towards solid code"
+abstract = "Prezentacja będzie sesją programowania na żywo, podczas której poddamy refaktoryzacji część systemu legacy. Podejdziemy do zadania pragmatycznie, identyfikując w kodzie problemy i naprawiając je poprzez stosowanie reguł i wzorców związanych między innymi z modularnością, kohezją, testowalnością. Zobaczymy także jak Domain Driven Design pomaga nam zbudować czysty i solidny kod. Przykłady kodu pisane będą w języku Java."
+
+[links]
+# youtube = "3zOv3kFWnYc"
+
+[opengraph]
+# fb = "adam_dudczak-og.png"
+# twitter = "adam_dudczak-og-sq.png"
+
+[[speakers]]
+name = "Bartłomiej Słota"
+bio = "Programista z zawodu i zamiłowania. Konsultant i mentor w Bottega IT Minds. Speaker, autor bloga bartslota.blogspot.com. Zdobywał doświadczenie w branżach takich jak opieka zdrowotna, telekomunikacja, marketing, finanse, energetyka, pracując w firmach liczących od kilkudziesięciu do kilku tysięcy pracowników. Pasjonat OOP, Domain Driven Design, software craftsmanship, mikrousług i szeroko pojętej architektury systemów i aplikacji. Entuzjasta warsztatów Event Storming’u. W życiu prywatnym mąż i tata. W wolnych chwilach słucha ciężkiej muzyki, gra na gitarze, wędkuje, albo przemierza bezkresne szlaki Bieszczadów."
+photo = "bartek_slota.jpg"

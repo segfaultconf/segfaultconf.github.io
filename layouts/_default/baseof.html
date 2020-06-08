@@ -28,7 +28,7 @@
     {{ $player := resources.Get "js/player.js" -}}
     {{ $randomgallery := resources.Get "js/random-gallery.js" -}}
     {{ $slider := resources.Get "js/slider.js" | fingerprint -}}
-    {{ $js := slice $main $accordion $linkify $menu $player $randomgallery $slider | resources.Concat "js/segfault-bundle.js" | fingerprint -}}
+    {{ $js := slice $main $accordion $linkify $menu $player $randomgallery $slider | resources.Concat "segfault-bundle.js" | fingerprint -}}
     <script defer src="{{ $js.RelPermalink }}"></script>
   </body>
 </html>
