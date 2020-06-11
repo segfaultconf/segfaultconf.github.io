@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>SegFault UnConference on SegFault - Konferencje IT</title>
+    <link>http://test.segfault.events/krakow2020/</link>
+    <description>Recent content in SegFault UnConference on SegFault - Konferencje IT</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>pl-PL</language>
+    
+	<atom:link href="http://test.segfault.events/krakow2020/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title></title>
+      <link>http://test.segfault.events/sites/krakow2020/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://test.segfault.events/sites/krakow2020/about/</guid>
+      <description> SegFault Unconference - inspiracje, których szukasz! Prelekcje Pierwszy dzień SegFault Unconference to wymiana doświadczeń. Najlepsi prelegenci - cali dla Was! To Wy wybieracie tematy!  Unconference Drugi dzień SegFault Unconference to prelekcje - odpowiedzi na nurtujące Was pytania. Mnóstwo inspiracji. Podpowiedzi nietypowych rozwiązań.
+ After  Mało? Wychodzimy poza konwenanse! Spotkajcie się z prelegentami i innymi uczestnikami podczas Afterparty!    </description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link></link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid></guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://test.segfault.events/sites/krakow2020/topics/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://test.segfault.events/sites/krakow2020/topics/</guid>
+      <description>Języki programowania języki programowania, paradygmaty, wzorce
+ System rozproszone mikrousługi, bazy danych, zdarzenia, konsystencja, skalowalność
+ Narzędzia środowiska pracy, automatyzacja, kontenery, orkiestracja
+ Umiejętności miękkie procesy, efektywne zespoły, samorozwój
+ </description>
+    </item>
+    
+  </channel>
+</rss>

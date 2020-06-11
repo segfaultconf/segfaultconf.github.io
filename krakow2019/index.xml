@@ -1,0 +1,388 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>SegFault UnConference on SegFault - Konferencje IT</title>
+    <link>http://test.segfault.events/krakow2019/</link>
+    <description>Recent content in SegFault UnConference on SegFault - Konferencje IT</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>pl-PL</language>
+    
+	<atom:link href="http://test.segfault.events/krakow2019/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title></title>
+      <link>http://test.segfault.events/sites/krakow2019/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://test.segfault.events/sites/krakow2019/about/</guid>
+      <description> SegFault Unconference - inspiracje, których szukasz! Unconference Pierwszy dzień SegFault Unconference to wymiana doświadczeń. Najlepsi prelegenci - cali dla Was! To Wy wybieracie tematy!  Prelekcje Drugi dzień SegFault Unconference to prelekcje - odpowiedzi na nurtujące Was pytania. Mnóstwo inspiracji. Podpowiedzi nietypowych rozwiązań.
+ After  Mało? Wychodzimy poza konwenanse! Spotkajcie się z prelegentami i innymi uczestnikami podczas Afterparty!    </description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://test.segfault.events/sites/krakow2019/abstracts/aeszcz/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://test.segfault.events/sites/krakow2019/abstracts/aeszcz/</guid>
+      <description>Wyczekowałeś Grzesiu brancza, tak jak cię prosiłam? Wyczekowałem i pusznąłem bagfiksa, ciociu miła!
+Poznałeś w tym miesiącu dwa super kul frejmłorki, które pozwolą ricznąć więcej kipiajów? Fantastycznie, a kiedy ostatnio w twym ręku był słownik? Albo jakakolwiek książka (lub czasopismo)?
+Wszystko się teraz informatyzuje, takie czasy. e-Urząd, e-commerce, e-tamto, e-siamto&amp;hellip; Żeby to wszystko zrobić i utrzymać, potrzeba rzeszy informatyków i inżynierów. (I straszą, że ma być jeszcze gorzej.) Coraz więcej rzeczy przechodzi przez ręce naszej branżuni.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://test.segfault.events/sites/krakow2019/abstracts/boiling-water-the-hard-way/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://test.segfault.events/sites/krakow2019/abstracts/boiling-water-the-hard-way/</guid>
+      <description>Przedstawiamy wam nowy system inteligentnego domu: Bojlator 2000 – system do gotowania wody, sterowanego głosowo za pomocą radiotelefonu. Podczas prelekcji, z przymrużeniem oka, pokażemy wam własną interpretacje pojęcia “Full Stack”: przejdziemy od modulacji fal radiowych, programowania FPGA i embedded, po integracje z usługami chmurowymi.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://test.segfault.events/sites/krakow2019/abstracts/cienie-i-blaski-event-driven-design/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://test.segfault.events/sites/krakow2019/abstracts/cienie-i-blaski-event-driven-design/</guid>
+      <description>W ostatnim czasie Event Driven Design stało się jednym z najpopularniejszych Buzz Words. Podejście to jest pokazywane jako wzorcowe przy tworzeniu nowoczesnych, skalowalnych systemów. Postaram się zabawić w adwokata diabła i pokazać, co w praktyce może pójść nie tak. Przedstawię, że jej użycie może też boleć. Pokażę jak można wylądować z rozproszonym monolitem i opowiem jak się przed tym bronić. Opowiem o tych wszystkich enigmatycznych terminach jak idempotency, eventual consistency, at least once delivery itd.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://test.segfault.events/sites/krakow2019/abstracts/code-review/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://test.segfault.events/sites/krakow2019/abstracts/code-review/</guid>
+      <description>Code review dla wielu z nas stało się nieodłączną częścią wytwarzania oprogramowania. To doskonale, bo daje ono ogromną wartość w naszych projektach. A czy znaleźliście kiedyś chwilę, aby pomyśleć o nim? Zastanawialiście się kiedyś jaką wartość przynosi code review oraz po co je robimy? Czy zastanawialiście się, czy robimy je dobrze oraz dlaczego niektórzy ludzie czują się urażeni po dobrym review? Warto zadać sobie pytanie, co znaczy dobre review? Jeżeli chcesz poznać odpowiedź na te i inne pytania oraz podyskutować ze mną o nich to zapraszam na moją prelekcję.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://test.segfault.events/sites/krakow2019/abstracts/eventsourcing-cqrs-zima-nadchodzi/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://test.segfault.events/sites/krakow2019/abstracts/eventsourcing-cqrs-zima-nadchodzi/</guid>
+      <description>EventSourcing i CQRS to niewątpliwie jedne z najbardziej gorących tematów w dzisiejszych czasach. W wielu przypadkach wybór tych rozwiązań w projekcie odbywa się na podstawie „Hype-Driven-Development”. Podczas prelekcji zaprezentuję, w jaki sposób możemy stwierdzić, że ES i CQRS to dobry wybór w naszym systemie. W dalszej części pokażę jak radzić sobie z czyhającymi na nas problemami i przetrwać &amp;ldquo;zimę&amp;rdquo; która nadejdzie, jak tylko wejdziemy w świat Eventsourcing’u i CQRS’a.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://test.segfault.events/sites/krakow2019/abstracts/immutable-tests/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://test.segfault.events/sites/krakow2019/abstracts/immutable-tests/</guid>
+      <description>Czy zdarza się, że robiąc refactoring nagle wszystkie testy są czerwone? Albo wprowadzanie prostej zmiany biznesowej zmusza Cię do przerobienia połowy testów?
+90% materiałów w internecie na temat testowania jest pięknym wprowadzeniem, lecz brak w nich praktycznych porad dla bardziej doświadczonych programistów. Nawet jeżeli znajdziesz brakujące 10%, są to przeważnie wylistowane wskazówki lub fragmenty kodu bez kontekstu.
+W swojej prezentacji pokażę jak pisać testy wracając do pierwotnej i zapomnianej idei unit testów, która jest wolna od wspomnianych problemów.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://test.segfault.events/sites/krakow2019/abstracts/is-your-feedback-meeting-about-money/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://test.segfault.events/sites/krakow2019/abstracts/is-your-feedback-meeting-about-money/</guid>
+      <description>Żyjemy w czasach, w których zespoły developerskie starają się iść w coraz bardziej dojrzałe obszary continuous delivery maturity model. Stawiamy na błyskawiczną prędkość dostarczania nowych rozwiązań dla biznesu oraz budujemy kultury organizacyjne bazujące na wartościach. Odstawiliśmy jednak cykliczne (kwartalne, półroczne, roczne) spotkania feedbackowe w świecie waterfall.
+Podczas prezentacji poszukamy odpowiedzi na to jak przebudować model dostarczania informacji zwrotnej o jakości pracy współpracowników, aby czuli się oni dopieszczeni, zaopiekowani i zmotywowani do przenoszenia gór w trybie ciągłym, zgodnym ze standardami naszej pracy w środowiskach agile lub cloud-native.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://test.segfault.events/sites/krakow2019/abstracts/jak-ddd-ma-sie-do-architektury/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://test.segfault.events/sites/krakow2019/abstracts/jak-ddd-ma-sie-do-architektury/</guid>
+      <description>Jak to jest z tą architekturą i Domain Driven Design? Czy jedno zastępuje drugie, czy może są zupełnie niezależne? Co to jest Bounded Context, Moduł, Komponent, Serwis? Czy architekt musi rozumieć biznes i co ewentualnie może mu to dać? Co z tym wszystkim wspólnego mają mikroserwisy?
+Spojrzymy na architekturę i DDD z dużej wysokości, z nieco &amp;ldquo;filozoficznej&amp;rdquo; perspektywy po to, aby zobaczyć dlaczego niektóre podejścia sprawdzają się dobrze, a inne nie.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://test.segfault.events/sites/krakow2019/abstracts/jestem-oszustem/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://test.segfault.events/sites/krakow2019/abstracts/jestem-oszustem/</guid>
+      <description>Skąd się bierze w programistach poczucie, że nie nadążają za tymi wszystkimi frameworkami, językami, metodologiami? Czy &amp;ldquo;syndrom oszusta&amp;rdquo; dotyczy też Ciebie? Czy obawy programisty, że nic nie umie i do niczego się nie nadaje mimo paru lat doświadczenia mogą być uzasadnione? Jak radzić sobie ze strachem przed programistycznymi wyzwaniami i jak nauczyć się doceniać swoje mniejsze i większe sukcesy? To wszystko na kanwie doświadczeń i przemyśleń programistki z kilkunastoletnim stażem.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://test.segfault.events/sites/krakow2019/abstracts/loosely-coupled-architecture-jak-pozbyc-sie-efektu-domina/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://test.segfault.events/sites/krakow2019/abstracts/loosely-coupled-architecture-jak-pozbyc-sie-efektu-domina/</guid>
+      <description>Standardowo tworząc nasze systemy nie skupiamy się na odpowiednim odseparowaniu od siebie komponentów. W efekcie jeden problem w naszej aplikacji powoduje efekt domina - cały system przestaje działać. Jak temu przeciwdziałać?
+&amp;ldquo;Loosely coupled architecture&amp;rdquo; czyli architektura luźno-powiązana jest uznawana za główny czynnik, by tworzyć wysoko performujące systemy. Pozwala ona na dokonywanie zmian w naszych aplikacjach, które nie będą afektowały na jej pozostałe części. Zobacz jakie są kryteria takiej architektury, by od początku umieć zastosować ją w twoim rozwiązaniu.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://test.segfault.events/sites/krakow2019/abstracts/mikroserwisy-od-http-do-kafki/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://test.segfault.events/sites/krakow2019/abstracts/mikroserwisy-od-http-do-kafki/</guid>
+      <description>Komunikacja w mikroserwisach &amp;ndash; jak powinna być zrealizowana? Oczywiście komunikacja oparta na HTTP jest łatwiejsza do poprawnej implementacji i zapewne także do zaprojektowania. Zwłaszcza, że wielu deweloperów i architektów ma sporo doświadczenia z takim podejściem. Z drugiej strony podejście asynchroniczne, oparte na wiadomościach przesyłanych za pomocą kolejek ma wiele zalet. Pozwala tworzyć rozwiązania odporne na awarie, które nawet w przypadku wystąpienia usterek czy przeciążeń nadal mogą dostarczać usługi użytkownikom.
+Większość komunikacji jaką, w FLYR Inc.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://test.segfault.events/sites/krakow2019/abstracts/mow-do-mnie-czule-jak-sie-komunikowac-i-przyspieszyc-swoja-kariere/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://test.segfault.events/sites/krakow2019/abstracts/mow-do-mnie-czule-jak-sie-komunikowac-i-przyspieszyc-swoja-kariere/</guid>
+      <description>Jesteś sfrustrowany, bo Twoje pomysły lądują w koszu, zignorowane przez kolegów z zespołu? Widzisz słabości swojej organizacji i masz na nie gotową receptę, ale szef nie chce Cię słuchać? Z na pozór prostego tematu rodzi się konflikt, a Ty nie rozumiesz dlaczego? Jesteś wściekły, bo Twoje pull requesty są odrzucane, a komentarze do Twojego kodu mogłyby spokojnie startować w konkursie na złośliwość roku?
+85% Twojego sukcesu zależy od sposobu, w jaki radzisz sobie z emocjami i komunikujesz je do innych.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://test.segfault.events/sites/krakow2019/abstracts/nie-tylko-dla-ojcow-jak-wychowujac-dzieci-nauczylem-sie-byc-lepszym-programista/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://test.segfault.events/sites/krakow2019/abstracts/nie-tylko-dla-ojcow-jak-wychowujac-dzieci-nauczylem-sie-byc-lepszym-programista/</guid>
+      <description>Byłem senior developerem i życie było proste, później stałem się senior człowiekiem i zrobiłem sobie dzieci. Domowe projekty programistyczne zostały zastąpione przez klocki LEGO i plac zabaw. Myślałem, że technicznie cofam się w rozwoju. Jednak obserwując w jaki sposób rozwija się mały człowiek odkryłem całą masę analogii do typowych problemów nas deweloperów (od juniora do architekta) i wyciągnąłem z tego wiele lekcji którymi chciałbym się podzielić.
+Do dzieci łatwiej podchodzić z humorem i tego też należy się spodziewać po tej prezentacji.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://test.segfault.events/sites/krakow2019/abstracts/pies-stres-i-wypalenie/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://test.segfault.events/sites/krakow2019/abstracts/pies-stres-i-wypalenie/</guid>
+      <description>Przychodzi taki czas, gdy poznajemy, że żyjemy po bólu przy wstawaniu. Jednak nie ma się co przejmować, to minie. Piach wszystko wyciągnie.
+W IT tego bólu bywa nawet więcej. Ciągle pędzimy, coraz częściej upadając, kolekcjonujemy odznaki porażek. W ramach chwili zatrzymania i oddechu posłuchacie kilku gorzkich słów o stresie, wypaleniu i depresji.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://test.segfault.events/sites/krakow2019/abstracts/produktywny-programista/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://test.segfault.events/sites/krakow2019/abstracts/produktywny-programista/</guid>
+      <description>Pięć tajemnic produktywnego programisty:
+ Mózg programisty, a mózg lidera. Czemu intuicja nie działa. Najważniejsze nawyki w ogarnianiu kuwety (i jak je wyrobić). Co robić jak się nie ma czasu na pracę. Co wiemy o efektywnym rozwoju. Najważniejsze idee dla programisty-lidera.  </description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://test.segfault.events/sites/krakow2019/abstracts/relatywizm-jezykow-programowania/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://test.segfault.events/sites/krakow2019/abstracts/relatywizm-jezykow-programowania/</guid>
+      <description>Założeniem hipotezy relatywizmu językowego Saphira-Whorfa są różnice w postrzeganiu świata w zależności o języka, którym się posługujemy. Wielojęzyczność oznacza dużo większą plastyczność mózgu, co przekłada się na lepsze zdolności komunikacyjne, większą otwartość oraz innowacyjne podejście do rozwiązywania problemów. Podczas prezentacji przejdziemy przez różne języki programowania pokazując ich specyfikę oraz jak te elementy mogą wpływać na sposób rozwiązywania problemów.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://test.segfault.events/sites/krakow2019/abstracts/shell-tmux-vim-krotka-historia-o-ostrzeniu-pily/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://test.segfault.events/sites/krakow2019/abstracts/shell-tmux-vim-krotka-historia-o-ostrzeniu-pily/</guid>
+      <description>Świat idzie do przodu, nowe technologie wymagają nowych narzędzi. Bez wsparcia IDE trudno stworzyć coś więcej niż HelloWorld, albo index.html - a czy warto próbować? Skoro mamy do dyspozycji te nowoczesne narzędzia, to dlaczego mielibyśmy ich nie używać? Porozmawiajmy o kilku ważnych korzyściach które wynikają z &amp;ldquo;powracania do korzeni&amp;rdquo;, &amp;ldquo;ostrzenia piły&amp;rdquo; i #nopowertools. W tle przewinie się konsola, tmux, vim i śladowe ilości indoktrynacji.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://test.segfault.events/sites/krakow2019/abstracts/sr9kra-6-boot-nr-65536/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://test.segfault.events/sites/krakow2019/abstracts/sr9kra-6-boot-nr-65536/</guid>
+      <description>Od ponad półtora roku należę do zespołu KRAKsat, wraz z którym zbudowaliśmy satelitę. Nasz CubeSat poleciał w kosmos 17 kwietnia tego roku, a na orbitę wypuszczono go 3 lipca. W prezentacji opowiem o tym jak wygląda praca w kosmicznym projekcie (a szczególnie kosmiczny kod), dlaczego warto angażować się w sektor space&amp;rsquo;owy i jak on w ogóle wygląda w polskich realiach. Przed Wami długa historia o sukcesach, porażkach, emocjach i przede wszystkim: KOSMOSIE!</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link></link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid></guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://test.segfault.events/sites/krakow2019/speakers/alicja-kubera/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://test.segfault.events/sites/krakow2019/speakers/alicja-kubera/</guid>
+      <description>Programistka. Oficjalnie Web Developer, grzebiąca w Javach i Javascriptach, a po godzinach aktywna członkini kosmicznego zespołu KRAKsat. Jako że sama nie poleciała jeszcze w kosmos, zdecydowała się wysłać tam swój kod - i to wszystko na pokładzie piątego polskiego satelity badawczego.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://test.segfault.events/sites/krakow2019/speakers/grzegorz-miejski/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://test.segfault.events/sites/krakow2019/speakers/grzegorz-miejski/</guid>
+      <description>Od 4 lat jestem związany z mikroserwisami będącymi na styku zupełnie różnych domen - real time systems, chaos engineering, machine learning. Przechodząc od JVM’a do Pythona i Go doceniam uniwersalne dobre zasady pisania kodu i pragmatyzm ponad buzzword!</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://test.segfault.events/sites/krakow2019/speakers/iwona-kubowicz/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://test.segfault.events/sites/krakow2019/speakers/iwona-kubowicz/</guid>
+      <description>Programistka z kilkunastoletnim doświadczeniem. W Warszawie pracowała w jednej z największych na świecie agencji interaktywnych, w Krakowie — dla kilku polskich i zagranicznych firm. Obecnie pracuje jako niezależny specjalista. Przywiązuje dużą wagę do jakości tworzonego kodu i uwielbia wykorzystywać najnowsze technologie. Cierpliwość do mierzenia się z przestarzałym kodem ćwiczy, szydełkując i robiąc na drutach. Wspiera ratowanie osieroconych nietoperzy i kupuje znacznie więcej książek, niż jest w stanie przeczytać. Fanka rocka gotyckiego i autorka bloga programistka.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://test.segfault.events/sites/krakow2019/speakers/joanna-lamch/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://test.segfault.events/sites/krakow2019/speakers/joanna-lamch/</guid>
+      <description>Koderka pełną piersią, fangir Microsoftu z iPadem w ręku, kociara. W branży IT od wielu lat zawsze w okolicach C# oraz technologi Microsoft.
+Maruda i czarnowidz, zwolenniczka Defensive Coding, SOLID, uczenia poprzez mentoring, samorozwoju i kultury DevOps. Community lover, wspierająca Gruba.IT, Śląską Grupę Microsoft oraz Women in Technology Katowice. Blogger and speaker wannabe.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://test.segfault.events/sites/krakow2019/speakers/krzysztof-seroka/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://test.segfault.events/sites/krakow2019/speakers/krzysztof-seroka/</guid>
+      <description>Architekt aplikacji webowych w krakowskim oddziale SoftwareONE. Obecnie zajmuje się budowaniem aplikacji webowych na bazie mikroserwisów w oparciu o platformę Microsoft Azure. Pasjonat czystego kodu, testów automatycznych i ogólnie automatyzacji - z tego względu nie ukrywa swojej miłości do wiersza poleceń. Popołudniami z dziećmi rządzi na placach zabaw, rozwija nawet swój profil parentingowy, wieczorami wyżywa się technicznie zajmując się Azure, .NET Core i VIMem.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://test.segfault.events/sites/krakow2019/speakers/marcin-markowski/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://test.segfault.events/sites/krakow2019/speakers/marcin-markowski/</guid>
+      <description>Deweloper, lider techniczny, zwolennik podejścia Software Creftsmanship i ścisłej współpracy z biznesem. Specjalizuje się w modelowaniu, implementacji Domain Driven Design i projektowaniu architektury systemów.
+Zaczynał od consultingu biznesowego, później przeszedł do IT. Pracował zarówno nad systemami „enterprise”, jak i tworzył od podstaw rozwiązania dla małych firm. Próbował wejść w świat startupów z własnym produktem. Ostatecznie został jednak w IT, gdzie działa jako konsultant i trener.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://test.segfault.events/sites/krakow2019/speakers/marek-bedkowski/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://test.segfault.events/sites/krakow2019/speakers/marek-bedkowski/</guid>
+      <description>&amp;ldquo;Polyglot programmer z wieloletnim stażem oraz doświadczeniem w projektach dużych i małych. Jego ścieżka kariery wiodła prowadziła przez wiele języków programowania m.in. ActionScript, PHP, Perl, C++, Python, CoffeeScript, JavaScript, ostatnio Java i TypeScript. Uważa, że idealny programista powinien znać perfekcyjnie conajmniej jeden język dynamiczny i jeden statyczny. Do tej pory miał okazję realizować projekty m.in. z sektora publicznego, przetwarzania wideo w czasie rzeczywistym oraz analizy obrazów przy wykorzystaniu sieci neuronowych (również w Javie :))).</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://test.segfault.events/sites/krakow2019/speakers/michal-borkowski/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://test.segfault.events/sites/krakow2019/speakers/michal-borkowski/</guid>
+      <description>Michał jest programistą Java w PGS Software. Kiedy nie programuje, lubi dzielić się wiedzą z praktykantami i studentami. W wolnym czasie lubi eksperymentować z rozpraszaniem aplikacji i robić proste rzeczy od podstaw - wynajdować koło na nowo. Zwykle używa narzędzia odpowiedniego do zadania ale jego ulubione środowisko programistyczne to vim + tmux + czarno-biała konsola. Słynie z tego że dzieli się swoją skromną wiedzą z innymi w formie anegdotek, czy tego chcą czy nie.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://test.segfault.events/sites/krakow2019/speakers/nowak-drobik-martyniak/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://test.segfault.events/sites/krakow2019/speakers/nowak-drobik-martyniak/</guid>
+      <description>Maciej Nowak Przygodę z zawodowym tworzeniem oprogramowania rozpocząłem 7 lat temu od .NETa i przeglądarki. Trzy lata temu zmieniłem kierunek i obecnie zajmuję się tworzeniem oprogramowania dla satelitów. Od grudnia 2018 jestem w gronie operatorów PW-Sat2. W wolnych chwilach oglądam Star Treka lub grzebię stercie kabli przypiętych do kolejnego mikrokontrolera.
+Marcin Drobik
+Jestem inżynierem oprogramowania z zamiłowania i wykształcenia. Przez 13 lat pracy zawodowej tworzyłem projekty w przeróżnych technologiach. W grudniu 2018 na orbitę okołoziemską poleciał satelita PW-Sat 2, którego komputer pokładowy pomagałem zaprogramować.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://test.segfault.events/sites/krakow2019/speakers/oskar-dudycz/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://test.segfault.events/sites/krakow2019/speakers/oskar-dudycz/</guid>
+      <description>Nieudany piłkarz oraz gitarzysta hobbysta. Przeszedł daleką drogę od Amigi 500 do Mac Booka. Programista pragmatyk z natury, szef zespołu z upodobania do ludzi. Jak ma czas to pisuje na swoim blogu: http:\oskar-dudycz.pl, jak mu się nudzi to twittuje https://twitter.com/oskar_at_net. Karierę zaczynał gdy StackOverflow nie istniał. .Netowiec od ponad 10 lat ze skłonnością do technologicznych skoków w bok. Ostatnimi czasy najbardziej zainteresowany tematami Event Sourcingu, Domain Driven Design, modularności oraz skalowalności.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://test.segfault.events/sites/krakow2019/speakers/piotr-nabielec/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://test.segfault.events/sites/krakow2019/speakers/piotr-nabielec/</guid>
+      <description>Najpierw programował (w tym drivery do linuxa). Potem był Scrum Masterem (zanim to było modne! - certyfikowany w 2009). Potem menedżerem. I tak odkrył pasję do rozwijania ludzi i szkoleń. Teraz od 4 lat prowadzi Produktywni.pl. Tworzy szkolenia i kursy online, które pomagają opanować chaos i lepiej zorganizować swój czas - “Produktywność w rytmie slow”. Mówca TEDx. Przeszkolił już ponad 2000 osób, podobno zadowolonych.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://test.segfault.events/sites/krakow2019/speakers/piotr-przybyl/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://test.segfault.events/sites/krakow2019/speakers/piotr-przybyl/</guid>
+      <description>Notoryczny inżynier w pracy i poza nią, podążający za meandrami sztuki programowania. Zawodowo Remote Freelance Software Gardener, od kilku lat wyrywający chwasty w ogródkach webowych i zwykle przycinający Javę do kształtów pożądanych przez klientów. Miłośnik lekkości i zwinności, która powinna przejawiać się przede wszystkim w stosowaniu właściwych narzędzi. Lead developer, trener, prelegent.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://test.segfault.events/sites/krakow2019/speakers/piotr-stawirej/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://test.segfault.events/sites/krakow2019/speakers/piotr-stawirej/</guid>
+      <description>Piotr Stawirej – jeśli go jeszcze nie poznałeś, to znaczy, że nie wiesz, jak wygląda prawdziwy fanatyk czystego kodu, ogarnięty obsesją BDD, piewca metod zwinnych w prowadzeniu projektów IT, wierny przekonaniu, że jedynie profesjonalne podejście do każdego aspektu życia jest drogą do sukcesu.
+W ciągu swojej ponad 12-letniej przygody z firmami z obszaru tworzenia map, nawigacji oraz systemów transakcyjnych (TeleAtlas, TomTom), Piotr stał się mentorem dla wielu młodszych kolegów i ekspertem domenowym.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://test.segfault.events/sites/krakow2019/speakers/radoslaw-maziarka/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://test.segfault.events/sites/krakow2019/speakers/radoslaw-maziarka/</guid>
+      <description>Solution Architect, Team Leader i programista w obszarze .NET prowadzący prezentacje i szkolenia, a także organizujący konferencje programistyczne. Po pracy pomaga firmom w projektach IT oraz wspomaga technologicznie Stowarzyszenie Libertariańskie. Zwolennik dostarczania wartości małymi krokami. Można go złapać na blogu http://radekmaziarka.pl i Twitterze @RadekMaziarka.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://test.segfault.events/sites/krakow2019/speakers/rafal-makara/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://test.segfault.events/sites/krakow2019/speakers/rafal-makara/</guid>
+      <description>Solution architect z backgroundem programistycznym, managerskim oraz “klienckim”.
+W przeszłości programista, project manager, product owner, przedstawiciel firmy produkcyjno-handlowej w kontaktach z firmami programistycznymi oraz współzałożyciel małej firmy importującej towary z Chin.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://test.segfault.events/sites/krakow2019/speakers/sebastian-rabiej/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://test.segfault.events/sites/krakow2019/speakers/sebastian-rabiej/</guid>
+      <description>Odkąd pamiętam, fascynowały mnie języki programowania i wszystko, co było z nimi związane. Tworzenie czegoś z „niczego” jest ekscytujące na tyle, że postanowiłem iść tą ścieżką kariery. Pracuję jako developer od ponad 4 lat. Ciągle poszukuję odpowiedzi na pytanie „co to znaczy być profesjonalny” i wątpię, abym szybko znalazł odpowiedź na to pytanie. Jestem entuzjastą tematów związanych z czystym kodem, software craftsmanship i metodykami zwinnymi.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://test.segfault.events/sites/krakow2019/speakers/slawomir-jachowicz/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://test.segfault.events/sites/krakow2019/speakers/slawomir-jachowicz/</guid>
+      <description>Sławek z programowaniem związany od 9 lat. Na co dzień pracuje jako Software Engineer w maltańskiej firmie Casumo. Współzałożyciel Bielsko-Biała JUG. Mentor w szkole programowania. Doświadczenie nabywał w kraju i za granicą przy projektach zarówno małych, jak i bardzo dużych. Pasjonat Microservices, BigData, EventSourcing, CQRS, DDD. Codziennie kieruje się zasadą &amp;ldquo;Programming is an art&amp;rdquo;. Zwolennik &amp;ldquo;Open-Source&amp;rdquo; zarówno jeśli chodzi o oprogramowanie, jak i wiedzę. Ostatnimi czasy mocno ukierunkowany na wystąpienia publiczne, jak również prowadzenie szkoleń.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://test.segfault.events/sites/krakow2019/speakers/wojciech-rzasa/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://test.segfault.events/sites/krakow2019/speakers/wojciech-rzasa/</guid>
+      <description>Informatyk z zamiłowania i z zawodu. Inżynier z doktoratem. Od dawna interesuje się systemami rozproszonymi, wytwarzaniem oprogramowania i samym programowaniem. Po 15 latach pracy akademickiej i badania systemów rozproszonych obecnie tworzy mikroserwisy dla firmy FLYR (http://flyrlabs.com). Współtworzy Rzeszowską grupę użytkowników języka Ruby (http://RRUG.pl). Więcej na https://www.linkedin.com/in/wrzasa/.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://test.segfault.events/sites/krakow2019/topics/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://test.segfault.events/sites/krakow2019/topics/</guid>
+      <description>Języki programowania języki programowania, paradygmaty, wzorce
+ System rozproszone mikrousługi, bazy danych, zdarzenia, konsystencja, skalowalność
+ Narzędzia środowiska pracy, automatyzacja, kontenery, orkiestracja
+ Umiejętności miękkie procesy, efektywne zespoły, samorozwój
+ </description>
+    </item>
+    
+  </channel>
+</rss>

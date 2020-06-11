@@ -1,0 +1,271 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>SegFault on SegFault - Konferencje IT</title>
+    <link>http://test.segfault.events/wroclaw2018/</link>
+    <description>Recent content in SegFault on SegFault - Konferencje IT</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>pl-PL</language>
+    
+	<atom:link href="http://test.segfault.events/wroclaw2018/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title></title>
+      <link>http://test.segfault.events/sites/wroclaw2018/abstracts/10-rzeczy-ktore-chcialbym-wiedziec-10-lat-temu/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://test.segfault.events/sites/wroclaw2018/abstracts/10-rzeczy-ktore-chcialbym-wiedziec-10-lat-temu/</guid>
+      <description>Istnieją momenty „Aha” które zmieniają życie, karierę, zatrzymują czas. Czasem jest to pierwsze spojrzenie w oczy kobiety którą kochasz (lub mężczyzny) i nic już nie będzie takie samo, czasem jest to zdanie mentora które zmienia bieg Twojej kariery.
+Tematy przechodzą od ontologii po wybór frameworków. Przyjdź i posłuchaj czego nauczyli się już inni.
+Ten talk składa się w połowie z własnej retrospektywy, w drugiej ze skompilowanej wiedzy ekspertów, których szanuje i podziwiam.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://test.segfault.events/sites/wroclaw2018/abstracts/curry-howard-w-praktyce/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://test.segfault.events/sites/wroclaw2018/abstracts/curry-howard-w-praktyce/</guid>
+      <description>Pewnie gdzieś słyszałeś &amp;ldquo;Izomorfizm Curry&amp;rsquo;ego-Howarda&amp;rdquo; albo obiło Ci się o uszy &amp;ldquo;Propositions as Types&amp;rdquo;. A może nawet czytałeś coś o tym, ale szybko zrezygnowałeś, bo poziom abstrakcji wydał Ci się zabójczy. Tymczasem to pewien podstawowy fakt leżący głęboko u podstaw informatyki. W moim wystąpieniu postaram się Ciebie przekonać, że jest to nie tylko coś co jako programista intuicyjnie rozumiesz, używasz na co dzień w językach programowania, ale też, że pozwala on na tworzenie lepszych programów poprzez użycie wyrafinowanych typów do dowodzenia poprawności.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://test.segfault.events/sites/wroclaw2018/abstracts/driven-niczego-naprawde-nie-zmienia/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://test.segfault.events/sites/wroclaw2018/abstracts/driven-niczego-naprawde-nie-zmienia/</guid>
+      <description>Domain-Driven Design, Test-Driven Development, Behavior-Driven Development, Data-Driven Design, Data-Driven Development, Use Case-Driven Design, Use Case-Driven Development, Architecture-Driven Design, Architecture-Driven Development, Model-Driven Development, Agile Model-Driven Development i tak dalej i tak dalej… Czy coś ci to przypomina? Mnie tak. Kiedyś mówiliśmy ze znudzeniem „$%!@ yet another framework!”. Teraz trzeba powiedzieć z tym samym znudzeniem: „%$!@ yet another mental framework!”. W trakcie prezentacji chcę pokazać, w jaki sposób pogoń za kolejnymi x-Driven Design, y-Driven Development wypacza to, co jest naprawdę ważne w programowaniu czyli umiejętność rozwiązywania problemów.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://test.segfault.events/sites/wroclaw2018/abstracts/event-sourcing/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://test.segfault.events/sites/wroclaw2018/abstracts/event-sourcing/</guid>
+      <description>Serio? Kolejna prezentacja o Event Sourcingu? I tak, i nie. Zamiast na gloryfikacji tej jakże zacnej koncepcji, skoncentrujemy się na możliwych problemach przy jej implementacji. Co może wybuchnąć (często z opóźnionym zapłonem)? Gdzie i jak przechowywać eventy? Jak osiągnąć najwyższy poziom wtajemniczenia i skalowalności? Jak żyć z eventual consistency? I wiele innych pytań, z którymi spróbujemy się zmierzyć. Postaram się unikać jednoznacznych odpowiedzi - każde rozwiązanie jest dobre, dopóki “działa”. Przerywniki z doświadczeniami słuchaczy będą bardzo mile widziane.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://test.segfault.events/sites/wroclaw2018/abstracts/kroczac-dolina-ciemnosci-mikroserwisow-sie-nie-ulekne/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://test.segfault.events/sites/wroclaw2018/abstracts/kroczac-dolina-ciemnosci-mikroserwisow-sie-nie-ulekne/</guid>
+      <description>Częściowo w oparciu o własne doświadczenia opowiem o pracy z mikroserwisami i o pułapkach w które można wpaść. Czy mikroserwisy naprawdę są rozwiązaniem wszystkich naszych problemów? Czym jest rozproszony monolit, jak powstaje i jak sobie z nim radzić? Jak rozpoznać nadchodzące kłopoty i dlaczego warto przemyśleć swoją architekturę po raz wtóry.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://test.segfault.events/sites/wroclaw2018/abstracts/praca-z-kodem-zastanym-nadchodzi-wielka-fala/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://test.segfault.events/sites/wroclaw2018/abstracts/praca-z-kodem-zastanym-nadchodzi-wielka-fala/</guid>
+      <description>Wyobraź sobie, że dostajesz swój wymarzony projekt. W końcu „greenfield”! Ale jest to projekt biznesowy i to Ty jesteś odpowiedzialny za wybór technologii, a jako specjalista czujesz się też odpowiedzialny za całość. Co robisz? Zaryzykujesz tak po prostu i wybierzesz same „nowinki” z rynku, które Cię kręcą i których chciałbyś spróbować? A jeśli uznasz, że jednak trzeba podejść do tematu „poważnie” to czy tak na prawdę aż tak dużo się nauczysz?</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://test.segfault.events/sites/wroclaw2018/abstracts/programowanie-reaktywne-czego-sie-nauczylem/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://test.segfault.events/sites/wroclaw2018/abstracts/programowanie-reaktywne-czego-sie-nauczylem/</guid>
+      <description>Programowanie reaktywne umożliwia wiele niesamowitych rzeczy. Skalowalne systemy potrzebujące zaledwie ułamka mocy obliczeniowej i zasobów w porównaniu z klasyczną, blokującą aplikacją? Pewnie. Responsywny kod, ogromna przepustowość, niskie czasy odpowiedzi? Bez problemu. Niewielki narzut na pamięć i system? Z definicji. Dlaczego by nie kochać programowania reaktywnego i reaktywnych systemów? Podzielę się z Wami moimi doświadczeniami, kiedy reaktywność popłaca, ale zwłaszcza kiedy jest podejście przeinżynierowanym. Jakie są ukryte koszty i typowe błędy? Jak przekonać swój zespół do rozpoczęcia przygody z reaktywnością?</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://test.segfault.events/sites/wroclaw2018/abstracts/przewidywanie-zmian-wydajnosci-aplikacji-rozproszonych/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://test.segfault.events/sites/wroclaw2018/abstracts/przewidywanie-zmian-wydajnosci-aplikacji-rozproszonych/</guid>
+      <description>Wszyscy tworzymy systemy rozproszone, nawet jeśli to „tylko proste aplikacje www”. Z aplikacją rozproszoną mamy do czynienia już wtedy, gdy biblioteka frontendowa przechowuje stan kontrolek, który musi być zsynchronizowany z backendem. Innym przykładem jest uruchomienie aplikacji w środowisku produkcyjnym bazującym na rozproszonej infrastrukturze cloudowej. Oczywistym przykładem jest też korzystanie z zewnętrznych API. Środowisko rozproszone jest z natury zmienne i trudno przewidywalne. Czy zastanawialiście się kiedyś jaki wpływ na wydajność Waszej aplikacji będą miały zmiany tego środowiska?</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://test.segfault.events/sites/wroclaw2018/abstracts/wykorzystanie-podejscia-domain-driven-design-w-systemach-legacy/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://test.segfault.events/sites/wroclaw2018/abstracts/wykorzystanie-podejscia-domain-driven-design-w-systemach-legacy/</guid>
+      <description>Na co dzień pracujesz ze smutnym kodem, którego historia sięga kilku(nastu) lat wstecz? Słyszałeś o Domain-Driven Design, ale uważasz to za buzzword, bądź przeciwnie - super, ale nie wiesz jak zastosować je w Twoim projekcie? Poznaj DDD od strony praktycznej. Zobacz jak może pomóc w Twoim istniejącym legacy systemie. W ramach prezentacji dowiesz się jak strategicznie podejść do problemu pozbywania się legacy. Poznasz sprawdzone w boju wzorce oferowane przez DDD, które pomogą w tym ciężkim zadaniu.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://test.segfault.events/sites/wroclaw2018/abstracts/wzorce-komunikacyjne-w-sieciach-organicznych/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://test.segfault.events/sites/wroclaw2018/abstracts/wzorce-komunikacyjne-w-sieciach-organicznych/</guid>
+      <description>Porozmawiajmy o rzeczach wszystkim Wam świetnie znanych.
+Głodzenie wątków. Długie bloki synchronize. Niestabilne I/O. Problemy w wyborem lidera w klastrze.
+To wszystko, to oczywiście problemy komunikacji. Takiej międzyludzkiej.
+Czym innym jest meeting niż blokiem synchronize, rozciągniętym na wątki naszej uwagi? Cały projekt upada, bo jedna osoba wylądowała na L4 – dziwnie podobne do potężnych stron, upadających z powodu jednej niedziałającej usługi!
+Komunikacja, ta w realnych życiu, ma dużo wspólnego z komunikacją pomiędzy wątkami/ procesami/maszynami.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://test.segfault.events/sites/wroclaw2018/abstracts/zatrudniamy-tylko-najlepszych-powiedzial-kazdy-zawsze/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://test.segfault.events/sites/wroclaw2018/abstracts/zatrudniamy-tylko-najlepszych-powiedzial-kazdy-zawsze/</guid>
+      <description>Zatrudniamy! (jak dosłownie każdy inny w tej branży). I mamy problem ze znalezieniem dobrych programistów. Nasz dział HR sili się na wymyślne oferty, aby zwabić nieco więcej osób. Zatem od teraz, zamiast programistów, poszukujemy ninja, ogrodników, gwiazd rocka, czy poetów. Mając trochę szczęścia zgłasza się wystarczająco dużo osób, aby było z kogo wybierać.
+Tylko jak teraz sprawdzić, którzy z nich nadadzą się najlepiej do naszej codziennej pracy? Czy zadanie programistyczne będzie lepsze od dobrej rozmowy o doświadczeniach?</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://test.segfault.events/sites/wroclaw2018/faqs/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://test.segfault.events/sites/wroclaw2018/faqs/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link></link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid></guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://test.segfault.events/sites/wroclaw2018/speakers/andrzej-ludwikowski/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://test.segfault.events/sites/wroclaw2018/speakers/andrzej-ludwikowski/</guid>
+      <description>Software Journeyman z ponad 8 letnim doświadczeniem w tworzeniu komercyjnego oprogramowania. Wyznawca DDD, ES i Polyglot Persistence. Cały czas poszukujący tej idealnej (nierealnej) architektury kodu, która spełni wszystkie, najdziwniejsze trendy. Obecnie jeden z młynarzy w SoftwareMill.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://test.segfault.events/sites/wroclaw2018/speakers/daniel-pokusa/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://test.segfault.events/sites/wroclaw2018/speakers/daniel-pokusa/</guid>
+      <description>Pragmatyk, zapalony zwolennik zwinnych metodyk prowadzenia projektów, automatyzacji i efektywności. Z jednej strony programista i architekt (nikt nie jest doskonały!) w Onwelo, ściśle związany z rodziną języków JVM oraz kierownik projektów, z drugiej trener i konsultant w zakresie systemów rozproszonych, jakości, organizacji zespołu i rekrutacji współpracujący z Symentis. Współtwórca i jeden z założycieli konferencji SpreadIT oraz nałogowy mówca konferencyjny na takich wydarzeniach jak Confitura, 4Developers, JDD, BoilingFrogs, QualityExcites i inne. Wierzy, że istotą wytwarzania dobrego oprogramowania jest komunikacja, współpraca i umiejętność dzielenia się wiedzą.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://test.segfault.events/sites/wroclaw2018/speakers/dominik-boszko/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://test.segfault.events/sites/wroclaw2018/speakers/dominik-boszko/</guid>
+      <description>Jestem absolwentem Uniwersytetu Wrocławskiego, zawodowo programuję od 9 lat. Swoich sił próbowałem w zagranicznych korporacjach, polskich software house-ach i w startup-ie z doliny krzemowej. W tym czasie brałem udział w tworzeniu skalowalnych architektur serwerowych. Prywatnie pasjonuję się zagadkami logicznymi i sci-fi.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://test.segfault.events/sites/wroclaw2018/speakers/jan-pustelnik/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://test.segfault.events/sites/wroclaw2018/speakers/jan-pustelnik/</guid>
+      <description>Janek pochodzi z Łodzi, w dzień pracuje w firmie Actyx jako programista, a nocami udziela się w projektach Open Source, takich jak Akka czy Dotty. Częsty gość konferencji i aktywny członek JUG Łódź. W wolnym czasie lubi sobie przeczytać jakiś artykuł z archiwalnego numeru czasopisma informatycznego by utwierdzić się przekonaniu, że w IT wszystko zostało już wymyślone zanim jeszcze przyszedł na świat.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://test.segfault.events/sites/wroclaw2018/speakers/krzysztof-kaczmarek/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://test.segfault.events/sites/wroclaw2018/speakers/krzysztof-kaczmarek/</guid>
+      <description>Krzysztof jest inżynierem oprogramowania w Tooploox, który &amp;ldquo;zwiedził&amp;rdquo; absurdalnie duże i bardzo małe projekty dochodząc do wniosku że można stosować dowolne metodyki i narzędzia, tak długo jak robisz to dobrymi ludźmi i w najprostszy z możliwych sposobów. W wolnym czasie mistrz kungfu i autor naprawdę słabych dowcipów.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://test.segfault.events/sites/wroclaw2018/speakers/michal-bartyzel/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://test.segfault.events/sites/wroclaw2018/speakers/michal-bartyzel/</guid>
+      <description>Zajmuję się przede wszystkim ułatwianiem współpracy na linii IT – biznes, uzwinnianiem organizacji, refaktoryzacją i efektywnością pracy. Technikami, które opracowuję dzielę się w artykułach w magazynie Programista, portalu InfoQ, blogu, konferencjach. Jestem autorem książek: „Oprogramowanie szyte na miarę. Jak rozmawiać z klientem, który nie wie, czego chce?” (Helion, 2012 i 2015), „Getting Things Programmed” (Helion, 2016), „Conversation Patterns for Software Professionals” (InfoQ).
+Moja praca w liczbach to:
+ 9 projektów związanych ze zwinną transformacją 40+ artykułów w prasie branżowej 4 napisane książki 80+ klientów  Prowadzę blog http://www.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://test.segfault.events/sites/wroclaw2018/speakers/piotr-wyczesany/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://test.segfault.events/sites/wroclaw2018/speakers/piotr-wyczesany/</guid>
+      <description>Niezależny Domain-Driven Designer, konsultant i mentor. Specjalizuje się w modelowaniu złożonych dziedzin biznesowych z podejściem Domain-Driven Design oraz pracą z systemami odziedziczonymi. Z sukcesem wdrożył DDD w dużych i małych projektach komercyjnych - zarówno nadgryzionych zębem czasu, jak i całkiem nowych - wliczając w to swoje własne dwa startupy. Mieszka i pracuje w Krakowie, gdzie jest też założycielem grupy Domain-Driven Design Kraków. Po kilkuletniej przerwie wraca na konferencyjną scenę z bogatszą, empirycznie zdobytą wiedzą, popartą produkcyjnym doświadczeniem.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://test.segfault.events/sites/wroclaw2018/speakers/tomek-nurkiewicz/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://test.segfault.events/sites/wroclaw2018/speakers/tomek-nurkiewicz/</guid>
+      <description>Java Champion. Spędził połowę życia na programowaniu, przez ostatnią dekadę w okolicach Javy. Uwielbia back-end i wizualizację danych. Zainteresowany alternatywnymi językami na JVM. Rozczarowany jakością oprogramowania tworzonego w dzisiejszych czasach (także przez siebie!), nie znosi długich metod i ukrytych efektów ubocznych. Zainteresowany analizą danych i programowaniem reaktywnym. Wierzy, że komputery stworzono, żeby programiści mogli automatyzować nudne i powtarzalne zadania. Także własne. Na co dzień pracuje w Allegro. Związany z open-source, DZone’s Most Valuable Blogger, kiedyś bardzo aktywny na StackOverflow.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://test.segfault.events/sites/wroclaw2018/speakers/wojtek-erbetowski/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://test.segfault.events/sites/wroclaw2018/speakers/wojtek-erbetowski/</guid>
+      <description>Jestem programistą, rozpoznawalnym głównie przez aktywność na rzecz technologicznej społeczności jako organizator, prelegent i aktywista. Obecnie pracuję jako Chief Technology Officer w firmie Codility oraz nauczam jako trener w Bottega. Przeżyłem wiele wspaniałych przygód współtworząc takie inicjatywy jak Warsaw Java User Group, Mobile Warsaw oraz (Mobile Central Europe, Warsjawa) a także prowadząc działy IT w takich firmach jak Polidea i Growbots. Z wykształcenia jestem matematykiem, a wolnym czasie biegaczem.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://test.segfault.events/sites/wroclaw2018/speakers/wojtek-rzasa/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://test.segfault.events/sites/wroclaw2018/speakers/wojtek-rzasa/</guid>
+      <description>Informatyk z zamiłowania i z zawodu. Obecnie pracownik naukowo-dydaktyczny z doktoratem, ale przede wszystkim inżynier. Od dawna interesuje się systemami rozproszonymi i wytwarzaniem oprogramowania. Modeluje i bada wydajność sysyemów rozproszoych. Pracuje na Politechnice Rzeszowskiej, współtworzy Rzeszowską grupę użytkowników języka Ruby (http://RRUG.pl)</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://test.segfault.events/sites/wroclaw2018/speakers/zbyszko-papierski/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://test.segfault.events/sites/wroclaw2018/speakers/zbyszko-papierski/</guid>
+      <description>Inżynier, z silnym uzależnieniem od produktowej warstwy rozwiązania. Związany w przeszłości z Allegro, Jirą a ostatnio Dynatrace. Wszędzie gdzie się da szuka ciekawych danych, szczególnie takich bez struktury, Po godzinach zajmuje się inicjatywami trójmiejskiego JUGa, takimi jak Hackengarten, a także ostatnio próbuje nauczyć się swojego pierwszego (i najprawdopodobniej ostatniego) języka orientalnego.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://test.segfault.events/sites/wroclaw2018/topics/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://test.segfault.events/sites/wroclaw2018/topics/</guid>
+      <description>Architecture At Scale wszystko co dotyczy budowy, dobrych praktyk i&amp;nbsp;skalowania systemów rozproszonych, tutaj pojawiają się takie tematy jak: skalowalność, wydajność, NoSQL, microservices, serverless, cloud computing, BigData, FastData i&amp;nbsp;SOA.
+ Small Architectures czyli wszystko co pomaga nam budować systemy na poziomie mniejszych komponentów. Tutaj posłuchasz o&amp;nbsp;TDD, DDD, CQRS, dobrych praktykach i wzorcach niezależnie od platformy i&amp;nbsp;języka programowania.
+ Foundations of Future Architectures na tej ścieżce pojawią się tematy w&amp;nbsp;znanym formacie “papers we love”, czyli tematy trudne, acz fundamentalne, zawarte w&amp;nbsp;starych manuskryptach.</description>
+    </item>
+    
+    <item>
+      <title>Polityka Prywatnosci</title>
+      <link>http://test.segfault.events/sites/wroclaw2018/polityka-prywatnosci/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://test.segfault.events/sites/wroclaw2018/polityka-prywatnosci/</guid>
+      <description>Niniejsza Polityka Prywatności określa sposoby ochrony danych Użytkowników korzystających z Serwisu. Na potrzeby niniejszej Polityki Prywatności zastosowanie znajdują definicje zawarte w Regulaminie. Korzystanie z Serwisu jest równoznaczne z akceptacją niniejszego Regulaminu, którego integralną częścią jest niniejsza Polityka Prywatności. Administratorem danych osobowych zbieranych w Serwisie jest Symentis.pl z siedzibą w Grzegórzecka 67h/34, 31-559 Kraków, wpisana do Rejestru Przedsiębiorców prowadzonego przez Sąd Rejonowy dla Kraków-Śródmieście w Krakowie pod numerem NIP: 6591184910.
+ ZAKRES I PODSTAWA ZBIERANIA DANYCH Symentis.</description>
+    </item>
+    
+    <item>
+      <title>Regulamin</title>
+      <link>http://test.segfault.events/sites/wroclaw2018/regulamin/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://test.segfault.events/sites/wroclaw2018/regulamin/</guid>
+      <description>Niniejszy regulamin określa warunki korzystania z serwisu internetowego konferencji SegFault, dostępnego za pośrednictwem adresu segfault.events i stanowi integralną część umów zawieranych przez Symentis.pl za pośrednictwem Serwisu.
+ I. POSTANOWIENIA OGÓLNE 1. Korzystanie z Serwisu oraz usług oferowanych za jego pośrednictwem oznacza wyrażenie zgody na postanowienia niniejszego regulaminu („Regulamin”) oraz Polityki Prywatności.
+2. Wszelkie prawa do nazwy Serwisu, jego koncepcji graficznej i funkcjonalnej, a także prawa do wszelkich elementów tekstowych i graficznych wykorzystanych w Serwisie, za wyjątkiem elementów pochodzących od osób trzecich (w szczególności logotypów partnerów, partnerów medialnych, sponsorów, konferencji partnerskich, etc.</description>
+    </item>
+    
+  </channel>
+</rss>

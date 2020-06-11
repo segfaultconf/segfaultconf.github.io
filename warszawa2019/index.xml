@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>SegFault on SegFault - Konferencje IT</title>
+    <link>http://test.segfault.events/warszawa2019/</link>
+    <description>Recent content in SegFault on SegFault - Konferencje IT</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>pl-PL</language>
+    
+	<atom:link href="http://test.segfault.events/warszawa2019/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title></title>
+      <link>http://test.segfault.events/sites/warszawa2019/abstracts/mowiac-jezykiem-uzytkownika-o-zastosowaniach-nlp-w-systemie-rekomendacyjnym/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://test.segfault.events/sites/warszawa2019/abstracts/mowiac-jezykiem-uzytkownika-o-zastosowaniach-nlp-w-systemie-rekomendacyjnym/</guid>
+      <description>Jedna z popularnych metod przetwarzania języka naturalnego Word2Vec opiera się na założeniu, że znaczenie słowa może być zdefiniowane przez kontekst jego użycia. Podczas prezentacji pokażę, jak analogiczną regułę zastosowaliśmy w systemie rekomendacyjnym dla milionów użytkowników, modelując ich zachowania zamiast słów w tekście. Opowiem, dlaczego w praktyce ważna jest interpretowalność modeli i jak wykorzystaliśmy NLP do tworzenia słownych opisów zainteresowań oraz przedstawię techniczne aspekty rozwiązania w dużej skali.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://test.segfault.events/sites/warszawa2019/abstracts/skazani-na-pythona/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://test.segfault.events/sites/warszawa2019/abstracts/skazani-na-pythona/</guid>
+      <description>AI i AI - wszyscy teraz sprzedają AI&amp;rsquo;em. A jak już AI to python, który dla niektórych stanowi barierę nie do przejścia. Jednak są alternatywy chyba w każdej technologii - w przypadku Javy jest to deeplearning4j. Ten framework łączący 2 światy: uczenia głębokiego oraz Javy, tak ukochanej przez świat enterprise. Podczas prezentacji przedstawię historię projektu rozpoznawania wideo z live streamów przy użyciu deeplearning4j oraz na co zwracać uwagę podczas takiego wdrożenia.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://test.segfault.events/sites/warszawa2019/abstracts/wyszukiwanie-wizualne-uczenie-maszynowe-i-pokemony/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://test.segfault.events/sites/warszawa2019/abstracts/wyszukiwanie-wizualne-uczenie-maszynowe-i-pokemony/</guid>
+      <description>Żyjemy w świecie zdominowanym przez obrazy, sam Facebook dostarcza do internetu kilka petabajtów danych w formie graficznej na dobę. Ponad 60% Millenialsów pragnie wyszukiwania wizualnego bardziej, niż jakiejkolwiek innej technologii. Wiele sklepów internetowych pozwala już szukać produktów na podstawie zdjęć. A e-commerce pojawia się w miejscach, w których nikt się tego nie spodziewał. The future is now, old man!
+Podczas tej prezentacji opowiem o tym jak kupują ludzie spoza IT i dlaczego powinno nas to obchodzić.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link></link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid></guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://test.segfault.events/sites/warszawa2019/speakers/joanna-misztal-radecka/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://test.segfault.events/sites/warszawa2019/speakers/joanna-misztal-radecka/</guid>
+      <description>Data Scientist w Ringier Axel Springer Polska, od 2015 roku zajmuje się personalizacją Onetu i innych serwisów dla milionów użytkowników oraz wdrażaniem rozwiązań Machine Learning na dużą skalę. Zainteresowania związane z przetwarzaniem języka naturalnego i ML realizuje w pracy oraz w ramach doktoratu wdrożeniowego na AGH, przekładając pracę naukową na praktyczne zastosowania. Prywatnie uwielbia podróże i aktywny wypoczynek, najlepiej na dwóch kółkach.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://test.segfault.events/sites/warszawa2019/speakers/krzysztof-kudrynski/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://test.segfault.events/sites/warszawa2019/speakers/krzysztof-kudrynski/</guid>
+      <description>Krzysztof Kudryński - Senior Deep Learning Engineer w NVIDIA
+Krzysztof bardzo chciałby swobodnie rozmawiać z komputerem, na zakupy wysyłać robota, jeździć autonomicznym samochodem. Marzeniom trzeba pomagać. Krzysztof od ponad 10 lat pracuje jako inżynier algorytmów analizy danych, sztucznej inteligencji i robotyki. Krzysztof wierzy, że będzie dobrze.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://test.segfault.events/sites/warszawa2019/speakers/marek-bedkowski/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://test.segfault.events/sites/warszawa2019/speakers/marek-bedkowski/</guid>
+      <description>&amp;ldquo;Polyglot programmer z wieloletnim stażem oraz doświadczeniem w projektach dużych i małych. Jego ścieżka kariery wiodła prowadziła przez wiele języków programowania m.in. ActionScript, php, perl, C++, python, CoffeeScript, JavaScript ostatnio Java i TypeScript. Uważa, że idealny programista powinien znać perfekcyjnie conajmniej jeden język dynamiczny i jeden statyczny. Do tej pory miał okazję realizować projekty m.in. z sektora publicznego, przetwarzania wideo w czasie rzeczywistym oraz analizy obrazów przy wykorzystaniu sieci neuronowych (również w Javie :))).</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://test.segfault.events/sites/warszawa2019/speakers/ola-kunysz/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://test.segfault.events/sites/warszawa2019/speakers/ola-kunysz/</guid>
+      <description>Ola Kunysz tworzy oprogramowanie od ponad 12 lat. Pisała backendy, frontendy i kod biznesowy, zbierała wymagania, testowała i szkoliła. Pracowała w korporacjach, startupach i pro bono w różnych branżach i krajach. Najbardziej lubi pisać kod, który ma znaczenie i rozwiązywać prawdziwe problemy. Kiedy jest offline, jeździ na rowerze, spaceruje z psem, albo ćwiczy jogę z kotami.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://test.segfault.events/sites/warszawa2019/speakers/przemek-maciolek/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://test.segfault.events/sites/warszawa2019/speakers/przemek-maciolek/</guid>
+      <description>Przemek od zawsze zajmował się danymi i tym jak wydobyć z nich wartość. Miał swoją własną firmę która robiła Data Science zanim to się jeszcze tak nazywało. Stworzył swój startup (który jednak nie wypalił, oops!). Pracował dla sektora poszukiwań złóż naturalnych, budował teamy Big Data dla firm takich jak Base CRM (obecnie Zendesk Sell) oraz Toptal. W międzyczasie zrobił doktorat z obszaru NLP/ML. Od 4 lat współtworzy LogSense, które jest w stanie przetwarzać miliony zdarzeń na sekundę, wyszukując w nich anomalie.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://test.segfault.events/sites/warszawa2019/speakers/wojtek-ptak/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://test.segfault.events/sites/warszawa2019/speakers/wojtek-ptak/</guid>
+      <description>Bezgraniczny fan freeride-owego wydania roweru, snowboard-u i nart. Zawodowo od lat wspierający inicjatywy zwinnych transformacji kultury organizacji w kierunku data-driven pracując z wieloma międzynarodowymi korporacjami. Skupia się na budowaniu i wspieraniu zespołów, które ciągle się rozwijają w kierunku wykorzystania konceptów takich, jak evolutionary lub event-driven architecture, wykorzystanie technologii Big Data w zbieraniu i przetwarzaniu danych oraz praktycznego wykorzystania uczenia maszynowego.
+Wojtek jest współzałożycielem inicjatywy Intelligene, eksperckiego butiku konsultantów ML i AI, jak i CTO FreshMail-a.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://test.segfault.events/sites/warszawa2019/topics/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://test.segfault.events/sites/warszawa2019/topics/</guid>
+      <description>Data Engineering Wszyscy mówią o Big Data, ML i AI. My natomiast chcemy pokazać, jak tego typu rozwiązania wdrożyć na produkcję w Twoim projekcie, bez względu na jego rozmiar.
+ Applied ML/AI Zastanawiałeś się, jak możesz skorzystać z ML lub AI w swoich projektach? Przygotuj się na sporą dawkę praktycznych zastosowań. Zero &#34;Hello World&#34; bez pokrycia.
+ </description>
+    </item>
+    
+    <item>
+      <title>Data Science nie działa</title>
+      <link>http://test.segfault.events/sites/warszawa2019/abstracts/data-science-nie-dziala/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://test.segfault.events/sites/warszawa2019/abstracts/data-science-nie-dziala/</guid>
+      <description>Data Science to jeden z gorących obszarów ostatnich lat. Wizja mostu który łączy dane z biznesem jest bardzo kusząca, ale w praktyce często się okazuje, że rezultaty odbiegają od oczekiwań. Być może sama idea Data Science jest chybiona&amp;hellip; Czy często trafia się talent posiadający zdolności w hackowaniu i statystyce, łącząc je z wiedzą domenową? Powiedzmy sobie szczerze - takich ludzi (niemal) nie ma! Jest jednak kilka sposobów jak sobie poradzić z tym problemem.</description>
+    </item>
+    
+    <item>
+      <title>Deep Learning in Computer Vision</title>
+      <link>http://test.segfault.events/sites/warszawa2019/abstracts/deep-learning-in-computer-vision/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://test.segfault.events/sites/warszawa2019/abstracts/deep-learning-in-computer-vision/</guid>
+      <description>Gdy patrzymy na świat, nasz mózg natychmiast zamienia postrzegane przez nas obrazy w informacje, intuicję i odczucia. Czyni to z ogromnym wysiłkiem obliczeniowym, wykorzystując olbrzymią sieć z niezbadaną dotąd architekturą. Nie jesteśmy nawet bliscy stworzenia maszyny o porównywalnych możliwościach, ale krok po kroku, usprawniając zarówno sprzęt, jak i podejście algorytmiczne, sprawiamy, że maszyny coraz lepiej rozumieją obrazy, które widzą. Ten wykład będzie właśnie o tym, jak to działa. Przejdziemy od podstaw działania konwolucyjnych sieci neuronowych, poprzez zaawansowane, praktyczne wskazówki, aż po zastosowanie najnowocześniejszych architektur w praktyce.</description>
+    </item>
+    
+    <item>
+      <title>Najlepszy czas na przygodę z AI - teraz (ale jak zacząć)?</title>
+      <link>http://test.segfault.events/sites/warszawa2019/abstracts/najlepszy-czas-na-przygode-z-ai/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://test.segfault.events/sites/warszawa2019/abstracts/najlepszy-czas-na-przygode-z-ai/</guid>
+      <description>Dookoła nas zalewają nas newsy i reklamy o firmach AI-driven, nasze telefony mają pojedynczy lub podwójny AI (cokolwiek to oznacza). Samochody niedługo pozwolą nam na oglądanie Netflixa wioząc nas do domu. Nie ma większego technologicznego hype-u niż AI. Ale z drugiej strony firmy, które potrafią wykorzystać potencjał nowoczesnych architektur do zbierania i przetwarzania danych, jak i praktycznie zastosować uczenie maszynowe, otwierają nowe możliwości - szybsze i lepsze dopasowanie produktów do klienta, optymalizację procesów, lepsze zrozumienie rynku i swoich możliwości rozwoju.</description>
+    </item>
+    
+    <item>
+      <title>Zwalczanie phishingu i spamu za pomocą uczenia maszynowego  w strumieniach danych</title>
+      <link>http://test.segfault.events/sites/warszawa2019/abstracts/phishing-spam-ml-streams/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://test.segfault.events/sites/warszawa2019/abstracts/phishing-spam-ml-streams/</guid>
+      <description>TBD</description>
+    </item>
+    
+  </channel>
+</rss>

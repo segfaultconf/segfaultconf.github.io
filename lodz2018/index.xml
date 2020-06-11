@@ -1,0 +1,308 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>SegFault on SegFault - Konferencje IT</title>
+    <link>http://test.segfault.events/lodz2018/</link>
+    <description>Recent content in SegFault on SegFault - Konferencje IT</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>pl-PL</language>
+    
+	<atom:link href="http://test.segfault.events/lodz2018/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title></title>
+      <link>http://test.segfault.events/sites/lodz2018/abstracts/contract-tests-in-enterprise/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://test.segfault.events/sites/lodz2018/abstracts/contract-tests-in-enterprise/</guid>
+      <description>Is your legacy application talking to a service that is never up and running on your shared testing environment? Does your company waste a lot of time and money on regression testing only to see that, yet again, someone has created a typo in the API? Enough is enough. Time to fix this problem using contract tests!
+In this presentation you’ll see how to migrate a legacy application to work with stubs of external applications.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://test.segfault.events/sites/lodz2018/abstracts/czy-sprzedawcy-sqlowych-baz-nas-oszukali/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://test.segfault.events/sites/lodz2018/abstracts/czy-sprzedawcy-sqlowych-baz-nas-oszukali/</guid>
+      <description>Wyobraź sobie, że w twojej aplikacji zachodzą jakieś zmiany (domain eventy). Chcielibyśmy te zmiany wystawić na zewnątrz, żebyśmy mogli na ich podstawie robić sobie raporty, read modele, sagi, synchronizować dane. Czy to zadanie okaże się być trudne czy proste, jeśli użyjemy bazy danych SQL. Co zyskaliśmy dzięki temu, że używam RDBMS/SQL a co utraciliśmy, być może, bezpowrotnie. W tej prezentacji opowiem wam jak chciałem zbudować pewną funkcjonalność dla biblioteki Rails Event Store, dlaczego okazało być się to trudniejsze niż myślałem, o modelu MVCC w PostgreSQL, czy jest sposób, żeby go obejść i uzyskać emulację trybu READ UNCOMMITTED.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://test.segfault.events/sites/lodz2018/abstracts/datalog-nosql-event-sourcing-acid-and-web-scale/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://test.segfault.events/sites/lodz2018/abstracts/datalog-nosql-event-sourcing-acid-and-web-scale/</guid>
+      <description>Datalog is a declarative logic programming language, which has in recent years found new uses as a graph query language in server and client applications. This talk introduces Datalog from its primitives and builds a mental model of how complicated queries can be resolved using simple data structures. This, in turn, will help you understand when and how you should apply Datalog in practice: on the client, on the server, as a graph database, as a communication protocol ala GraphQL/Falcor, or as an event-sourcing storage mechanism.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://test.segfault.events/sites/lodz2018/abstracts/deep-learning-in-computer-vision/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://test.segfault.events/sites/lodz2018/abstracts/deep-learning-in-computer-vision/</guid>
+      <description>When we look at the world our brain instantly turns the images we see into information, intuition and feeling. It does so with an enormous computational effort, using a network with overwhelming, unexplored architecture. We are not even close to create a machine of comparable cababilities, but step by step, improving both the hardware and algorithmic approach, we can make machine understand images they see. In this talk you will learn how to design and develop such a network.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://test.segfault.events/sites/lodz2018/abstracts/from-events-to-business-and-back/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://test.segfault.events/sites/lodz2018/abstracts/from-events-to-business-and-back/</guid>
+      <description>Złożoność i trudność projektów IT często nie leży w oprogramowaniu, ale w zrozumieniu natury samego problemu. A co, jeśli nasza wiedza o nim jest mglista, niepełna, a wymagania wzajemnie sprzeczne? Jeśli nie znamy aktorów, procesów, reguł biznesowych, a co gorsza, nie rozumiemy potrzeb samego klienta? Ryzyko dostarczenia niewłaściwego oprogramowania jest tu wręcz ogromne… Potrzebujemy więc narzędzia ułatwiającego pozyskiwanie wiedzy eksperckiej, angażującego wszystkie strony w proces odkrywania i modelowania domeny problemu. A jeśli to samo narzędzie będzie można wykorzystać do modelowania software’u, tym lepiej.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://test.segfault.events/sites/lodz2018/abstracts/illogical-engineers/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://test.segfault.events/sites/lodz2018/abstracts/illogical-engineers/</guid>
+      <description>„Those who cannot remember the past are condemned to repeat it.” Our industry is only 70 years old and we’ve already managed to repeat history few times. Curry and Howard think they’ve found a way to workaround this issue, but Russel and Whitehead said they tried that already and Godel spoiled all the fun. Dr. Kunth however bet $3,372,548 on that idea, so who knows?</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://test.segfault.events/sites/lodz2018/abstracts/impostor-syndrome-czyli-dlaczego-moje-konto-na-githubie-jest-puste/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://test.segfault.events/sites/lodz2018/abstracts/impostor-syndrome-czyli-dlaczego-moje-konto-na-githubie-jest-puste/</guid>
+      <description>21 wiek, nowe stulecie. Wszyscy się dzielą poprzez sołszalmidia zdjęciami z siłowni, blogaskami czy ostatnim commitem. Tylko ja siedzę w domu i nic nie umiem, a jak już coś zrobię to słabo. Na szczęście mam pracę i jak będę się trzymać zasady „Kto cicho jedzie, dalej zajedzie”, może mnie nie wyrzucą. Czy czuliście się tak kiedyś? A może przypomina to wam któregoś z znajomych? Jeśli tak, i zastanawialiście się co z tym zrobić, to opowiem wam o impostore syndrome, czym jest i jak z tym żyć.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://test.segfault.events/sites/lodz2018/abstracts/kryzys-wieku-sredniego-w-it/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://test.segfault.events/sites/lodz2018/abstracts/kryzys-wieku-sredniego-w-it/</guid>
+      <description>Kryzys wieku średniego. Przechodzi go (prawie) każdy na półmetku swojego życia. Nieważne czy kobieta, czy mężczyzna, czy gruby, czy chudy, czy człowiek sukcesu, czy życiowa porażka. Ważne, że mniej więcej w połowie życia. Ale ten półmetek, czyli przysłowiowa czterdziecha to także mniej-więcej połowa naszej aktywności zawodowej. Jaki wpływ mają zachodzące zmiany na nas – inżynierów? Jakie mamy opcje? Czy może nam to wyjść na dobre? Podczas prezentacji spróbujemy się lekko zaprzyjaźnić z kryzysem.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://test.segfault.events/sites/lodz2018/abstracts/nadeszla-era-funkcyjnego-serwera/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://test.segfault.events/sites/lodz2018/abstracts/nadeszla-era-funkcyjnego-serwera/</guid>
+      <description>Wielu programistów ze świata JVM i nie tylko przyzwyczajonych jest do prostego paradygmatu. Jedno żadanie HTTP - jeden wątek. Proste, jasne &amp;hellip;. tylko beznadziejne.
+Opowiem wam o lepszej alternatywie, która jest w waszym zasięgu: programowane funkcyjnie serwery, z nieblokującym IO.
+To architektura , która umożliwia efektywniejsze wykorzystanie CPU (cache!), daje o wiele łatwiejsze w testowaniu serwery, które dodatkowo uruchamiają się w kilkanaście milisekund. A do tego okazuje się, że mamy piękny funkcyjny kod, w którym prawie wszystko jest niemutowalne i czyste.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://test.segfault.events/sites/lodz2018/abstracts/nie-ma-nic-prostszego-niz-napisanie-wolnego-regexpa/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://test.segfault.events/sites/lodz2018/abstracts/nie-ma-nic-prostszego-niz-napisanie-wolnego-regexpa/</guid>
+      <description>Chociaż prawie każdy używa wyrażeń regularnych, mało kto zastanawia się nad ich wydajnością. Tymczasem źle napisany regexp (zarówno po stronie serwera jak i w przeglądarce) może skutecznie spowolnić działanie aplikacji. Jak więc napisać wyrażenie regularne, które nie tylko znajduje to, co trzeba, ale robi to szybko?
+Aby odpowiedzieć na to pytanie wyjaśnię w jaki sposób działają wyrażenia regularne. Wychodząc od tego pokażę, dlaczego podobne do siebie wyrażenia mogą wykładniczo różnić się wydajnością.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://test.segfault.events/sites/lodz2018/abstracts/poradnik-nie-tylko-dla-jedi/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://test.segfault.events/sites/lodz2018/abstracts/poradnik-nie-tylko-dla-jedi/</guid>
+      <description>Myślisz, że kontrybuowanie (trudne słowo) to coś przeznaczonego tylko dla wtajemniczonych, nielicznych rycerzy Jedi, ekhm, architektów z kilkunastoletnim stażem? Czy zdarzyło Ci się, że przeglądając StackOverflow i widząc nierozwiązany problem, znałeś odpowiedź, ale nie napisałeś nic, myśląc “niech zrobi to ktoś inny”? Zauważyłeś drobną literówkę w używanej przez Ciebie bibliotece na Githubie, ale nie wiesz, co dalej? A może udzielasz się w małym projekcie, o którym nie wie prawie nikt? Albo zostałeś poproszony o opowiedzenie o Twoim hobby na lokalnym meetupie, ale oczywiście odmówiłeś, ponieważ miałaby to być Twoja pierwsze wystąpienie publiczne w życiu.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://test.segfault.events/sites/lodz2018/abstracts/you-are-using-the-wrong-database/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://test.segfault.events/sites/lodz2018/abstracts/you-are-using-the-wrong-database/</guid>
+      <description>I’ve been heavily interested in different databases since I’ve started my pet project – cookit.pl. The front of the service is a food recipe search engine. The back is crawling almost 1 thousand websites. It determines if the page contains a recipe, extracts the text, ingredients, units, and amount. Images are similarly processed for relevance, rescaled and saved. This all sums up to 1 TB of data being processed on an Intel i3 with 8 gigabytes of RAM.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://test.segfault.events/sites/lodz2018/abstracts/zycie-po-batchu-treaming-i-jego-oblicza/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://test.segfault.events/sites/lodz2018/abstracts/zycie-po-batchu-treaming-i-jego-oblicza/</guid>
+      <description>Wyobraź sobie, że w twojej aplikacji zachodzą jakieś zmiany (domain eventy). Chcielibyśmy te zmiany wystawić na zewnątrz, żebyśmy mogli na ich podstawie robić sobie raporty, read modele, sagi, synchronizować dane. Czy to zadanie okaże się być trudne czy proste, jeśli użyjemy bazy danych SQL. Co zyskaliśmy dzięki temu, że używam RDBMS/SQL a co utraciliśmy, być może, bezpowrotnie. W tej prezentacji opowiem wam jak chciałem zbudować pewną funkcjonalność dla biblioteki Rails Event Store, dlaczego okazało być się to trudniejsze niż myślałem, o modelu MVCC w PostgreSQL, czy jest sposób, żeby go obejść i uzyskać emulację trybu READ UNCOMMITTED.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://test.segfault.events/sites/lodz2018/faqs/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://test.segfault.events/sites/lodz2018/faqs/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link></link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid></guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://test.segfault.events/sites/lodz2018/speakers/grzegorz-rozniecki/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://test.segfault.events/sites/lodz2018/speakers/grzegorz-rozniecki/</guid>
+      <description>Grzegorz, jest programistą, który lubi każdego dnia nauczyć się czegoś nowego, a zdobytą wiedzą podzielić się z innymi. Fan GNU/Linuksa i adwokat Open Source. Tworzył oprogramowanie w rozmaitych językach programowania w tym w: Perlu, JavaScripcie, Javie, Pythonie, PHP i Lispie (i eksperymentował z paroma innymi). Obecnie grzebie w bigdata w Akamai.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://test.segfault.events/sites/lodz2018/speakers/jarek-ratajski/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://test.segfault.events/sites/lodz2018/speakers/jarek-ratajski/</guid>
+      <description>Jarek Ratajski - Java Developer since 1999
+I love programming since my first line of code I did on the C64 in Basic. Somewhere in 90ties I&amp;rsquo;ve switched from C++ to java and spent then 18 Years developing JavaEE software working for various companies and projects.
+Now I work for Engenius in Switzerland being Java developer at banks during the days and Scala/ScalaJS open sources hacker at nights.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://test.segfault.events/sites/lodz2018/speakers/kubiak-kudrynski/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://test.segfault.events/sites/lodz2018/speakers/kubiak-kudrynski/</guid>
+      <description>Blazej Kubiak is enthusiast of all aspects of big data processing and all technologies that bring this enthusiasm from dream into reality. Blazej has been working in Tele Atlas and TomTom for eight years and has been involved in many challenging projects related to image and laser data processing. Blazej is one of the authors of automated traffic signs detection systems and bird-eye image mosaic creation tools. Currently he works as Expert Software Engineer in areas of Deep Neural Networks for object detection and recognition.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://test.segfault.events/sites/lodz2018/speakers/m.gil-w.ptak/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://test.segfault.events/sites/lodz2018/speakers/m.gil-w.ptak/</guid>
+      <description>Software architect interesujący się złożonymi systemami o wysokiej wartości biznesowej, związany głównie z platformami webowymi. Event Storming maniac. ex-CTO, konsultant, speaker i trener w Bottega IT Minds. Z branżą IT związany od ponad 16 lat. Poza tematyką projektowania oprogramowania interesuje się rozwiązaniami big-data i machine-learning, a przede wszystkim osiąganych przy ich pomocy efektów biznesowych. Po godzinach oddaje się swoim innym pasjom, fotografii i gitarze elektrycznej.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://test.segfault.events/sites/lodz2018/speakers/maciej-rzasa/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://test.segfault.events/sites/lodz2018/speakers/maciej-rzasa/</guid>
+      <description>Developer specjalizujący się w Rubym, ale nie stroniący od JavaScriptu. Posiada ponad 5-letnie doświadczenie w tworzeniu aplikacji z różnorodnych dziedzin (TV, recycling, turystyka, tłumaczenia). Obecnie pracuje w firmie TextMaster zajmując się m. in. automatycznym przetwarzaniem tekstów do tłumaczeń. Zainteresowany systemami rozproszonymi, samoorganizującymi się zespołami i metodami tworzenia oprogramowania.
+Lubi dzielić się wiedzą. Współorganizator Rzeszów Ruby User Group (rrug.pl) oraz Rails Girls Rzeszów. Od czasu do czasu - prelegent na branżowych konferencjach i meetupach.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://test.segfault.events/sites/lodz2018/speakers/marcin-grzejszczak/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://test.segfault.events/sites/lodz2018/speakers/marcin-grzejszczak/</guid>
+      <description>Author of &amp;ldquo;Mockito Instant&amp;rdquo; and &amp;ldquo;Mockito Cookbook&amp;rdquo; books. OSS Contributor. Co-founder of the Warsaw Groovy User Group and Warsaw Cloud Native Meetup.
+Lead of Spring Cloud Sleuth, Spring Cloud Contract and Spring Cloud Pipelines projects at Pivotal
+Contributed to Groovy, Mockito, Rest-assured, Drools, Moco. Author of Uptodate Gradle plugin, Spock subjects-collaborators extension, gradle-test-profiler, JSONAssert and XMLAssert open source projects.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://test.segfault.events/sites/lodz2018/speakers/michal-gruca/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://test.segfault.events/sites/lodz2018/speakers/michal-gruca/</guid>
+      <description>Java Developer, Solution Architect, Team Leader, currently in Delivery Manager role, with little appreciation to any of job titles. Focused more on solving problems, regardless if soft or tech in nature. In free time building communities, speaking at events, coding and trying to come back to blogging. After working around a decade in software industry, I’ve seen a bit, and try to share what I’ve learned about programming and management. Always with opinion, but open to discussion, stay strong and argue :) Despite using Outlook and Excel on daily basis, I’m still developer at heart with couple of IDE’s installed on my machine.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://test.segfault.events/sites/lodz2018/speakers/norbert-wojtowicz/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://test.segfault.events/sites/lodz2018/speakers/norbert-wojtowicz/</guid>
+      <description>Norbert Wójtowicz is a recovering empty-stack developer and append-only data architect. You can find his code and ramblings in various corners of the internet, under the felicitous handle @pithyless.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://test.segfault.events/sites/lodz2018/speakers/pawel-szulc/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://test.segfault.events/sites/lodz2018/speakers/pawel-szulc/</guid>
+      <description>Pawel Szulc is primarily a programmer. Always was and always will be. Experienced professionally in JVM ecosystem, currently having tons of fun with Scala and Haskell. Humble apprentice of Functional Programming. Runs a blog rabbitonweb.com.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://test.segfault.events/sites/lodz2018/speakers/robert-pankowiecki/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://test.segfault.events/sites/lodz2018/speakers/robert-pankowiecki/</guid>
+      <description>Od 10 lat refaktoryzuję legacy e-commerce aplikacje w Ruby on Rails. Współautor 5 książek o programowaniu, które sprzedały się w tysiącach egzemplarzy. Miłośnik pracy zdalnej, gburek i muchomorek.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://test.segfault.events/sites/lodz2018/speakers/szymon-warda/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://test.segfault.events/sites/lodz2018/speakers/szymon-warda/</guid>
+      <description>With .NET from version 1.1 and with web development from the time when IE6 was the “better” browser. Working with machine learning, cloud, and big data by day. By night a developer of cookit.pl- a pet project processing hundred of gigabytes of data with whatever suits the problem best (Graph databases/ML/C#/F#). Technology enthusiast, Neo4j ambassador, speaker, and a blogger at IndexOutOfRange.com</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://test.segfault.events/sites/lodz2018/speakers/tomasz-szymanski/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://test.segfault.events/sites/lodz2018/speakers/tomasz-szymanski/</guid>
+      <description>Swoją przygodę z profesjonalnym programowaniem rozpoczął w 2005 roku, czyli ponad dekadę temu. Pierwsze poważne kody pisał jeszcze jako praktykant w firmie JBoss, by w końcu zostać Architektem Aplikacji w jednym z największych banków w RPA.
+Wierzy w czysty kod, społeczność i metodyki agile. Dlatego po latach doświadczeń wraz ze wspólnikami założył SoftwareMill - pierwszy w Polsce softwarehouse oparty o zupełnie płaską strukturę i pracę zdalną. Od blisko ponad 8 lat rozwija firmę, w której 40 osób zdalnie realizuje projekty dla klientów na (prawie) wszystkich kontynentach.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://test.segfault.events/sites/lodz2018/speakers/tomek-kogut/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://test.segfault.events/sites/lodz2018/speakers/tomek-kogut/</guid>
+      <description>Swoje doświadczenie programistyczne zdobywałem od tworzenia niskopoziomowych modułów kernela w C/C++ przez systemy telekomunikacyjne napisane w Javie EE po ETL big datowe. Obecnie moim ulubionym językiem programowania od 2011 jest Scala. Lubię i cenię podejście funkcyjne do programowania staram się jednak ciągle mieć oko na wydajność tworzonych rozwiązań. W codziennej pracy w roli Senior Software Engineer w dziale badawczym firmy Adform, próbuję zbudować wraz ze swoim zespołem jak najlepszą platformę do wdrażania algorytmów uczenia maszynowego.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://test.segfault.events/sites/lodz2018/topics/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://test.segfault.events/sites/lodz2018/topics/</guid>
+      <description>Architecture At Scale wszystko co dotyczy budowy, dobrych praktyk i&amp;nbsp;skalowania systemów rozproszonych, tutaj pojawiają się takie tematy jak: skalowalność, wydajność, NoSQL, microservices, serverless, cloud computing, BigData, FastData i&amp;nbsp;SOA.
+ Small Architectures czyli wszystko co pomaga nam budować systemy na poziomie mniejszych komponentów. Tutaj posłuchasz o&amp;nbsp;TDD, DDD, CQRS, dobrych praktykach i wzorcach niezależnie od platformy i&amp;nbsp;języka programowania.
+ Foundations of Future Architectures na tej ścieżce pojawią się tematy w&amp;nbsp;znanym formacie “papers we love”, czyli tematy trudne, acz fundamentalne, zawarte w&amp;nbsp;starych manuskryptach.</description>
+    </item>
+    
+    <item>
+      <title>Polityka Prywatnosci</title>
+      <link>http://test.segfault.events/sites/lodz2018/polityka-prywatnosci/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://test.segfault.events/sites/lodz2018/polityka-prywatnosci/</guid>
+      <description>Niniejsza Polityka Prywatności określa sposoby ochrony danych Użytkowników korzystających z Serwisu. Na potrzeby niniejszej Polityki Prywatności zastosowanie znajdują definicje zawarte w Regulaminie. Korzystanie z Serwisu jest równoznaczne z akceptacją niniejszego Regulaminu, którego integralną częścią jest niniejsza Polityka Prywatności. Administratorem danych osobowych zbieranych w Serwisie jest Symentis.pl z siedzibą w Grzegórzecka 67h/34, 31-559 Kraków, wpisana do Rejestru Przedsiębiorców prowadzonego przez Sąd Rejonowy dla Kraków-Śródmieście w Krakowie pod numerem NIP: 6591184910.
+ ZAKRES I PODSTAWA ZBIERANIA DANYCH Symentis.</description>
+    </item>
+    
+    <item>
+      <title>Regulamin</title>
+      <link>http://test.segfault.events/sites/lodz2018/regulamin/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://test.segfault.events/sites/lodz2018/regulamin/</guid>
+      <description>Niniejszy regulamin określa warunki korzystania z serwisu internetowego konferencji SegFault, dostępnego za pośrednictwem adresu segfault.events i stanowi integralną część umów zawieranych przez Symentis.pl za pośrednictwem Serwisu.
+ I. POSTANOWIENIA OGÓLNE 1. Korzystanie z Serwisu oraz usług oferowanych za jego pośrednictwem oznacza wyrażenie zgody na postanowienia niniejszego regulaminu („Regulamin”) oraz Polityki Prywatności.
+2. Wszelkie prawa do nazwy Serwisu, jego koncepcji graficznej i funkcjonalnej, a także prawa do wszelkich elementów tekstowych i graficznych wykorzystanych w Serwisie, za wyjątkiem elementów pochodzących od osób trzecich (w szczególności logotypów partnerów, partnerów medialnych, sponsorów, konferencji partnerskich, etc.</description>
+    </item>
+    
+  </channel>
+</rss>
