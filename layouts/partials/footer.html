@@ -24,6 +24,7 @@
     <div class="col-xl-5 pl-xl-5 mt-5 mt-xl-0">
       <div class="row">
 
+        {{/*
         <div class="col-sm-6 el-animated">
           <h2 class="font-24 text-secondary">info</h2>
           <ul class="list-unstyled mb-3">
@@ -38,7 +39,7 @@
             <!-- <li class="mb-1"><a class="text-white link" href="#">cookies</a></li> -->
           </ul>
         </div>
-
+        */}}
         <div class="col-sm-6 el-animated">
           <h2 class="font-24 text-secondary">media</h2>
           <ul class="list-unstyled mb-3">
@@ -51,6 +52,15 @@
             <li><a class="text-white" href="mailto:konferencja@segfault.events">konferencja@segfault.events</a></li>
             <!-- <li><a class="text-white" href="mailto:rejestracja@segfault.events">rejestracja@segfault.events</a></li> -->
             <!-- <li><a class="text-white" href="mailto:partnerzy@segfault.events">partnerzy@segfault.events</a></li> -->
+          </ul>
+        </div>
+
+        <div class="col-sm-6 el-animated">
+          <h2 class="font-24 text-secondary">archiwum</h2>
+          <ul class="list-unstyled mb-3">
+            {{ range (sort (where .editions "forthcoming" false) "dateSortable") }}            
+              <li><a class="text-white" href="{{ .link }}">{{ .city }}, {{ .dateReadable -}}</a></li>
+            {{ end }}
           </ul>
         </div>
 

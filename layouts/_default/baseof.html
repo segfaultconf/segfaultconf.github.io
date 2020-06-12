@@ -18,7 +18,7 @@
     {{ end }}
     </main>
     
-    {{ partial "footer.html" }}
+    {{ partial "footer.html" .Site.Data.conferences }}
     {{ partial "svg.html" }}
 
     {{ $main := resources.Get "js/main.js" -}}
