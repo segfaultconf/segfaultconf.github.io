@@ -4729,16 +4729,18 @@ a {
         display: none; }
       .list--responsive .list__item::after {
         display: none; } }
-.offer-box {
-  background-color: #5bc1a7;
+.boxed {
   position: relative;
   width: 100%;
   max-width: 380px;
   margin: 0 auto;
-  margin-top: 100px;
   padding: 30px 30px 40px; }
+  .boxed--primary {
+    background-color: #01758f; }
+  .boxed--secondary {
+    background-color: #5bc1a7; }
   @media (min-width: 768px) {
-    .offer-box {
+    .boxed {
       background: transparent;
       width: auto;
       max-width: none;
@@ -4840,6 +4842,7 @@ a {
     align-items: center;
     transition: 1s;
     position: absolute;
+    padding-top: 15px;
     left: 0; }
   .slider__slide {
     height: 100%; }

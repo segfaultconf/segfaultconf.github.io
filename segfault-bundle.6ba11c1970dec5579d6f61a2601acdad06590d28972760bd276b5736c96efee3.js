@@ -341,13 +341,14 @@
       const buttons = slider.querySelector('.slider__buttons');
       const slides = slider.querySelectorAll('.slider__slide');
       const wrapper = slider.querySelector('.slider__wrapper');
-      const slideWidth = wrapper.offsetWidth;
+      const slideWidth = isMobile ? wrapper.offsetWidth : slides[0].firstElementChild.offsetWidth;
       const buttonsArr = [];
       let currentIndex = 0;
       let timeout;
 
-      container.style.width = slideWidth * slides.length + 'px';
-      wrapper.style.height = slides[0].firstElementChild.offsetHeight + 'px';
+      container.style.width = isMobile ? 
+            slideWidth * slides.length + 'px' : 1.25 *slideWidth * slides.length + 'px';
+      wrapper.style.height = slides[0].firstElementChild.offsetHeight + 'px';      
 
       const autoPlay = () => {
         clearTimeout(timeout);
@@ -373,7 +374,7 @@
         buttonsArr[newIndex].classList.add('slider__button--active');
 
         if (newIndex > currentIndex) {
-          offsetLeft = slideWidth * newIndex;
+          offsetLeft = slideWidth * newIndex; 
           container.style.left = `-${offsetLeft}px`;
         } else {
           offsetLeft = slideWidth * newIndex;
