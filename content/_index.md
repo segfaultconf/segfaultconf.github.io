@@ -11,4 +11,19 @@ lead.company: |
     Segfault to grupa profesjonalistów z pasją, którzy od ponad 13 lat dostarczają wartość w obszarze rozwoju oprogramowania, architektury systemów IT i rozwoju organizacji (R&D) poprzez organizację konferencji, warsztatów, szkoleń i usług konsultacyjnych. 
     
     *Segfault to doświadczenie, praktyka, ugruntowana wiedza.*
+segfault.features:
+    - title: "100% merytoryki, 0% sprzedaży"
+      text: "Za poziom wystąpień odpowiada rada programowa, której przyświeca idea “chcemy prezentacji, na które sami pójdziemy”."
+      textMore: "Dobieramy ludzi, którzy mają za sobą lata doświadczenia. Tu spotkasz swoich kolegów i koleżanki po fachu, może nawet “role models”, którzy zjedli zęby na tym, czym się zajmują, a my zaprosiliśmy ich do wystąpienia. To, do czego chcemy Cię zachęcić, to wejście w polemikę, byś zrozumiał najlepiej istotę rzeczy."
+    - title: "Ludzie tu i teraz"
+      text: "Dosięgnij prelegentów w przerwie, przedyskutuj tematy w dogodnym czasie."
+      textMore: "Zaprojektowaliśmy nasze wydarzenia tak, byś miał czas na dokładne zapoznanie się z tematem podczas wystąpienia oraz rozmowę z prelegentami w przerwach. Prelekcje mają maksymalnie 45 minut + 15 minut przerwy."
+    - title: "Interdyscyplinarność"
+      text: "Mieszamy światy, byś mógł sprawdzić, że idee są uniwersalne. Wiedzę, którą tu znajdziesz będziesz mógł wykorzystać bez względu na język czy technologię."
+    - title: "Case studies"
+      text: "Poza typowo inżynieryjno-programistycznymi tematami włączamy elementy wiedzy i doświadczeń z pogranicza biznesu i mental health, byś mógł szeroko rozwijać swoje umiejętności."
+      textMore: "Przypomnisz sobie o “prawdach  fundamentalnych”, ale bez nadęcia czy mentorskiego tonu."
+    - title: "Kameralność"
+      text: "Jesteśmy otwarci na kameralną atmosferę i ekskluzywne tematy. Dlatego uczestnicząc w SegFault masz dostęp do świeżych talków, często przygotowywanych specjalnie dla nas."
+      textMore: "Na konferencji spotkasz, rzemieślników w swoim fachu, którzy potrafią wyjść poza ramy swojej domeny, autorów poczytnych blogów czy szkoleń. Zapewniamy przestrzeń, by móc porozmawiać z nimi bezpośrednio."      
 ---
