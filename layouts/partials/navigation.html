@@ -34,25 +34,29 @@
                 </ul>
                 {{/*  <button class="button button--outline-primary order-2 order-md-2">zostań partnerem</button>  */}}
                 <a href="#tickets" class="button button--accent order-1 order-md-3">kup bilet</a>
-
-                {{/*  <div class="dropdown order-3 order-md-1">
-                    <button class="dropdown__button button button--expandable button--link text-primary mt-3 mx-lg-2 pb-2">
-                        <span class="link">nadchodzące wydarzenia</span>
-                    </button>
-                    <ul class="dropdown__list">
-                        <li class="dropdown__item"><a href="#">Kraków 2020</a></li>
-                        <li class="dropdown__item"><a href="#">Warszawa 2020</a></li>
-                        <li class="dropdown__item"><a href="#">Łódź 2020</a></li>
-                        <li class="dropdown__item"><a href="#">Kielce 2020</a></li>
-                    </ul>
-                </div>  */}}
                 {{ else }}
                 <ul class="menu-items text-center list-unstyled">
-                    <li class="mb-1 float-lg-left"><a href="#konferencja">Segfault masterclass</a></li>
-                    <li class="mb-1 float-lg-left"><a href="#podcast">Podcasty</a></li>
-                    <li class="mb-1 float-lg-left"><a href="#online">Webinary</a></li>
-                    <li class="mb-1 float-lg-left"><a href="#hello-dave">Hello Dave</a></li>                        
-                    <li class="mb-1 float-lg-left"><a href="#o-nas">O nas</a></li>
+                    <!-- <li class="mb-1 float-lg-left"><a href="/masterclass-lato-2020">Segfault Masterclass Lato 2020</a></li> -->
+                    <li><a href="#podcast">Podcasty</a></li>
+                    <li><a href="#online">Webinary</a></li>
+                    <li><a href="#hello-dave">Hello Dave</a></li>                        
+                    <li><a href="#o-nas">O nas</a></li>
+                    <li>
+                        <div class="dropdown order-3 order-md-1">
+                            <button class="dropdown__button button button--link text-primary mt-2 mx-lg-2 pb-2">
+                                <span class="link"><a href="/masterclass-lato-2020">Segfault Masterclass Lato 2020</a></span>
+                            </button>             
+                            {{/*
+                            <button class="dropdown__button button button--expandable button--link text-primary mt-2 mx-lg-2 pb-2">
+                                <span class="link">nadchodzące wydarzenia</span>
+                            </button>             
+                            <ul class="dropdown__list">
+                                <li class="dropdown__item"><a href="/masterclass-lato-2020">Segfault Masterclass Lato 2020</a></li>
+                                <li class="dropdown__item"><a href="#">Unconference Kraków 2020</a></li>
+                            </ul>                                       
+                            */}}
+                        </div>
+                    </li>
                 </ul>
                 {{ end }}
             </div>

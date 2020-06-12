@@ -1,5 +1,5 @@
 ---
-title: Summer Masterclass 2020
+title: Masterclass Lato 2020
 type: event
 city: 
 dates: 
