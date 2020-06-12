@@ -10,7 +10,7 @@
         </div>
         <div class="container">
           <h2 class="section__title text-white text-md-primary font-48 mt-4 el-animated">fundamenty.od/nowa.</h2>      
-          <div class="slider" data-slider>
+          <div id="promoted-events" class="slider" data-slider>
             <div class="slider__wrapper">
               <div class="slider__container">
                 {{ range .Site.Data.promoted_events }}
@@ -121,20 +121,14 @@
 
       <section id="o-nas" class="section section--o-czym-mowimy">
         <div class="container">
-          <h2 class="section__title font-60 mt-4 el-animated">O czym mówimy</h2>
+          <h2 class="section__title font-60 mt-4 el-animated">{{ .Param "values.title" }}</h2>
           <div class="row">
-            <div class="col-12 col-sm-4 pr-5 pt-2 pb-4">
-              <h3 class="font-36 font-bold el-animated">deliver</h3>
-              <p class="el-animated">Dzięki nam przestaniesz się obawiać skalowalnych systemów rozproszonych, które są codziennością.</p>
-            </div>
-            <div class="col-12 col-sm-4 pr-5 pt-2 pb-4">
-              <h3 class="font-36 font-bold el-animated">quality</h3>
-              <p class="el-animated">Jakość to nie tylko testowanie, ale i prewencja. Testowanie to testowalny kod, infrastruktura i architektura.</p>
-            </div>
-            <div class="col-12 col-sm-4 pr-5 pt-2 pb-4">
-              <h3 class="font-36 font-bold el-animated">software</h3>
-              <p class="el-animated">Co składa się na oprogramowanie? Gdzie kryją się pułapki i wydajnościowe "wąskie gardła"?</p>
-            </div>
+            {{ range (.Param "values.content") }}
+              <div class="col-12 col-sm-4 pr-5 pt-2 pb-4">
+                <h3 class="font-36 font-bold el-animated">{{ .lead }}</h3>
+                <p class="el-animated">{{ .text }}</p>
+              </div>
+            {{ end }}
           </div>
           <div class="bg-md-white bg-gradient-horizontal fancy-border player d-lg-flex justify-content-lg-space-between">
             <div>
@@ -172,7 +166,7 @@
             </div>
             
             <div class="col-lg-6 pl-lg-5 pt-4">
-              <div class="slider" data-slider>
+              <div id="testimonials" class="slider" data-slider="full-width">
                 <div class="slider__wrapper">
                   <div class="slider__container">
                     {{ range .Site.Data.testimonials }}

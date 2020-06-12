@@ -31,4 +31,13 @@ partners:
   content:
     - "pokaż potencjał swojej firmy, wśród doświadczonych specjalistów IT"
     - "postaw na networking i employer branding"  
+values:
+  title: O czym mówimy
+  content:
+    - lead: deliver
+      text: Dzięki nam przestaniesz się obawiać skalowalnych systemów rozproszonych, które są codziennością.
+    - lead: quality
+      text: Jakość to nie tylko testowanie, ale i prewencja. Testowanie to testowalny kod, infrastruktura i architektura.
+    - lead: software
+      text: Co składa się na oprogramowanie? Gdzie kryją się pułapki i wydajnościowe "wąskie gardła"?
 ---
