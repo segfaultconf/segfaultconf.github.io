@@ -12,6 +12,26 @@ conference:
     attendees: 200
     tracks: 2
     afterparty: false
+agenda:
+    - tracks: 
+        - 
+        # - Ścieżka 2
+      slots:
+        - "<span class=text-nowrap>6 lipca,</span> <span class=text-nowrap>11:00 - 12:30</span>":
+            - "bartek_slota-refactoring"
+        - "<span class=text-nowrap>7 lipca,</span> <span class=text-nowrap>11:00 - 12:30</span>":
+            - "krzysztof_owsiany-storming"
+        - "<span class=text-nowrap>8 lipca,</span> <span class=text-nowrap>11:00 - 12:30</span>":
+            - "mariusz_jasinski-wielokulturowe_zespoly"
+        - "<span class=text-nowrap>9 lipca,</span> <span class=text-nowrap>11:00 - 12:30</span>":
+            - "rafal_pocztarski-sql"                                    
+        - "<span class=text-nowrap>10 lipca,</span> <span class=text-nowrap>11:00 - 12:30</span>":
+            - "TBC"
+        # - "16:00":
+        #     - "Zakończenie pierwszego dnia"
+        # - "21:00":
+        #     - "After party - Maverick w Gdańsku, ul Partyzantów 8"
+
 ---
 
 ## Segfault Online

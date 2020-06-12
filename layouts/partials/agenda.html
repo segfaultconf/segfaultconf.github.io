@@ -1,0 +1,75 @@
+<div class="agenda mb-80">
+
+    {{ $sessions := .Site.Data.sessions }}
+    {{ $agenda := .Params.agenda }}
+
+    {{ range $dayIndex, $details := $agenda }}
+        <div class="d-flex justify-content-between flex-column flex-md-row py-5">
+            <div class="d-flex align-items-md-center el-animated order-md-2 mb-4 mb-md-0">
+            <div>
+                <span class="badge badge--circle badge--secondary">D</span>
+                deliver
+            </div>
+            <div class="pl-3">
+                <span class="badge badge--circle badge--primary">Q</span>
+                quality
+            </div>
+            <div class="pl-3">
+                <span class="badge badge--circle badge--accent">S</span>
+                software
+            </div>
+            </div>            
+            <h3 class="text-accent font-bold font-36 el-animated order-md-1">
+                {{ if gt (len $agenda) 1 }}Dzień {{ (add $dayIndex 1) }}.{{ end }}
+            </h3>        
+        </div>
+        
+        <ul class="list list--responsive">
+            <li class="agenda__header el-animated d-none d-md-block">
+                <div class="container">
+                    <div class="row">
+                        {{ range $track := $details.tracks }}                        
+                        <div class="col-md-{{ div 12 (len $details.tracks) }}">
+                            {{ $track }}
+                        </div>
+                        {{ end }}
+                    </div>
+                </div>
+            </li>
+
+
+            {{ range $slot := $details.slots }}
+            <li class="list__item list__item--linked list__item--bordered list__item--accent">
+                <div class="d-flex flex-column flex-md-row align-items-md-center">
+                    {{ range $hour,$presentations := $slot }}    
+                    <span class="agenda__hour font-bold el-animated">{{ $hour | safeHTML }}</span>
+                    <div class="container el-animated">
+                        <div class="row">
+                        {{ range $i, $p := $presentations }}
+                        {{ $session := index $sessions $p }}
+                        <div class="col-md-{{ div 12 (len $details.tracks) }} mb-4 mb-md-0">
+                            {{ if $session }}                        
+                                <p class="font-bold font-22">
+                                    <a href="#">{{ $session.title }}</a>
+                                    {{ if $session.badge }}
+                                    <span class="badge badge--circle badge--secondary">D</span>
+                                    {{ end }}
+                                </p>
+                                <p>{{ range $speaker := $session.speakers}}{{$speaker.name}}{{end}}</p>
+                                {{ if $session.capacity }}
+                                <p class="font-14 text-accent">Zajęte miejsca: 0/30</p>
+                                {{ end }}                        
+                            {{ else }}
+                                <p class="m-0">{{ $p }}</p>
+                            {{ end }}    
+                        </div>                    
+                        {{ end }}                                    
+                        </div>
+                    </div>
+                    {{ end }}
+                </div>
+            </li>
+            {{ end }}            
+        </ul>        
+    {{ end }} 
+</div>

@@ -28,9 +28,9 @@
             <div id="siteMenuInside" class="menu__container" aria-labelledby="menuBtn">
                 {{ if (eq .CurrentSection.Type "event")}} 
                 <ul class="menu-items text-center list-unstyled">
-                    <li class="mb-1 float-lg-left"><a href="/{{.Section}}#speakers">Prelegenci</a></li>
-                    <li class="mb-1 float-lg-left"><a href="/{{.Section}}#agenda">Agenda</a></li>
-                    <li class="mb-1 float-lg-left"><a href="/{{.Section}}#partners">Partnerzy</a></li>
+                    <li><a href="/{{.Section}}#speakers">Prelegenci</a></li>
+                    <li><a href="/{{.Section}}#agenda">Agenda</a></li>
+                    <li><a href="/{{.Section}}#partners">Partnerzy</a></li>
                 </ul>
                 {{/*  <button class="button button--outline-primary order-2 order-md-2">zostań partnerem</button>  */}}
                 <a href="#tickets" class="button button--accent order-1 order-md-3">kup bilet</a>

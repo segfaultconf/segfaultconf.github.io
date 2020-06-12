@@ -14,7 +14,7 @@
         <div class="event__wrapper el-animated">
           <div class="event__content">
             <svg class="event__logo mb-3">
-              <use xlink:href="#svg-event-unconference" />
+              <use xlink:href="#svg-event-conference" />
             </svg>
             <div class="font-bold font-24">
               <p class="mb-1">{{ .Params.dates.readable }}</p>
@@ -112,6 +112,84 @@
             {{ end }}       
         {{ end }}
       </div>
+    </div>
+  </section>  
+
+  <section class="banner banner--small">
+    <div class="banner__wrapper bg-secondary">
+      <div class="banner__background">
+        <img src="images/price-increase-background.jpg" alt="">
+        <div class="banner__gradient-overlay bg-gradient-vertical-secondary"></div>
+      </div>
+    </div>
+    <div class="container">
+      <h2 class="banner__title font-48 mb-5 text-white el-animated">
+        Nie przegap<br> nic co w segfaultcie piszczy
+      </h2>
+      <div class="el-animated"><a href="https://www.facebook.com/segfaultevents" class="button button--outline-white mt-4"><span class="icon-facebook mr-2"></span>Śledź nas na fejsbuku</a></div>
+    </div>
+  </section>
+
+  <section class="section pb-0" id="agenda">
+    <div class="container">
+      <h2 class="section__title font-60 mt-4 el-animated">Agenda</h2>
+      <div class="row">
+        <div class="col-12 col-md-8 font-24 el-animated">
+          <p>Na pewno są prezentacje, o których marzyłeś, by je zobaczyć. Spotkaj się ze znajomymi z branży, przybij piątkę z prelegentami, wejdź z nimi w polemikę, kwestionuj, dyskutuj i spędź czas tak jak lubisz.</p>
+        </div>
+      </div>
+
+      {{ partial "agenda.html" . }}
+
+      {{ if .Param "conference.afterparty" }}      
+      <!-- <div class="row" id="media">
+        <div class="col-12 col-md-8">
+          <p class="font-bold font-24 el-animated">A po całym dniu intensywnego zdobywania wiedzy czeka Cię kapitalne afterparty.</p>
+        </div>
+      </div>
+
+      @@include("./includes/gallery.html") -->
+      {{ end }}
+
+      <!-- <div class="row">
+        <div class="col-md-7">
+          <div class="list__item list__item--accent font-24 font-bold el-animated">
+            dołącz do społeczności ponad 1000 doświadczonych deweloperów i zapisz się na newsletter
+          </div>
+          <form>
+            <div class="d-flex flex-column flex-sm-row align-items-sm-center ml-sm-100 el-animated">
+              <input type="text" name="newsletter" placeholder="twój email" class="input text-primary mr-sm-3 mb-3 mb-sm-0">
+              <button type="submit" class="button button--accent">zapisz się</button>
+            </div>
+          </form>
+        </div>
+      </div> -->
+
+    </div>
+  </section>
+
+  <section class="section" id="tickets">
+    <div class="container">
+      <h2 class="section__title font-60 mt-4 el-animated">Bilety</h2>
+
+      <div class="slider slider--mobile-only" data-slider="mobile-only">
+        <div class="slider__wrapper">
+          <div class="slider__container">
+            <div class="container el-animated">
+              <iframe src="{{ .Params.tickets.link }}/pl/groups?iframe=1" frameborder="0"
+                width="100%"
+                scrolling="auto"
+                style="min-height: 100px">
+              </iframe>
+              <script type="text/javascript" src="{{ .Params.tickets.link }}/iframeResizer.min.js"></script>
+            </div>
+            <!-- @@loop("./includes/ticket.html", "./mock-data/tickets.json") -->
+          </div>
+        </div>
+        <div class="slider__buttons">
+        </div>
+      </div>
+
     </div>
   </section>  
 

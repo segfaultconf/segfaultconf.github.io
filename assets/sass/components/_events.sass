@@ -70,34 +70,33 @@
     //             +bp-md
     //                 height: auto
 
-    // &--single
-    //     background-color: $primary
-    //     margin: 0 auto
-    //     text-align: center
-    //     max-width: 330px
-    //     height: 330px
-    //     color: $white
-    //     padding: 50px
+    &--single
+        background-color: $primary
+        margin: 0 auto
+        text-align: center
+        max-width: 330px
+        height: 330px
+        color: $white
+        padding: 50px
 
-    //     +bp-md
-    //         background-color: transparent
-    //         text-align: left
-    //         margin-left: 0
-    //         color: $primary
-    //         height: auto
-    //         padding: 0
+        +bp-md
+            background-color: transparent
+            text-align: left
+            margin-left: 0
+            color: $primary
+            height: auto
+            padding: 0
 
-    //     #{$event}
-    //         &__content
-    //             text-align: left
-    //         &__logo
-    //             height: 70px
-    //             max-width: 100%
-    //             fill: $white
-    //             +bp-md
-    //                 fill: $primary
-    //                 width: 311px
-    //                 height: 90px
+        #{$event}
+            &__content
+                text-align: left
+            &__logo
+                height: 70px
+                max-width: 100%
+                +bp-md          
+                    fill: $primary
+                    width: 311px
+                    height: 90px
         
     &__image
         position: absolute
@@ -130,8 +129,6 @@
         width: auto
         height: 70px
         max-width: 100%
-        fill: $white
-        filter: brightness(1000)
 
         &--primary
             fill: $primary
