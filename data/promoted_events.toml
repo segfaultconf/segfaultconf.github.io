@@ -32,25 +32,16 @@ background_img = "images/online-hello-dave.png"
 title = "Hello Dave"
 text = "Kompilatory.od/nowa."
 description = "Jak komputery rozumieją języki programowania."
-promoted = false
+promoted = true
 forSale = false
 href = "#hello-dave"
 
-
-# [
-#   { 
-#   },
-#   {     
-
-#   },
-#   { 
-
-#   },
-#   { 
-#     "category": "workshops", 
-#     "text": "Konferencja to za mało? <br> Weź udział w warsztatach!",
-#     "promoted": false,
-#     "upcoming": false,
-#     "forSale": false
-#   }
-# ]
+["segfault unplugged"]
+segfaultLogo = true
+background_img = "images/krakow.jpg"
+title = "unplugged"
+text = "Dyskutuj, podważaj, kwestionuj"
+description = "Interdyscyplinarne wydarzenia technologiczne dedykowane doświadczonym programistom, inżynierom, architektom i tech liderom."
+promoted = true
+forSale = false
+# href = "#unplugged"

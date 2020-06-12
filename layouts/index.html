@@ -13,8 +13,8 @@
           <div class="slider slider--mobile-only" data-slider="mobile-only">
             <div class="slider__wrapper">
               <div class="slider__container">
-                {{ range .Site.Data.promoted }}
-                  {{ partial "event-promoted.html" . }}
+                {{ range .Site.Data.promoted_events }}
+                  {{ partial "promoted-event.html" . }}
                 {{ end }}              
               </div>
             </div>
@@ -22,10 +22,10 @@
             </div>
           </div>
     
-          <p class="font-bold font-24 el-animated">
-            Segfault to cykl interdyscyplinarnych wydarzeń technologicznych, udostępniający przestrzeń do dyskusji, podważania, kwestionowania i testowania dedykowana doświadczonym  programistom, inżynierom, architektom i tech liderom.        
-          </p>
-          {{ partial "text-accordion.html" (dict "id" "accordionIntro" "textClass" "font-bold font-24" "text" "Segfault to firma, której członkowie zawodowo związani są z wytwarzaniem oprogramowania na wielu jego poziomach - zarówno jako programiści, architekci, jak i konsultanci. <br />Segfault to grupa profesjonalistów z pasją, którzy od ponad 13 lat dostarczają wartość w obszarze rozwoju oprogramowania, architektury systemów IT i rozwoju organizacji (R&D) poprzez organizację konferencji, warsztatów, szkoleń i usług konsultacyjnych. <br /><i>Segfault to doświadczenie, praktyka, ugruntowana wiedza.</i>" ) }}
+          <div class="font-bold font-24 el-animated">
+            {{ .Param "lead.events" | markdownify }}
+          </div>
+          {{ partial "text-accordion.html" (dict "id" "accordionIntro" "textClass" "font-bold font-24" "text" (.Param "lead.company") ) }}
           
         </div>
       </section>

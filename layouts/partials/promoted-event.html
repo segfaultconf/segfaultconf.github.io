@@ -15,10 +15,13 @@
           <svg class="event__logo white">
             <use xlink:href="#svg-segfault-logo" />
           </svg>
+          {{ if .title }}
+            <h2 class="el-animated text-white">{{ .title}} </h2>
+          {{ end }}      
         </div>
         {{ end }}
 
-        {{ if .title }}
+        {{ if (and (not .segfaultLogo) .title)  }}
           <h2 class="el-animated text-white">{{ .title}} </h2>
         {{ end }}      
 

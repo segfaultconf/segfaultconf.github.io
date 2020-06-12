@@ -20,84 +20,84 @@
                     max-width: none
 
             &__content
-                padding: 50px 30px
+                padding: 40px 30px
                 +bp-xl
-                    padding: 50px
+                    padding: 40px
 
             &__logo
                 height: 55px                              
 
-    &--upcoming
-        background-color: $secondary
-        max-width: 319px
-        width: 100%
-        height: 330px
-        margin: 0 auto
-        padding: 50px 0
-        +bp-md
-            width: 25%
-            padding: 0
-            background-color: transparent
-            height: auto
-            margin: 0
+    // &--upcoming
+    //     background-color: $secondary
+    //     max-width: 319px
+    //     width: 100%
+    //     height: 330px
+    //     margin: 0 auto
+    //     padding: 50px 0
+    //     +bp-md
+    //         width: 25%
+    //         padding: 0
+    //         background-color: transparent
+    //         height: auto
+    //         margin: 0
 
-        #{$event}
-            &__wrapper
-                height: 330px
-                +bp-md
-                    height: auto
+    //     #{$event}
+    //         &__wrapper
+    //             height: 330px
+    //             +bp-md
+    //                 height: auto
 
-        #{$event}__text
-            height: 95px
+    //     #{$event}__text
+    //         height: 95px
 
-    &--for-sale
-        height: 300px
-        background-color: $primary
-        padding: 50px 0
-        +bp-md
-            background-color: transparent
-            height: auto
-            width: 25%
-            padding: 0
+    // &--for-sale
+    //     height: 300px
+    //     background-color: $primary
+    //     padding: 50px 0
+    //     +bp-md
+    //         background-color: transparent
+    //         height: auto
+    //         width: 25%
+    //         padding: 0
             
-        #{$event}
-            &__text
-                height: 75px
-                padding-bottom: 0
-                justify-content: center
-            &__wrapper
-                height: 300px
-                +bp-md
-                    height: auto
+    //     #{$event}
+    //         &__text
+    //             height: 75px
+    //             padding-bottom: 0
+    //             justify-content: center
+    //         &__wrapper
+    //             height: 300px
+    //             +bp-md
+    //                 height: auto
 
-    &--single
-        background-color: $primary
-        margin: 0 auto
-        text-align: center
-        max-width: 330px
-        height: 330px
-        color: $white
-        padding: 50px
+    // &--single
+    //     background-color: $primary
+    //     margin: 0 auto
+    //     text-align: center
+    //     max-width: 330px
+    //     height: 330px
+    //     color: $white
+    //     padding: 50px
 
-        +bp-md
-            background-color: transparent
-            text-align: left
-            margin-left: 0
-            color: $primary
-            height: auto
-            padding: 0
+    //     +bp-md
+    //         background-color: transparent
+    //         text-align: left
+    //         margin-left: 0
+    //         color: $primary
+    //         height: auto
+    //         padding: 0
 
-        #{$event}
-            &__content
-                text-align: left
-            &__logo
-                height: 70px
-                max-width: 100%
-                fill: $white
-                +bp-md
-                    fill: $primary
-                    width: 311px
-                    height: 90px
+    //     #{$event}
+    //         &__content
+    //             text-align: left
+    //         &__logo
+    //             height: 70px
+    //             max-width: 100%
+    //             fill: $white
+    //             +bp-md
+    //                 fill: $primary
+    //                 width: 311px
+    //                 height: 90px
         
     &__image
         position: absolute
@@ -122,6 +122,9 @@
         width: 100%
         height: 100%
         text-align: center
+        display: flex
+        flex-direction: column
+        justify-content: space-around        
 
     &__logo
         width: auto
@@ -137,11 +140,7 @@
             width: 230px
 
     &__text
-        height: 130px
-        display: flex
-        flex-direction: column
-        align-items: center
-        justify-content: flex-end
+        min-height: 130px
         font-size: 1.4em
 
         &--small

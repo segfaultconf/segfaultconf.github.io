@@ -3,3 +3,4 @@ languageCode = "pl-pl"
 title = "Segfault"
 staticDir = ["segfault-static"]
 disableKinds = ["RSS", "taxonomyTerm"]
+
