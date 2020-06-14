@@ -13,8 +13,8 @@
           <div id="promoted-events" class="slider" data-slider>
             <div class="slider__wrapper">
               <div class="slider__container">
-                {{ range .Site.Data.promoted_events }}
-                  {{ partial "promoted-event.html" . }}
+                {{ range .Site.Data.promoted_content }}
+                  {{ partial "promo-box.html" . }}
                 {{ end }}              
               </div>
             </div>

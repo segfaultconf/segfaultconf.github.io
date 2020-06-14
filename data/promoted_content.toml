@@ -1,12 +1,12 @@
-["segfault-masterclass"]
-segfaultLogo = true
+# ["segfault-masterclass"]
+# segfaultLogo = true
 # background_img = "images/segfault-masterclass.png"
-title = "masteclass"
-text = "Festiwal online."
-description = "Codzienna prezentacja w wersji reżyserskiej, z komentarzem prelegenta + live z pytaniami do naszych gości."
-promoted = true
-forSale = false
-href = "masterclass-lato-2020/"
+# title = "masteclass"
+# text = "Festiwal online."
+# description = "Codzienna prezentacja w wersji reżyserskiej, z komentarzem prelegenta + live z pytaniami do naszych gości."
+# promoted = true
+# forSale = false
+# href = "/masterclass-lato2020/"
 
 ["segfault-podcast"]
 segfaultLogo = true
@@ -36,12 +36,12 @@ promoted = true
 forSale = false
 href = "#hello-dave"
 
-["segfault unplugged"]
-segfaultLogo = true
-background_img = "images/krakow.jpg"
-title = "unplugged"
-text = "Dyskutuj, podważaj, kwestionuj"
-description = "Interdyscyplinarne wydarzenia technologiczne dedykowane doświadczonym programistom, inżynierom, architektom i tech liderom."
-promoted = true
-forSale = false
+# ["segfault unplugged"]
+# segfaultLogo = true
+# background_img = "images/krakow.jpg"
+# title = "unplugged"
+# text = "Dyskutuj, podważaj, kwestionuj"
+# description = "Interdyscyplinarne wydarzenia technologiczne dedykowane doświadczonym programistom, inżynierom, architektom i tech liderom."
+# promoted = true
+# forSale = false
 # href = "#unplugged"
