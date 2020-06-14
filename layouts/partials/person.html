@@ -18,7 +18,7 @@
   {{ end }}
     <div class="avatar avatar--accent">
       <!-- must be a square -->
-      <img class="avatar__photo" src="images/{{ .person.photo }}" alt="{{ .person.name }}">
+      <img class="avatar__photo" src="/images/{{ .person.photo }}" alt="{{ .person.name }}">
     </div>
     <p class="font-bold text-accent text-center mb-2 mt-3">{{ .person.name }}</p>
     <p class="font-12 text-center mb-5 px-xl-4">{{ .person.desc | safeHTML }}</p>

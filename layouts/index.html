@@ -10,15 +10,11 @@
         </div>
         <div class="container">
           <h2 class="section__title text-white text-md-primary font-48 mt-4 el-animated">fundamenty.od/nowa.</h2>      
-          <div id="promoted-events" class="slider" data-slider>
-            <div class="slider__wrapper">
-              <div class="slider__container">
+          <div id="promoted-events">
+            <div class="row">
                 {{ range .Site.Data.promoted_content }}
                   {{ partial "promo-box.html" . }}
                 {{ end }}              
-              </div>
-            </div>
-            <div class="slider__buttons el-animated">
             </div>
           </div>
     

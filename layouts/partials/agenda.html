@@ -1,6 +1,6 @@
 <div class="agenda mb-80">
 
-    {{ $sessions := .Site.Data.sessions }}
+    {{ $sessions := index .Site.Data.sessions .Section }}
     {{ $agenda := .Params.agenda }}
 
     {{ range $dayIndex, $details := $agenda }}
