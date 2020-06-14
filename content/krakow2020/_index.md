@@ -10,8 +10,8 @@ dates:
     readable: 19-20 listopada 2020
     start: 2020-11-19
     end: 2020-11-20
-# tickets: 
-#     link: https://segfault-online.konfeo.com/
+tickets: 
+    link: https://segfault-krakow-2020.konfeo.com/
 conference:
     attendees: 400
     tracks: 2
