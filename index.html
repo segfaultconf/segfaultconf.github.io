@@ -14,7 +14,7 @@
     Segfault. Po prostu 
 </title>
 
-<link rel="stylesheet" href="/segfault-styles.061fa5a88595a22ee95390d5d544fab58db4c296f55be6e934ea802796819007.css">
+<link rel="stylesheet" href="/segfault-styles.a3c18745c9defedf37e4a6f10378d6cad792302037a043cd46cadf1b9978586c.css">
 
     </head>
 
@@ -45,6 +45,21 @@
                 <span></span>
             </button>
             <div id="siteMenuInside" class="menu__container" aria-labelledby="menuBtn">
+                <div class="dropdown order-3 order-md-1">
+                    
+                    
+                    <button class="dropdown__button button button--expandable button--link text-primary mt-2 mx-lg-2 pb-2">
+                        <span class="link">nadchodzące wydarzenia</span>
+                    </button>             
+                    <ul class="dropdown__list">                                
+                                                        
+                        <li class="dropdown__item"><a href="/masterclass-lato2020">online, 6-10 lipca 2020</a></li>
+                                                        
+                        <li class="dropdown__item"><a href="/krakow2020">Kraków, 19-20 listopada 2020</a></li>
+                        
+                    </ul>                                       
+                    
+                </div>                
                 
                 <ul class="menu-items text-center list-unstyled">
                     
@@ -52,14 +67,6 @@
                     <li><a href="#online">Webinary</a></li>
                     <li><a href="#hello-dave">Hello Dave</a></li>                        
                     <li><a href="#o-nas">O nas</a></li>
-                    <li>
-                        <div class="dropdown order-3 order-md-1">
-                            <button class="dropdown__button button button--link text-primary mt-2 mx-lg-2 pb-2">
-                                <span class="link"><a href="/masterclass-lato2020">Segfault Masterclass Lato 2020</a></span>
-                            </button>             
-                            
-                        </div>
-                    </li>
                 </ul>
                 
             </div>
@@ -78,8 +85,9 @@
         </div>
         <div class="container">
           <h2 class="section__title text-white text-md-primary font-48 mt-4 el-animated">fundamenty.od/nowa.</h2>      
-          <div id="promoted-events">
-            <div class="row">
+          <div id="promoted-events" class="slider slider--mobile-only" data-slider>
+            <div class="slider__wrapper">
+              <div class="slider__container">
                 
                   
   <article class="slider__slide event event--detailed fancy-border mx-auto">
@@ -213,6 +221,9 @@
   </article>
 
                               
+              </div>
+            </div>
+            <div class="slider__buttons">
             </div>
           </div>
     
@@ -244,6 +255,7 @@
         </div>
       </section>
 
+      
 
       <section id="hello-dave" class="section section--hello-dave">
         <div class="banner__wrapper bg-secondary">
@@ -727,7 +739,7 @@
 
 
     </main>
-    
+
     <footer class="footer bg-primary text-white">
 
   <div class="mb-3 mb-md-5">
@@ -763,6 +775,7 @@
         <div class="col-sm-6 el-animated">
           <h2 class="font-24 text-secondary">archiwum</h2>
           <ul class="list-unstyled mb-3">
+
                         
               <li><a class="text-white" href="/lodz2018">Łódź, 18 maja 2018</a></li>
                         

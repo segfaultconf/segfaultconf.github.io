@@ -4390,7 +4390,8 @@ a {
     transform: translateY(-6px);
     opacity: 0;
     transition: transform .15s ease-out;
-    pointer-events: none; }
+    pointer-events: none;
+    flex-direction: column; }
   .dropdown__item {
     border-bottom: 2px solid #fff;
     font-size: 10px;
