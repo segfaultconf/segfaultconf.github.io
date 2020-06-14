@@ -89,7 +89,7 @@
       <h2 class="section__title font-60 mt-4 el-animated">Prelegenci</h2>
       <div class="row">
 
-        {{ range $key, $session := .Site.Data.sessions }}
+        {{ range $key, $session := index .Site.Data.sessions .Section }}
             {{ range $speaker := $session.speakers }}
             <div class="col-12 col-sm-6 col-lg-5 pt-5 d-flex align-items-start el-animated">
                 <div>
