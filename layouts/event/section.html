@@ -2,7 +2,7 @@
 
 <section class="section section--event-header pb-5">
     <div class="section__background">
-      <img src="/images/header.jpg" alt="">
+      <img src="{{ .Params.details.heroImg | default "/images/header.jpg" }}" alt="">
       <!-- <video autoplay muted loop>
             <source src="images/unconference.mp4" type="video/mp4">
           </video> -->
@@ -14,11 +14,11 @@
         <div class="event__wrapper el-animated">
           <div class="event__content">
             <svg class="event__logo mb-3">
-              <use xlink:href="#svg-event-conference" />
+              <use xlink:href="#{{ .Params.details.logo | default "svg-event-conference" }}" />
             </svg>
             <div class="font-bold font-24">
               <p class="mb-1">{{ .Params.dates.readable }}</p>
-              <p>{{ .Params.city }}</p>
+              <p>{{if .Params.details.venue }}{{ .Params.details.venue }}, {{end}}{{ .Params.details.city }}</p>
             </div>
             <a href="#tickets" class="button button--accent">kup bilet</a>
           </div>
@@ -71,17 +71,6 @@
         {{ .Content }}
     </div>
     {{ end }}
-    <div class="container event-lead el-animated">
-        <div class="bg-white bg-gradient-horizontal fancy-border player player--single el-animated">
-            <div>
-                <div class="player__video-container">
-                <div class="player__video">
-                    <div id="player" data-yt-video-id="8zKuvyhKroQ"></div>
-                </div>
-                </div>
-            </div>
-        </div>         
-    </div>
   </section>
 
   <section class="section pt-0" id="speakers">
@@ -118,7 +107,7 @@
   <section class="banner banner--small">
     <div class="banner__wrapper bg-secondary">
       <div class="banner__background">
-        <img src="images/price-increase-background.jpg" alt="">
+        <img src="/images/price-increase-background.jpg" alt="">
         <div class="banner__gradient-overlay bg-gradient-vertical-secondary"></div>
       </div>
     </div>
@@ -168,6 +157,7 @@
     </div>
   </section>
 
+  {{ if .Params.tickets }}
   <section class="section" id="tickets">
     <div class="container">
       <h2 class="section__title font-60 mt-4 el-animated">Bilety</h2>
@@ -175,7 +165,7 @@
       <div class="slider slider--mobile-only" data-slider="mobile-only">
         <div class="slider__wrapper">
           <div class="slider__container">
-            <div class="container el-animated">
+            <div class="container">
               <iframe src="{{ .Params.tickets.link }}/pl/groups?iframe=1" frameborder="0"
                 width="100%"
                 scrolling="auto"
@@ -192,6 +182,7 @@
 
     </div>
   </section>  
+  {{ end }}
 
   <section class="section pt-0">
     <div class="container">
@@ -203,7 +194,7 @@
                 Symentis Events to grupa profesjonalistów z pasją, którzy od ponad 10 lat dostarczają wartość w obszarze rozwoju oprogramowania, architekturysystemów IT i rozwoju organizacji (R&D) poprzez organizację konferencji, warsztatów, szkoleń i usług konsultacyjnych.
                 <div class="row my-5">
                   <div class="col-7">
-                    <img src="images/symentis-events.png" alt="">
+                    <img src="/images/symentis-events.png" alt="">
                   </div>
                 </div>
             </li>
