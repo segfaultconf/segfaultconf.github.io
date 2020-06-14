@@ -4503,7 +4503,7 @@ a {
     background-color: #01758f;
     margin: 0 auto;
     text-align: center;
-    max-width: 330px;
+    max-width: 450px;
     height: 330px;
     color: #fff;
     padding: 50px; }
@@ -4552,11 +4552,14 @@ a {
   .event__logo {
     width: auto;
     height: 70px;
-    max-width: 100%; }
+    max-width: 100%;
+    fill: white; }
     .event__logo--primary {
       fill: #01758f; }
     .event__logo--fixed {
       width: 230px; }
+    .event__logo--white {
+      filter: brightness(400); }
   .event__text {
     min-height: 130px;
     font-size: 1.4em; }
