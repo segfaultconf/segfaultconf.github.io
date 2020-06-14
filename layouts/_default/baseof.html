@@ -17,8 +17,8 @@
         {{ .Content }}
     {{ end }}
     </main>
-    
-    {{ partial "footer.html" .Site.Data.conferences }}
+
+    {{ partial "footer.html" (dict "archive" (where .Site.Data.conferences.editions "forthcoming" false)) }}
     {{ partial "svg.html" }}
 
     {{ $main := resources.Get "js/main.js" -}}
