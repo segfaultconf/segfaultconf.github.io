@@ -58,7 +58,6 @@
         <div class="col-sm-6 el-animated">
           <h2 class="font-24 text-secondary">archiwum</h2>
           <ul class="list-unstyled mb-3">
-
             {{ range (sort .archive "dateSortable") }}            
               <li><a class="text-white" href="{{ .link }}">{{ .city }}, {{ .dateReadable -}}</a></li>
             {{ end }}

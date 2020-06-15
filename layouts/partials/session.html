@@ -1,0 +1,72 @@
+<section class="section section--2">
+    <div class="container">
+        <nav class="mb-5">
+            <ul class="breadcrumbs list-unstyled">
+                <li class="breadcrumbs__item"><a href="/">SegFault</a></li>
+                <li class="breadcrumbs__item"><a
+                        href="{{ $.CurrentSection.RelPermalink }}">{{ $.CurrentSection.Title }}</a></li>
+                <li class="breadcrumbs__item">{{ (.Scratch.Get "session").title }}</li>
+            </ul>
+        </nav>
+        <div class="row">
+            <div class="col-sm-7 col-md-8 pr-5">
+                {{ with (.Scratch.Get "session") }}
+                <h2 class="font-48 font-bold mb-4 el-animated">{{ .title }}</h2>
+                <div class="mb-4 el-animated">
+                    {{ .abstract | markdownify }}
+                </div>
+                {{ end }}
+            </div>
+            <div class="col-sm-5 col-md-2 el-animated">
+                <div class="row">
+                    {{ range (.Scratch.Get "session").speakers }}
+                    <div class="col-6 col-sm-12">
+                        <div class="avatar avatar--extra-large avatar--accent">
+                            <!-- must be a square -->
+                            <img class="avatar__photo"
+                                src="{{ $.CurrentSection.RelPermalink }}sessions/images/{{ .photo }}" alt="">
+                        </div>
+                        <p class="font-bold text-accent text-center mb-2 mt-3">{{ .name }}</p>
+                        {{ with .role }}
+                        <p class="font-12 text-center mb-5 px-xl-3">{{ . }}</p>
+                        {{ end }}
+                    </div>
+                    {{ end }}
+                </div>
+            </div>
+        </div>
+        {{ range (.Scratch.Get "session").speakers }}
+        <div class="row mt-4 col-12">
+            <div class="d-flex align-items-center el-animated">
+                <h2 class="font-48 font-bold text-accent mr-4">{{ .name }}</h2>
+                {{ with .linkedin }}
+                <a href="#"><span class="icon-linkedin font-36 mx-3 mx-md-2"></span></a>
+                {{ end }}
+                {{ with .twitter }}
+                <a href="#"><span class="icon-twitter-simple font-36 mx-3 mx-md-2"></span></a>
+                {{ end }}
+            </div>
+            <div>
+                {{ with .role }}
+                <p class="text-light font-18 el-animated">{{ . }}</p>
+                {{ end }}
+                <p class="mb-4 el-animated">
+                    {{ .bio | markdownify }}
+                </p>
+            </div>
+        </div>
+        {{ end }}
+        <div class="col-12 d-flex flex-column justify-content-end">
+            <p>
+                <a href="{{ $.CurrentSection.RelPermalink }}#speakers"
+                    class="link link--back text-accent font-bold el-animated"><span class="icon-arrow-back"></span>{{ $.CurrentSection.Title }}, wróć
+                    do prelegentów</a>
+            </p>
+            <p>
+                <a href="{{ $.CurrentSection.RelPermalink }}#agenda"
+                    class="link link--back text-accent font-bold el-animated"><span class="icon-arrow-back"></span>{{ $.CurrentSection.Title }}, wróć
+                    do agendy</a>
+            </p>
+        </div>
+    </div>
+</section>

@@ -3,9 +3,9 @@
 <meta name="viewport" content="height=device-height, width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no, target-densitydpi=device-dpi">
 <link rel="shortcut icon" href="/favicon.ico">
 <title>
-    {{ $titles := slice .Site.Title }}    
-    {{ if eq .Section "" }}{{ $titles = $titles | append "Po prostu"}}{{ else }}{{ $titles = $titles | append .CurrentSection.Title }}{{end}} 
-    {{ if (ne .CurrentSection.Title .Page.Title) }}{{ $titles = $titles | append .Page.Title }}{{end}}
+    {{ $titles := slice $.Site.Title }}    
+    {{ if eq $.Section "" }}{{ $titles = $titles | append "Po prostu"}}{{ else }}{{ $titles = $titles | append $.CurrentSection.Title }}{{end}} 
+    {{ if (ne $.CurrentSection.Title $.Page.Title) }}{{ $titles = slice $.Page.Title | append $titles }}{{end}}
     {{ range $i, $v := $titles }}{{- $v -}}{{ if (le $i (sub (len $titles) 2))}}.{{end}} {{ end }}
 </title>
 

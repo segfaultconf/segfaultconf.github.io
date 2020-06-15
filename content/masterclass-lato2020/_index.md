@@ -39,14 +39,4 @@ agenda:
 
 Obejrzyj nasze dotychczasowe materiały realizowane w ramach <a href="https://www.youtube.com/playlist?list=PLSx7O0TzhRJbPczoxwKr90_YdsWff1qmo">Segfault online</a>
 
-<div class="container event-lead el-animated">
-    <div class="bg-white bg-gradient-horizontal fancy-border player player--single el-animated">
-        <div>
-            <div class="player__video-container">
-            <div class="player__video">
-                <div id="player" data-yt-video-id="8zKuvyhKroQ"></div>
-            </div>
-            </div>
-        </div>
-    </div>         
-</div>
+{{< segfault/youtube 8zKuvyhKroQ >}}

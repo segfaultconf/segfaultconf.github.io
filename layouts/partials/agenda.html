@@ -48,7 +48,7 @@
                         {{ range $i, $p := $presentations }}
                         {{ $session := index $sessions $p }}
                         <div class="col-md-{{ div 12 (len $details.tracks) }} mb-4 mb-md-0">
-                            {{ if $session }}                        
+                            {{ if $session }}        
                                 <p class="font-bold font-22">
                                     <a href="#">{{ $session.title }}</a>
                                     {{ if $session.badge }}

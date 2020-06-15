@@ -77,29 +77,7 @@
     <div class="container">
       <h2 class="section__title font-60 mt-4 el-animated">Prelegenci</h2>
       <div class="row">
-
-        {{ range $key, $session := index .Site.Data.sessions .Section }}
-            {{ range $speaker := $session.speakers }}
-            <div class="col-12 col-sm-6 col-lg-5 pt-5 d-flex align-items-start el-animated">
-                <div>
-                    <a href="/#">
-                    <div class="avatar avatar--secondary avatar--large">
-                        <!-- must be a square -->
-                        <img class="avatar__photo" src="speakers/images/{{ $speaker.photo }}" alt="">
-                    </div>
-                    </a>
-                </div>
-                <div class="pl-3">
-                    <h3 class="font-22 font-bold size-animation"><a href="/#">{{ $speaker.name }}</a></h3>
-                    <ul class="list">
-                    <li class="list__item list__item--small text-secondary">
-                        <a class="size-animation" href="#">{{ $session.title }}</a>
-                    </li>
-                    </ul>
-                </div>
-            </div> 
-            {{ end }}       
-        {{ end }}
+        {{ partial "speakers.html" . }}
       </div>
     </div>
   </section>  
