@@ -144,12 +144,10 @@
         <div class="slider__wrapper">
           <div class="slider__container">
             <div class="container">
-              <iframe src="{{ .Params.tickets.link }}/pl/groups?iframe=1" frameborder="0"
-                width="100%"
-                scrolling="auto"
-                style="min-height: 100px">
-              </iframe>
-              <script type="text/javascript" src="{{ .Params.tickets.link }}/iframeResizer.min.js"></script>
+              <style>iframe { width: 1px; min-width: 100%; }</style>
+              <iframe src="{{ .Params.tickets.link }}/pl/groups?iframe=2"
+              id="iframe31152" onload="iFrameResize({}, '#iframe31152')" frameborder="0"></iframe>
+              <script type="text/javascript" src="{{ .Params.tickets.link }}/iframeResizer-4.min.js"></script>
             </div>
             <!-- @@loop("./includes/ticket.html", "./mock-data/tickets.json") -->
           </div>
