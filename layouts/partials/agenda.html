@@ -50,7 +50,8 @@
                         <div class="col-md-{{ div 12 (len $details.tracks) }} mb-4 mb-md-0">
                             {{ if $session }}        
                                 <p class="font-bold font-22">
-                                    <a href="#">{{ $session.title }}</a>
+                                    {{ $link := index ($.Scratch.Get "speaker_pages") $session.title }}
+                                    <a href="{{ $link }}">{{ $session.title }}</a>
                                     {{ if $session.badge }}
                                     <span class="badge badge--circle badge--secondary">D</span>
                                     {{ end }}
