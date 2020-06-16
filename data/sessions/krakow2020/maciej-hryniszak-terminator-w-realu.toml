@@ -1,0 +1,14 @@
+title = "Terminator w realu"
+abstract = "to be continued..."
+
+[links]
+# youtube = "3zOv3kFWnYc"
+
+[opengraph]
+# fb = "adam_dudczak-og.png"
+# twitter = "adam_dudczak-og-sq.png"
+
+[[speakers]]
+name = "Maciej Hryniszak"
+bio = "Maciej Hryniszak to programista z ponad 20-letnim doświadczeniem. Propaguje ideę tworzenia dobrego oprogramowania i czystego kodu. W wolnych chwilach tworzy oprogramowanie OpenSource."
+photo = "maciej_hryniszak.jpg"
