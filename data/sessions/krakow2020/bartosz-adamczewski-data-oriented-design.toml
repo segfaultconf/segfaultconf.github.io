@@ -1,0 +1,14 @@
+title = "Data Oriented Design"
+abstract = "Reguły Projektowania zorientowanego na dane stoją w bezpośrednim konflikcie z regułami Projektowania Obiektowego. Projektowanie Obiektowe koncentruje się na modelowaniu świata używając obiektów, natomiast Projektowania Zorientowane na Dane skupia się wyłącznie na danych oraz algorytmach, które manipulują tymi danymi, gdzie zależności, ułożenie oraz wzorce dostępu do danych są najważniejsze.To z kolei może doprowadzić do bardzo dużego wzrostu wydajności jeśli zastosujemy Projektowanie Zorientowane na Dane poprawnie.Ta prelekcja jest wstępem do Projektowania oraz Programowania zorientowanego na dane gdzie pokaże jak używać tego typu podejścia w aplikacjach biznesowych."
+
+[links]
+# youtube = "3zOv3kFWnYc"
+
+[opengraph]
+# fb = "adam_dudczak-og.png"
+# twitter = "adam_dudczak-og-sq.png"
+
+[[speakers]]
+name = "Bartosz Adamczewski"
+bio = "Programista z zawodu i zamiłowania. Konsultant i mentor w Bottega IT Minds. Speaker, autor bloga bartslota.blogspot.com. Zdobywał doświadczenie w branżach takich jak opieka zdrowotna, telekomunikacja, marketing, finanse, energetyka, pracując w firmach liczących od kilkudziesięciu do kilku tysięcy pracowników. Pasjonat OOP, Domain Driven Design, software craftsmanship, mikrousług i szeroko pojętej architektury systemów i aplikacji. Entuzjasta warsztatów Event Storming’u. W życiu prywatnym mąż i tata. W wolnych chwilach słucha ciężkiej muzyki, gra na gitarze, wędkuje, albo przemierza bezkresne szlaki Bieszczadów."
+photo = "bartosz_adamczewski.jpg"
