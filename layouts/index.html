@@ -2,14 +2,39 @@
 
       <section class="section section--promoted">
         <div class="section__background">
-          <img src="images/header.jpg" alt="">
-          <!-- <video autoplay muted loop>
+          {{/*  <img src="images/header.jpg" alt="">  */}}
+          <video autoplay muted loop>
             <source src="images/unconference.mp4" type="video/mp4">
-          </video> -->
+          </video>
           <div class="section__gradient-overlay bg-gradient-vertical-white-primary"></div>
         </div>
         <div class="container">
           <h2 class="section__title text-white text-md-primary font-48 mt-4 el-animated">fundamenty.od/nowa.</h2>      
+          <div id="promoted-conferences" class="slider slider--mobile-only" data-slider>
+            <div class="slider__wrapper">
+              <div class="slider__container">
+                {{ range (where .Site.Data.conferences.editions "forthcoming" true) }}
+                  {{ partial "promo-box-conference.html" ($.Site.GetPage .link) }}
+                {{ end }}              
+              </div>
+            </div>
+            <div class="slider__buttons">
+            </div>
+          </div>
+    
+          <div class="font-bold font-24 el-animated">
+            {{ .Param "lead.events" | markdownify }}
+          </div>          
+        </div>
+      </section>
+
+      <section class="section section--promoted">
+        <div class="section__background">
+          <img src="images/header.jpg" alt="">
+          <div class="section__gradient-overlay bg-gradient-vertical-white-primary"></div>
+        </div>
+        <div class="container">
+          <h2 class="section__title text-white text-md-primary font-48 mt-4 el-animated">Nie tylko konferencje</h2>      
           <div id="promoted-events" class="slider slider--mobile-only" data-slider>
             <div class="slider__wrapper">
               <div class="slider__container">
@@ -23,21 +48,10 @@
           </div>
     
           <div class="font-bold font-24 el-animated">
-            {{ .Param "lead.events" | markdownify }}
-          </div>
-          {{ partial "text-accordion.html" (dict "id" "accordionIntro" "textClass" "font-bold font-24" "text" (.Param "lead.company") ) }}
-          
+            {{ .Param "lead.company" | markdownify }}
+          </div>          
         </div>
       </section>
-
-      {{/* .SiteGetPage to be replaced with .getJSON from a separate project*/}} 
-      {{/* Forthcoming conferences promo box
-      {{ $Site := .Site }}
-      {{ range (sort (where .Site.Data.conferences.editions "forthcoming" true) "dateSortable") }}                                
-      {{ $Site.GetPage .link }}
-      <li class="dropdown__item"><a href="{{ .link }}">{{ .city }}, {{ .dateReadable -}}</a></li>
-      {{ end }}
-      */}}
 
       <section id="hello-dave" class="section section--hello-dave">
         <div class="banner__wrapper bg-secondary">

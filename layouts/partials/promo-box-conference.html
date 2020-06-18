@@ -1,0 +1,43 @@
+<article class="slider__slide event event--detailed fancy-border mx-auto">
+  <div class="event__wrapper">
+
+    {{ if .Params.details.heroImg }}
+    <div style="background-image: url('{{.RelPermalink}}{{ .Params.details.heroImg }}')" class="event__image"></div>
+    {{ end }}
+
+    <div class="event__gradient-overlay bg-gradient-horizontal"></div>
+
+    <div class="event__content">
+
+      {{ if .Params.details.logo }}
+      <div class="el-animated">
+        <svg class="event__logo event__logo--white">
+          <use xlink:href="#{{ .Params.details.logo }}" />
+        </svg>
+      </div>
+      {{ end }}
+
+      {{ if (and (not .Params.details.logo) .Params.title)  }}
+      <div class="el-animated">
+        <svg class="event__logo event__logo--white">
+          <use xlink:href="#svg-segfault-logo" />
+        </svg>
+        <h2 class="el-animated text-white">{{ .Params.title}} </h2>
+      </div>        
+      {{ end }}      
+
+      <div class="text-white el-animated">
+        <p>{{ .Params.dates.readable }}</p>
+      </div>
+
+      <div class="el-animated">
+        <a href="{{ .RelPermalink }}#tickets" class="button button--accent">kup bilet</a>
+      </div>
+
+      <div class="py-3 text-right el-animated">
+        <a href="{{ .RelPermalink }}" class="link link--forward text-white font-bold">więcej<span class="icon-arrow"></span></a>
+      </div>  
+    </div>
+  </div>
+
+</article>
