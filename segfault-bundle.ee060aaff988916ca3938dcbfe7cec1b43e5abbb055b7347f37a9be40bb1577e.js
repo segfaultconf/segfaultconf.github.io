@@ -349,7 +349,7 @@
       const isFullWidth = () => isMobile || slider.dataset.slider === 'full-width';
       const slideWidth = isFullWidth() ? wrapper.offsetWidth : slides[0].firstElementChild.offsetWidth;
       container.style.width = isFullWidth() ? 
-            slideWidth * slides.length + 'px' : 1.25 * slideWidth * slides.length + 'px';
+            slideWidth * slides.length + 'px' : 1.25 * slideWidth * (slides.length < 3 ? 3 : slides.length) + 'px';
       wrapper.style.height = slides[0].firstElementChild.offsetHeight + 'px';        
       return slideWidth;
     }
