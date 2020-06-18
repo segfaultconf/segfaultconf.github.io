@@ -15,7 +15,7 @@
             </a>            
             {{ if .CurrentSection.Title }}
             <p class="font-18 text-secondary ml-3 mb-2 d-none d-md-block">
-                {{ .CurrentSection.Title }}
+                <a href="{{ .CurrentSection.RelPermalink }}">{{ .CurrentSection.Title }}</a>
             </p>
             {{ end }}
         </div>

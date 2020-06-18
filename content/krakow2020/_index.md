@@ -36,4 +36,4 @@ agenda:
 
 ---
 
-## SegFault Unconference - inspiracje, których szukasz!
+## Segfault Unconference - inspiracje, których szukasz!
