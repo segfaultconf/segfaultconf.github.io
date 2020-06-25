@@ -1,0 +1,14 @@
+title = "Na szynach internetu"
+abstract = "Kiedy, rozbijając monolity i projektując nieskończenie skalowalne wzdłuż i wszerz mikro-aplikacje, ostatnio zastanowiłeś się nad tym jak będą się one komunikować? Sto lat przed pamiętnym „LO” ARPANETu, Leland Stanford przybił ostatni gwóźdź Pierwszej Kolei Transkontynentalnej. Poprzez łącza telegrafu po Stanach Zjednoczonych popłynęła wiadomość – DONE –zrobione, redakcje gazet eksplodowały a inżynierowie westchnęli i wzięli się do roboty wzmacniając mosty i odcinki szyn które położono zbyt szybko, gdzie ktoś powiedział „wytrzyma na pierwsze dwa miesiące, lecimy dalej bo czasu mało”.Jeżeli te słowa brzmią znajomo, zapraszam – na tej prezentacji spojrzymy nieco dokładniej na kwestię komunikacji pomiędzy aplikacjami. Od ładunku w postaci JSONowej mielonki opakowanej w HTTP przez ogrom informacji nadawczo-odbiorczych aż do świata lokalnych połączeń w serwerowniach, potężnych światłowodów transatlantyckich i skromnych wiejskich skrętek dwużyłowych. Kto wie – może gdzieś po drodze zobaczymy kawałek torów spajających świat, z tabliczką „jutro to poprawię” niechlujnie przybitą czterdzieści lat temu..."
+
+[links]
+# youtube = "3zOv3kFWnYc"
+
+[opengraph]
+# fb = "adam_dudczak-og.png"
+# twitter = "adam_dudczak-og-sq.png"
+
+[[speakers]]
+name = "Błażej Kasperczyk"
+bio = "Często określany jako „idealista” lub „perfekcjonista”, Błażej preferuje zanaleźć sposób na optymalizację działania narzędzia zanim przystąpi do zasypywania problemu sprzętem. Jego kariera w IT nie posiada jednolitego trendu – od noszenia i wpinania Cat5 dla IBMa i potajemnego pisania stron internetowych w PHP do czego się nie przyznaje, po pracę nad automatyką i monitoringiem w środowiskach chmurowych dla DreamLaba i Saby."
+photo = "blazej_kasperczyk.jpg"
