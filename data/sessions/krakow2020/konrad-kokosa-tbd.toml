@@ -1,0 +1,14 @@
+title = "TBD"
+abstract = "TBD"
+
+[links]
+# youtube = "3zOv3kFWnYc"
+
+[opengraph]
+# fb = "adam_dudczak-og.png"
+# twitter = "adam_dudczak-og-sq.png"
+
+[[speakers]]
+name = "Konrad Kokosa"
+bio = "Autor książki Pro .NET Memory Management. Współzałożyciel inicjatywy Dotnetos propagującej wiedzę nt. .NET w różnej formie, m.in. konferencji i kursów. Niezależny konsultant, bloger, prelegent i ćwierkacz (@konradkokosa). Swoją pasją dzieli się również jako trener w obszarze .NET, m.in. wydajności i diagnostyki aplikacji. Microsoft MVP w kategorii Visual Studio and Development Tools."
+photo = "konrad_kokosa.jpg"
