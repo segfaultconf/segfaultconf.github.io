@@ -11,3 +11,9 @@
 
 {{ $style := resources.Get "sass/main.sass" | resources.ToCSS (dict "targetPath" "segfault-styles.css" "enableSourceMap" true) | fingerprint -}}
 <link rel="stylesheet" href="{{ $style.RelPermalink }}">
+
+{{ if not .Site.IsServer }}
+{{ partial "socials/google_adwords.html" . }}
+{{ partial "socials/google_analytics.html" . }}
+{{ partial "socials/facebook_pixel.html" . }}
+{{ end }}

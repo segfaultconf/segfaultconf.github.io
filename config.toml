@@ -4,3 +4,10 @@ title = "Segfault"
 staticDir = ["segfault-static"]
 disableKinds = ["RSS", "taxonomyTerm"]
 
+ignorefiles = [ "automation/.*" ]
+enableRobotsTXT = true
+
+[params]
+facebookPixel = 2039077633048325
+googleAdWords = "AW-868075068"
+googleAnalytics = "UA-113528014-1"
