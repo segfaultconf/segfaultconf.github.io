@@ -1,0 +1,11 @@
+{{ $w := cond (ge (len .) 3) 100 150 }}
+{{ $h := cond (ge (len .) 3) 200 300 }}
+{{ range . }}
+  {{ if .Params.url }}
+    <a href="{{ .Params.url }}">
+  {{ end }}
+    <img style="max-height: {{ $w }}px; max-width: {{ $h }}px;" class="m-4" src="partners/{{ . }}" alt="">
+  {{ if .Params.url }}
+  </a>
+  {{ end }}
+{{ end }}

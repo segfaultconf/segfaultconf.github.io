@@ -152,6 +152,7 @@
   </section>  
   {{ end }}
 
+  {{ with .Site.GetPage (printf "%s%s" .Dir "partners") }}
   <section class="section" id="partners">
     <div class="container">
       <div class="row">
@@ -160,21 +161,31 @@
         </div>
       </div>
 
-      <div class="text-center mt-5">
-        <h3 class="text-accent font-bold font-36 border--bottom pb-3 mb-5 el-animated">Partnerzy merytoryczni</h3>
-        <h4 class="font-bold font-22 el-animated">Principal</h4>
-        <img class="mt-4 mb-5 el-animated" src="images/partner-1.png" alt="">
-        <h4 class="font-bold font-22 el-animated">Architect</h4>
-        <img class="mt-4 mb-5 el-animated" src="images/partner-2.png" alt="">
-        <img class="mt-4 mb-5 ml-5 el-animated" src="images/partner-3.png" alt="">
+      <div class="text-center mt-5 el-animated">
+        {{ with (.Resources.Match (printf "%s/*" "principal")) }}
+        <h3 class="text-accent font-bold font-36 border--bottom pb-3 mb-5">Partner principal</h3>
+          {{ partial "partners.html" . }}
+        {{ end }}
+
+        {{ with (.Resources.Match (printf "%s/*" "architect")) }}
+        <h4 class="font-bold font-22">Architect</h4>
+          {{ partial "partners.html" . }}
+        {{ end }}
+
+        {{ with (.Resources.Match (printf "%s/*" "senior")) }}
         <h4 class="font-bold font-22 el-animated">Senior</h4>
-        <img class="mt-4 mb-5 el-animated" src="images/partner-4.png" alt="">
-        <h3 class="text-accent font-bold font-36 border--bottom pb-3 mb-5 el-animated">Partnerzy technologiczni</h3>
-        <img class="mt-4 mb-5 el-animated" src="images/partner-5.png" alt="">
-        <h3 class="text-accent font-bold font-36 border--bottom pb-3 mb-5 el-animated">Partnerzy medialni</h3>
-        <img class="mt-4 mb-5 el-animated" src="images/partner-6.png" alt="">
-        <h3 class="text-accent font-bold font-36 border--bottom pb-3 mb-5 el-animated">Partnerzy medialni</h3>
-        <img class="mt-4 mb-5 el-animated" src="images/partners.png" alt="">
+          {{ partial "partners.html" . }}
+        {{ end }}
+
+        {{ with (.Resources.Match (printf "%s/*" "technology")) }}
+          <h3 class="text-accent font-bold font-36 border--bottom pb-3 mb-5">Partnerzy technologiczni</h3>
+          {{ partial "partners.html" . }}
+        {{ end }}
+
+        {{ with (.Resources.Match (printf "%s/*" "media")) }}
+        <h3 class="text-accent font-bold font-36 border--bottom pb-3 mb-5">Partnerzy medialni</h3>
+          {{ partial "partners.html" . }}
+        {{ end }}
       </div>
 
       <div class="row">
@@ -187,6 +198,7 @@
 
     </div>
   </section>
+  {{end}}
 
   <section class="banner">
     <div class="banner__wrapper bg-secondary">
