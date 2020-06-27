@@ -27,11 +27,6 @@ segfault.features:
     - title: "Kameralność"
       text: "Jesteśmy otwarci na kameralną atmosferę i ekskluzywne tematy. Dlatego uczestnicząc w Segfault masz dostęp do świeżych talków, często przygotowywanych specjalnie dla nas."
       textMore: "Na konferencji spotkasz, rzemieślników w swoim fachu, którzy potrafią wyjść poza ramy swojej domeny, autorów poczytnych blogów czy szkoleń. Zapewniamy przestrzeń, by móc porozmawiać z nimi bezpośrednio."    
-partners:
-  title: Zostań partnerem
-  content:
-    - "pokaż potencjał swojej firmy, wśród doświadczonych specjalistów IT"
-    - "postaw na networking i employer branding"  
 values:
   title: O czym mówimy
   content:

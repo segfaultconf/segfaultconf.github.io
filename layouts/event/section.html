@@ -152,7 +152,76 @@
   </section>  
   {{ end }}
 
-  <section class="section pt-0">
+  <section class="section" id="partners">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-8 pr-md-5">
+          <h2 class="section__title font-48 mb-5 el-animated">Partnerzy</h2>
+        </div>
+      </div>
+
+      <div class="text-center mt-5">
+        <h3 class="text-accent font-bold font-36 border--bottom pb-3 mb-5 el-animated">Partnerzy merytoryczni</h3>
+        <h4 class="font-bold font-22 el-animated">Principal</h4>
+        <img class="mt-4 mb-5 el-animated" src="images/partner-1.png" alt="">
+        <h4 class="font-bold font-22 el-animated">Architect</h4>
+        <img class="mt-4 mb-5 el-animated" src="images/partner-2.png" alt="">
+        <img class="mt-4 mb-5 ml-5 el-animated" src="images/partner-3.png" alt="">
+        <h4 class="font-bold font-22 el-animated">Senior</h4>
+        <img class="mt-4 mb-5 el-animated" src="images/partner-4.png" alt="">
+        <h3 class="text-accent font-bold font-36 border--bottom pb-3 mb-5 el-animated">Partnerzy technologiczni</h3>
+        <img class="mt-4 mb-5 el-animated" src="images/partner-5.png" alt="">
+        <h3 class="text-accent font-bold font-36 border--bottom pb-3 mb-5 el-animated">Partnerzy medialni</h3>
+        <img class="mt-4 mb-5 el-animated" src="images/partner-6.png" alt="">
+        <h3 class="text-accent font-bold font-36 border--bottom pb-3 mb-5 el-animated">Partnerzy medialni</h3>
+        <img class="mt-4 mb-5 el-animated" src="images/partners.png" alt="">
+      </div>
+
+      <div class="row">
+        <div class="list__item list__item--accent el-animated">
+          {{ range .Site.Data.partners.pitch }}
+            <p>{{.}}</p>
+          {{ end }}
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <section class="banner">
+    <div class="banner__wrapper bg-secondary">
+      <div class="banner__background">
+        <img src="images/background-partners.jpg" alt="">
+        <div class="banner__gradient-overlay bg-gradient-vertical-secondary"></div>
+      </div>
+    </div>
+    <div class="container">
+      <h2 class="banner__title font-48 mb-5 text-white text-md-primary el-animated">{{ .Site.Data.partners.title }}</h2>
+      <div class="boxed boxed--secondary">
+        <div class="row">
+          <div class="col-md-8">
+            <ul class="list font-24 font-bold text-white">
+              {{ range .Site.Data.partners.content }}
+                <li class="list__item el-animated">{{ . }}</li>
+              {{ end }}
+            </ul>
+            <!-- <div class="el-animated">
+              <a href="#" class="button button--outline-white mt-4 ml-md-100">pobierz ofertę</a>
+            </div> -->
+          </div>
+          <div class="col-md-4">
+            <div class="row text-white">
+              {{ range .Site.Data.team.sales }}
+              {{ partial "person.html"  (dict "sales" true "person" .) }}
+              {{ end }}
+            </div>
+          </div>  
+        </div>
+      </div>
+    </div>
+  </section>  
+
+  <section class="section pt-5">
     <div class="container">
       <div class="row">
         <div class="col-md-8 pr-md-5">

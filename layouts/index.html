@@ -218,12 +218,12 @@
           </div>
         </div>
         <div class="container">
-          <h2 class="banner__title font-48 mb-5 text-white text-md-primary el-animated">{{ .Param "partners.title" }}</h2>
+          <h2 class="banner__title font-48 mb-5 text-white text-md-primary el-animated">{{ .Site.Data.partners.title }}</h2>
           <div class="boxed boxed--secondary">
             <div class="row">
               <div class="col-md-8">
                 <ul class="list font-24 font-bold text-white">
-                  {{ range (.Param "partners.content") }}
+                  {{ range .Site.Data.partners.content }}
                     <li class="list__item el-animated">{{ . }}</li>
                   {{ end }}
                 </ul>
