@@ -1,6 +1,6 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://segfault.events//sitemap.xml
+Sitemap: https://segfaultconf.github.io//sitemap.xml
 
 # https://support.google.com/webmasters/answer/75712?hl=en
