@@ -1,0 +1,12 @@
+{{- .Scratch.Set "image" (path.Join "images" "social" .Site.Params.social.opengraph.fb) }}
+{{- if isset .Page.Params "social.opengraph.fb" }}
+    {{- .Scratch.Set "image" (path.Join "images" "social" (.Page.Param "social.opengraph.fb")) }}
+{{- end }}
+{{- if .Params.social.opengraph.fb }}
+    {{- .Scratch.Set "image" (path.Join "images" "social" .Params.social.opengraph.fb) }}
+{{- end }}
+{{- if .Scratch.Get "session" }}
+    {{- .Scratch.Set "image" (path.Join .CurrentSection.RelPermalink "sessions" "images" (.Scratch.Get "session").opengraph.fb) }}
+{{- end }}
+{{- .Site.BaseURL -}}{{- .Scratch.Get "image" -}}
+{{- .Scratch.Delete "image" -}}

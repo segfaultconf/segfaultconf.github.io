@@ -11,3 +11,10 @@ enableRobotsTXT = true
 facebookPixel = 2039077633048325
 googleAdWords = "AW-868075068"
 googleAnalytics = "UA-113528014-1"
+
+[params.social]
+description = "Segfault to wydarzenia technologiczne online i offline, webinary i podcasty oraz szkolenia i warsztaty dedykowane doświadczonym programistom inżynierom, architektom i tech liderom."
+
+[params.social.opengraph]
+fb = ""
+twitter = ""

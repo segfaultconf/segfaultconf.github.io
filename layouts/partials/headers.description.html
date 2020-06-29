@@ -1,0 +1,12 @@
+{{- .Scratch.Set "description" .Site.Params.social.description }}
+{{- if isset .Page.Params "social.description" }}
+    {{- .Scratch.Set "description" (.Page.Param "social.description") }}
+{{- end }}
+{{- if .Params.social.description }}
+    {{- .Scratch.Set "description" .Params.social.description }}
+{{- end }}
+{{- if .Scratch.Get "session" }}
+    {{- .Scratch.Set "description" (replace (.Scratch.Get "session").abstract "\n" "") }}
+{{- end }}
+{{- .Scratch.Get "description" -}}
+{{- .Scratch.Delete "description" -}}

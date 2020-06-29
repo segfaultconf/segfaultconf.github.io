@@ -3,9 +3,9 @@ abstract = """Technika Event Storming zdobywa ostatnio dużą popularność.
 
 Podchodząc jednak do modelowania aplikacji jest coś więcej. Nie tylko postit’ami żyje warsztat.
 
-To ludzie, cel, psychologia i wiele innych powiązanych i pomocnych metod.
+To ludzie, cel, psychologia i wiele innych powiązanych i pomocnych metod."""
 
-W trakcie prezentacji chcę przedstawić kilka porad i wniosków odpowiadając na pytania:
+full_description = """W trakcie prezentacji chcę przedstawić kilka porad i wniosków odpowiadając na pytania:
 
 * Jak wyznaczyć cel?
 * Jak prowadzić warsztat?
@@ -19,11 +19,12 @@ W trakcie prezentacji chcę przedstawić kilka porad i wniosków odpowiadając n
 """
 
 [links]
+teaser = "G40QBcVTZDA"
 # youtube = "3zOv3kFWnYc"
 
 [opengraph]
-# fb = "adam_dudczak-og.png"
-# twitter = "adam_dudczak-og-sq.png"
+fb = "krzysztof_owsiany-og.png"
+twitter = "krzysztof_owsiany-og-sq.png"
 
 [[speakers]]
 name = "Krzysztof Owsiany"

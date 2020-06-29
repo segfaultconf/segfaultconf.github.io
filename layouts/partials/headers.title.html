@@ -1,0 +1,5 @@
+{{- $titles := slice $.Site.Title }}    
+{{- if eq $.Section "" }}{{ $titles = $titles | append "Po prostu"}}{{ else }}{{ $titles = $titles | append $.CurrentSection.Title }}{{end}} 
+{{- if (ne $.CurrentSection.Title $.Page.Title) }}{{ $titles = slice $.Page.Title | append $titles }}{{end}}
+{{- if .Scratch.Get "session" }}{{ $titles = slice (.Scratch.Get "session").title | append $titles }}{{ end }}
+{{- range $i, $v := $titles }}{{- $v -}}{{ if (le $i (sub (len $titles) 2))}}.{{end}} {{ end -}}

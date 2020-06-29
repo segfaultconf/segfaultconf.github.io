@@ -2,7 +2,7 @@
 <html lang="PL-pl">
 
     <head>
-        {{ partial "headers.html" . }}
+        {{ partial "header.html" . }}
     </head>
 
     <body>
@@ -13,7 +13,7 @@
     {{ partial "navigation.html" . }}
 
     <main>
-      {{ partial "session.html" . }}
+      {{ partial "session.html" . }}      
     </main>
 
     {{ partial "footer.html" (dict "archive" (where .Site.Data.conferences.editions "forthcoming" false)) }}

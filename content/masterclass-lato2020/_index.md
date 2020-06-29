@@ -1,6 +1,11 @@
 ---
 type: event
 title: Masterclass Lato 2020
+social:
+    description: 6-10 lipca 2020. Esencja doświadczenia od praktyków IT na wyciągnięcie ręki.
+    opengraph:
+        twitter: masterclass-sq.png
+        fb: masterclass.png    
 dates: 
     readable: 06-10 lipca 2020
     start: 2020-07-06

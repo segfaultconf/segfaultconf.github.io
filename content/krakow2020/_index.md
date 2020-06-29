@@ -1,6 +1,11 @@
 ---
 title: Unconference 2020
 type: event
+social:
+    description: 19-20 listopada 2020 w Krakowie. Najbardziej nie-konferencja której szukasz
+    opengraph:
+        twitter: conference-sq.png
+        fb: conference.png     
 details:
     city: Kraków
     venue: Hotel Metropolo

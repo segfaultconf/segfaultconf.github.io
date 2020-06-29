@@ -1,5 +1,4 @@
 ---
-social.description: Segfault to wydarzenia technologiczne online i offline, webinary i podcasty oraz szkolenia i warsztaty dedykowane doświadczonym programistom inżynierom, architektom i tech liderom.
 lead.events: |
     Segfault fundamenty. od/nowa to interdyscyplinarna przestrzeń dla twórców technologii i pasjonatów programowania.
     

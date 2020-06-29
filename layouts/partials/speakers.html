@@ -5,7 +5,8 @@
     <!-- this generates session pages --> 
     {{ $filePath := printf "%ssessions/%s_%s.html" $.CurrentSection.RelPermalink ((index $session.speakers 0).name | replaceRE "[ęóąśłżźćń]" "" | urlize) ($session.title | replaceRE "[ęóąśłżźćń]" "" | urlize) }}
     {{ $this.Scratch.Set "session" $session }}
-    {{ $speaker_page := resources.Get "session.tpl.html" | resources.ExecuteAsTemplate $filePath $this }}   
+    {{ $speaker_page := resources.Get "session.tpl.html" | resources.ExecuteAsTemplate $filePath $this }}    
+    {{ .Scratch.Delete "session" }}
     {{ $this.Scratch.SetInMap "speaker_pages" $session.title $speaker_page.RelPermalink }}
 
     <div class="col-12 col-sm-6 col-lg-5 pt-5 d-flex align-items-start el-animated">
@@ -17,11 +18,11 @@
             </div>
             </a>
         </div>
-        <div class="pl-3">
-            <h3 class="font-22 font-bold size-animation"><a href="{{ $speaker_page.RelPermalink }}">{{ $speaker.name }}</a></h3>
+        <div class="pl-3">            
+            <h3 class="font-22 font-bold size-animation"><a href="{{ index ($.Scratch.Get "speaker_pages") $session.title }}">{{ $speaker.name }}</a></h3>
             <ul class="list">
             <li class="list__item list__item--small text-secondary">
-                <a class="size-animation" href="{{ $speaker_page.RelPermalink }}">{{ $session.title }}</a>
+                <a class="size-animation" href="{{ index ($.Scratch.Get "speaker_pages") $session.title }}">{{ $session.title }}</a>
             </li>
             </ul>
         </div>

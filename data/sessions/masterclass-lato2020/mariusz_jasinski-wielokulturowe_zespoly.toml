@@ -1,7 +1,7 @@
 title = "Praca w wielokulturowych zespołach"
-abstract = """Praca w międzynarodowym środowisku to praktycznie standard w obecnych czasach. Posiadanie w zespole dużego zróżnicowania ze względu na płeć, pochodzenie czy właśnie kulturę to bardzo duży zasób i atut. Niestety bardzo mało mówi się o tym, że różnice kulturowe bardzo mocno wpływają na to: jak pracujemy, rozwiązujemy konflikty czy nawet podchodzimy do relacji prywatnych w pracy. To generuje szereg wyzwań, z którymi nie zawsze jesteśmy w stanie poradzić sobie sami. Budowanie świadomości różnic kulturowych jest kluczowym aspektem efektywnej współpracy w międzynarodowych zespołach. Celem prezentacji jest zbudowanie tej świadomości i zachęcenie do zgłębienia tematu.
+abstract = """Praca w międzynarodowym środowisku to praktycznie standard w obecnych czasach. Posiadanie w zespole dużego zróżnicowania ze względu na płeć, pochodzenie czy właśnie kulturę to bardzo duży zasób i atut. Niestety bardzo mało mówi się o tym, że różnice kulturowe bardzo mocno wpływają na to: jak pracujemy, rozwiązujemy konflikty czy nawet podchodzimy do relacji prywatnych w pracy. To generuje szereg wyzwań, z którymi nie zawsze jesteśmy w stanie poradzić sobie sami. Budowanie świadomości różnic kulturowych jest kluczowym aspektem efektywnej współpracy w międzynarodowych zespołach. Celem prezentacji jest zbudowanie tej świadomości i zachęcenie do zgłębienia tematu."""
 
-Podczas prelekcji odpowiemy sobie między innymi na kilka pytań:
+full_description = """Podczas prelekcji odpowiemy sobie między innymi na kilka pytań:
 
 * Dlaczego Polacy tak bardzo lubią zasady i dlaczego praca np. z Amerykanami może generować dodatkowe wyzwania
 * Dlaczego Niemcy nazywani są “naoliwioną maszyną” i co to oznacza w kontekście codziennej współpracy.
@@ -13,8 +13,8 @@ Oczywiście oprócz niezbędnej dawki wiedzy teoretycznej, przytoczymy i porozma
 # youtube = "3zOv3kFWnYc"
 
 [opengraph]
-# fb = "adam_dudczak-og.png"
-# twitter = "adam_dudczak-og-sq.png"
+fb = "mariusz_jasinski-og.png"
+twitter = "mariusz_jasinski-og-sq.png"
 
 [[speakers]]
 name = "Mariusz Jasinski"

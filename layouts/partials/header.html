@@ -1,0 +1,37 @@
+{{ $title := partial "headers.title.html" . }}
+{{ $description := partial "headers.description.html" . }}
+
+<meta charset="utf-8">
+<meta name="viewport" content="height=device-height, width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no, target-densitydpi=device-dpi">
+<link rel="shortcut icon" href="/favicon.ico">
+<title>    
+    {{ $title }}
+</title>
+
+<meta name="author" content="Segfault Events">
+<meta name="description" content="{{ $description }}">
+<meta name="keywords" content="Software architecture, artificial intelligence, machine learning, software engineering, delivery, quality">
+
+<!-- Social: Twitter -->
+<meta name="twitter:card" content="summary">
+<meta name="twitter:site" content="@segfaultevents">
+<meta name="twitter:title" content="{{ $title }}">
+<meta name="twitter:image" content="{{ partial "headers.image.twitter.html" . }}">
+<meta name="twitter:description" content="{{ $description }}">
+
+<!-- Social: Facebook / Open Graph -->
+<meta property="og:site_name" content="Segfault Events">
+<meta property="og:title"  content="{{ $title }}">
+<meta property="og:type" content="website">
+<meta property="og:description" content="{{ $description }}">
+<meta property="og:image" content="{{ partial "headers.image.fb.html" . }}">
+
+
+{{ $style := resources.Get "sass/main.sass" | resources.ToCSS (dict "targetPath" "segfault-styles.css" "enableSourceMap" true) | fingerprint -}}
+<link rel="stylesheet" href="{{ $style.RelPermalink }}">
+
+{{ if not .Site.IsServer }}
+{{ partial "socials/google_adwords.html" . }}
+{{ partial "socials/google_analytics.html" . }}
+{{ partial "socials/facebook_pixel.html" . }}
+{{ end }}

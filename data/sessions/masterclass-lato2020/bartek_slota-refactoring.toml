@@ -5,8 +5,8 @@ abstract = "Prezentacja będzie sesją programowania na żywo, podczas której p
 # youtube = "3zOv3kFWnYc"
 
 [opengraph]
-# fb = "adam_dudczak-og.png"
-# twitter = "adam_dudczak-og-sq.png"
+fb = "bartek_slota-og.png"
+twitter = "bartek_slota-og-sq.png"
 
 [[speakers]]
 name = "Bartłomiej Słota"
