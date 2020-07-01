@@ -8,5 +8,5 @@
 {{- if .Scratch.Get "session" }}
     {{- .Scratch.Set "image" (path.Join .CurrentSection.RelPermalink "sessions" "images" (.Scratch.Get "session").opengraph.twitter) }}
 {{- end }}
-{{- .Site.BaseURL -}}{{- .Scratch.Get "image" -}}
+<meta name="twitter:image" content="{{- .Site.BaseURL -}}{{- .Scratch.Get "image" -}}">
 {{- .Scratch.Delete "image" -}}

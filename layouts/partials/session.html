@@ -35,6 +35,19 @@
                     {{ end }}
                 </div>
             </div>
+            {{ with (.Scratch.Get "session").videos.teaser }}
+            <div class="container event-lead el-animated">
+                <div class="bg-white bg-gradient-horizontal fancy-border player player--single el-animated">
+                    <div>
+                        <div class="player__video-container">
+                        <div class="player__video">
+                            <div id="player" data-yt-video-id="{{ . }}"></div>
+                        </div>
+                        </div>
+                    </div>
+                </div>         
+            </div>
+            {{ end }}
         </div>
         {{ range (.Scratch.Get "session").speakers }}
         <div class="row mt-4 col-12">

@@ -1,4 +1,6 @@
 ---
+aliases:
+    - online-1-2020/
 type: event
 title: Masterclass Lato 2020
 social:
