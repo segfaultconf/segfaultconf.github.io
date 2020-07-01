@@ -1,7 +1,25 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
-<sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-    
-    <sitemap>
-        <loc>https://segfaultconf.github.io//sitemap-root.xml</loc>
-    </sitemap>
-</sitemapindex>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <url>
+    <loc>https://segfaultconf.github.io/</loc>
+  </url>
+  
+  <url>
+    <loc>https://segfaultconf.github.io/masterclass-lato2020/</loc>
+  </url>
+  
+  <url>
+    <loc>https://segfaultconf.github.io/krakow2020/sessions/</loc>
+  </url>
+  
+  <url>
+    <loc>https://segfaultconf.github.io/masterclass-lato2020/sessions/</loc>
+  </url>
+  
+  <url>
+    <loc>https://segfaultconf.github.io/krakow2020/</loc>
+  </url>
+  
+</urlset>
