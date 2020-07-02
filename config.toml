@@ -17,5 +17,5 @@ googleAnalytics = "UA-113528014-1"
 description = "Segfault to wydarzenia technologiczne online i offline, webinary i podcasty oraz szkolenia i warsztaty dedykowane doświadczonym programistom inżynierom, architektom i tech liderom."
 
 [params.social.opengraph]
-fb = ""
-twitter = ""
+fb = "segfault-opengraph.png"
+twitter = "segfault-opengraph-sq.png"
