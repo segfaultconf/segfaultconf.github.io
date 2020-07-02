@@ -9,7 +9,9 @@
           <div class="section__gradient-overlay bg-gradient-vertical-white-primary"></div>
         </div>
         <div class="container">
-          <h2 class="section__title text-white text-md-primary font-48 mt-4 el-animated">fundamenty.od/nowa.</h2>      
+          <h2 class="section__title text-white text-md-primary font-48 mt-4 el-animated">
+            {{ .Param "events.title" }}
+          </h2>      
           <div id="promoted-conferences" class="slider slider--mobile-only" data-slider>
             <div class="slider__wrapper">
               <div class="slider__container">
@@ -22,8 +24,8 @@
             </div>
           </div>
     
-          <div class="font-bold font-24 pt-4 el-animated">
-            {{ .Param "lead.events" | markdownify }}
+          <div class="font-medium font-24 pt-4 el-animated">
+            {{ .Param "events.lead" | markdownify }}
           </div>          
         </div>
       </section>
@@ -45,13 +47,37 @@
             </div>
             <div class="slider__buttons">
             </div>
-          </div>
-    
-          <div class="font-bold font-24 pt-4 el-animated">
-            {{ .Param "lead.company" | markdownify }}
-          </div>          
+          </div>      
         </div>
       </section>
+
+      <section id="o-nas" class="section section--o-czym-mowimy">
+        <div class="container">
+          <h2 class="section__title font-60 mt-4 el-animated">{{ .Param "values.title" }}</h2>
+          <div class="row">
+            {{ range (.Param "values.content") }}
+              <div class="col-12 col-sm-4 pr-5 pt-2 pb-4">
+                <h3 class="font-36 font-bold el-animated">{{ .lead }}</h3>
+                <p class="el-animated">{{ .text }}</p>
+              </div>
+            {{ end }}
+          </div>
+          <div class="bg-md-white bg-gradient-horizontal fancy-border player d-lg-flex justify-content-lg-space-between">
+            <div>
+              <div class="player__video-container">
+                <div class="player__video el-animated">
+                  <div data-yt-player id="player"></div>
+                </div>
+              </div>
+            </div>
+            <ul class="player__playlist el-animated">
+              {{ range .Site.Data.youtube }}
+                {{ partial "yt-playlist-item.html" . }}
+              {{ end }}
+            </ul>
+          </div>         
+        </div>
+      </section>      
 
       <section id="hello-dave" class="section section--hello-dave">
         <div class="banner__wrapper bg-secondary">
@@ -142,34 +168,6 @@
         </div>
       </section>       
 
-      <section id="o-nas" class="section section--o-czym-mowimy">
-        <div class="container">
-          <h2 class="section__title font-60 mt-4 el-animated">{{ .Param "values.title" }}</h2>
-          <div class="row">
-            {{ range (.Param "values.content") }}
-              <div class="col-12 col-sm-4 pr-5 pt-2 pb-4">
-                <h3 class="font-36 font-bold el-animated">{{ .lead }}</h3>
-                <p class="el-animated">{{ .text }}</p>
-              </div>
-            {{ end }}
-          </div>
-          <div class="bg-md-white bg-gradient-horizontal fancy-border player d-lg-flex justify-content-lg-space-between">
-            <div>
-              <div class="player__video-container">
-                <div class="player__video el-animated">
-                  <div data-yt-player id="player"></div>
-                </div>
-              </div>
-            </div>
-            <ul class="player__playlist el-animated">
-              {{ range .Site.Data.youtube }}
-                {{ partial "yt-playlist-item.html" . }}
-              {{ end }}
-            </ul>
-          </div>         
-        </div>
-      </section>
-
       <section class="section">
         <div class="container">
           <h2 class="section__title font-60 el-animated">Dlaczego Segfault</h2>
@@ -250,13 +248,12 @@
               <h2 class="section__title font-48 mb-5 el-animated">Organizator</h2>
               <ul class="list mr-md-4 pr-md-5">
                 <li class="list__item list__item--accent el-animated">
-                    Symentis Events to grupa profesjonalistów z pasją, którzy od ponad 10 lat dostarczają wartość w obszarze rozwoju oprogramowania, architekturysystemów IT i rozwoju organizacji (R&D) poprzez organizację konferencji, warsztatów, szkoleń i usług konsultacyjnych.
-                    {{ partial "text-accordion.html" (dict "id" "accordionOrganizer" "text" "Twórcy Symentis Events to Justyna Bień, Kuba Marchwicki, Jarek Pałka oraz Wiktor Sztajerowski, którzy są cenionymi w środowisku organizatorami konferencji, mówcami oraz członkami rad programowych wielu wydarzeń.") }}
-                    <div class="row my-5">
-                      <div class="col-7">
-                        <img src="images/symentis-events.png" alt="">
-                      </div>
+                  Twórcy Symentis Events to Justyna Bień, Kuba Marchwicki, Jarek Pałka oraz Wiktor Sztajerowski, którzy są cenionymi w środowisku organizatorami konferencji, mówcami oraz członkami rad programowych wielu wydarzeń.
+                  <div class="row my-5">
+                    <div class="col-7">
+                      <img src="images/symentis-events.png" alt="">
                     </div>
+                  </div>
                 </li>
               </ul>
             </div>
@@ -268,7 +265,11 @@
               </div>
             </div>
           </div>
+
+          <div class="font-medium font-24 pt-4 el-animated">
+            {{ .Param "company.lead" | markdownify }}
+          </div>              
         </div>
-      </section>
+      </section>   
 
 {{ end }}
