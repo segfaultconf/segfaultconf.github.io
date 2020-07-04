@@ -1,5 +1,4 @@
-# baseURL = "https://segfault.events/"
-baseURL = "https://segfaultconf.github.io/"
+baseURL = "https://segfault.events/"
 languageCode = "pl-pl"
 title = "Segfault"
 staticDir = ["segfault-static"]
