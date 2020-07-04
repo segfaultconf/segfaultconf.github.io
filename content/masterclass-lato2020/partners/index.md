@@ -7,4 +7,7 @@ resources:
   - src: "technology/buddy.png"
     params:
       url: "https://buddy.works"
+  - src: "senior/NBC.png"
+    params:
+      url: "https://nbc.com.pl"
 ---
