@@ -32,7 +32,7 @@ agenda:
         - "<span class=text-nowrap>9 lipca,</span> <span class=text-nowrap>11:00 - 12:30</span>":
             - "rafal_pocztarski-sql"                                    
         - "<span class=text-nowrap>10 lipca,</span> <span class=text-nowrap>11:00 - 12:30</span>":
-            - "TBC"
+            - "jarek_kuba_piotr-arch_toolbox"
         # - "16:00":
         #     - "Zakończenie pierwszego dnia"
         # - "21:00":

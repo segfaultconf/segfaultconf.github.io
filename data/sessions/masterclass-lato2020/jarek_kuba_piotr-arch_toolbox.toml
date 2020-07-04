@@ -1,0 +1,34 @@
+title = "Skrzynka z narzędziami dla architekta"
+abstract = """I przyszedł ten dzień w Twojej karierze... Tak długo na niego czekałeś.
+Zostałeś architektem! Teraz im wszystkim pokażesz jak się robi architekturę. Głupcy! Będzie hype, koks i Firefox.
+
+Co prawda jeszcze nie masz pojęcia, że Twoje życie właśnie stało się żałosne, smutne i cała dziecięca radość spłynęła w rynsztok pełen utraconych nadziei i niespełnionych snów. Jeszcze nie wiesz, że architekt to taki menedżer, ale bez zespołu. Jako architekt będziesz negocjował, bo nigdy nie ma czasu na "architekcenie". Będziesz edukował, bo nikt nie będzie rozumiał. Będziesz tłumaczył biznesowi trzyliterowe skróty, bo im się nie chce wychylić nosa ze swojej strefy komfortu. Będziesz rozrysowywał mikroserwisy na lewo i prawo (nie mając pojęcia gdzie co pasuje więc się ciepnie nowy serwis), stosując najlepsze elementy DDD (davay, davay, deploy). Wszystko to... gołymi rękami.
+
+Czy architekt może mieć swoje narzędzia i procesy niezależnie od tego, który hype obecnie wdraża na produkcje? Czy architecture decission record, architecture kata, event storming i observability mogą wnieść trochę światła w ten architektoniczny labirynt. Ta sesja nie odpowie na pytania dotyczące konkretnego stylu architektonicznego (microserwisy, hexagonal, monolit, message driven). Poznasz za to narzedzia i techniki , które pomogę Ci wybrać pomiędzy tymi stylami.
+"""
+
+[videos]
+# teaser = "lDA-3SWQSoM"
+# youtube = "3zOv3kFWnYc"
+
+[opengraph]
+# fb = "rafal_pocztarski-og.png"
+# twitter = "rafal_pocztarski-og-sq.png"
+
+[[speakers]]
+name = "Jarosław Pałka"
+bio = """Od ponad 20 lat w branży IT, jako administrator baz danych, programista, architekt, manager i „inżynier od spraw katastrof”. Brałem udział w małych, średnich i nonsensownie dużych projektach, prowadzonych zgodnie zasadami „waterfall”, Agile oraz przy braku jakichkolwiek metodyk, z tym samym zawsze skutkiem. Co doprowadziło mnie do wniosku, że nie ważne co robisz tak długo, jak robisz to dobrze, w najprostszy z możliwych sposobów i używasz właściwych narzędzi, które wykonają pracę za ciebie.
+
+W międzyczasie dałem się porwać ideą TDD oraz Software Craftmanship, do granic możliwości wyeksploatować tak piękne w swej prostocie pomysły jak REST i NoSQL, by potem porzucić je by zgłębić tajniki „system thinking” i zachwycić się siłą jaką niesie z sobą „metafora” i odkryć, że rządzą nami te same prawa „natury”. Niepokorny wyznawca kościoła JVM, badacz bytecode’u i JIT oraz wszelkiej maści parserów, interpreterów i kompilatorów.
+"""
+photo = "team-jarek.jpg"
+
+[[speakers]]
+name = "Jakub Marchwicki"
+bio = "Programista od kilkunastu lat, architekt od kilku, analityk czasami, konsultant jak trzeba, manager z wyboru, trener z zamiłowania, wannabe entrepreneur z marzeń, lider Java User Group w Gdańsku. Jest spora szansa, że nic z tego nie robię dobrze, ale próbuje... i wyciąga wnioski z porażek. Złośliwi mówią, że nie umie programować, ale miewa niezłe pomysły."
+photo = "team-jakub.jpg"
+
+[[speakers]]
+name = "Piotr Przybył"
+bio = "Notoryczny inżynier w pracy i poza nią, podążający za meandrami sztuki programowania. Zawodowo Remote Freelance Software Gardener, od kilku lat wyrywający chwasty w ogródkach webowych i zwykle przycinający Javę do kształtów pożądanych przez klientów. Miłośnik lekkości i zwinności, która powinna przejawiać się przede wszystkim w stosowaniu właściwych narzędzi. Lead developer, trener, prelegent."
+photo = "piotr_przybyl.jpg"
