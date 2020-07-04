@@ -166,7 +166,7 @@
 
       <div class="text-center mt-5 el-animated">
         {{ with (.Resources.Match (printf "%s/*" "principal")) }}
-        <h3 class="text-accent font-bold font-36 border--bottom pb-3 mb-5">Partner principal</h3>
+        <h3 class="text-accent font-bold font-36 border--bottom pt-3 mt-5">Partner principal</h3>
           {{ partial "partners.html" . }}
         {{ end }}
 
@@ -181,17 +181,17 @@
         {{ end }}
 
         {{ with (.Resources.Match (printf "%s/*" "technology")) }}
-          <h3 class="text-accent font-bold font-36 border--bottom pb-3 mb-5">Partnerzy technologiczni</h3>
+          <h3 class="text-accent font-bold font-36 border--bottom pt-3 mt-5">Partnerzy technologiczni</h3>
           {{ partial "partners.html" . }}
         {{ end }}
 
         {{ with (.Resources.Match (printf "%s/*" "media")) }}
-        <h3 class="text-accent font-bold font-36 border--bottom pb-3 mb-5">Partnerzy medialni</h3>
+        <h3 class="text-accent font-bold font-36 border--bottom pt-3 mt-5">Partnerzy medialni</h3>
           {{ partial "partners.html" . }}
         {{ end }}
 
         {{ with (.Resources.Match (printf "%s/*" "community")) }}
-        <h3 class="text-accent font-bold font-36 border--bottom pb-3 mb-5">Partnerzy medialni</h3>
+        <h3 class="text-accent font-bold font-36 border--bottom pt-3 mt-5">Partnerzy medialni</h3>
           {{ partial "partners.html" . }}
         {{ end }}
       </div>
