@@ -13,7 +13,7 @@
                 {{ with (.Scratch.Get "session") }}
                 <h2 class="font-48 font-bold mb-4 el-animated">{{ .title }}</h2>
                 <div class="mb-4 el-animated">
-                    {{ .abstract | markdownify }}
+                    {{ .abstract | safeHTML | markdownify }}
                     {{ .full_description | default "" | markdownify }}
                 </div>
                 {{ end }}
@@ -65,7 +65,7 @@
                 <p class="text-light font-18 el-animated">{{ . }}</p>
                 {{ end }}
                 <p class="mb-4 el-animated">
-                    {{ .bio | markdownify }}
+                    {{ .bio | safeHTML | markdownify }}
                 </p>
             </div>
         </div>
