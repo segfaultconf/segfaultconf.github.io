@@ -56,7 +56,7 @@
                                     <span class="badge badge--circle badge--secondary">D</span>
                                     {{ end }}
                                 </p>
-                                <p>{{ range $speaker := $session.speakers}}{{$speaker.name}}{{end}}</p>
+                                <p>{{ range $speaker := $session.speakers}}{{$speaker.name}} {{end}}</p>
                                 {{ if $session.capacity }}
                                 <p class="font-14 text-accent">Zajęte miejsca: 0/30</p>
                                 {{ end }}                        
