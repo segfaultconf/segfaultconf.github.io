@@ -16,7 +16,7 @@ dates:
     start: 2020-11-19
     end: 2020-11-20
 tickets: 
-    link: https://segfault-krakow-2020.konfeo.com/
+    link: https://segfault-unconf-2020.konfeo.com/
 conference:
     attendees: 400
     tracks: 2
