@@ -8,5 +8,5 @@
 {{- if .Scratch.Get "session" }}
     {{- .Scratch.Set "image" (path.Join .CurrentSection.RelPermalink "sessions" "images" (.Scratch.Get "session").opengraph.fb) }}
 {{- end }}
-<meta property="og:image" content="{{- .Scratch.Get "image" | absURL -}}">
+{{- .Scratch.Get "image" | absURL -}}
 {{- .Scratch.Delete "image" -}}

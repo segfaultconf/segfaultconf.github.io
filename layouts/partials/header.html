@@ -1,5 +1,8 @@
 {{ $title := partial "headers.title.html" . }}
 {{ $description := partial "headers.description.html" . }}
+{{ $image_square := partial "headers.image.sq.html" . }}
+{{ $image_rect := partial "headers.image.rect.html" . }}
+
 
 <meta charset="utf-8">
 <meta name="viewport" content="height=device-height, width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no, target-densitydpi=device-dpi">
@@ -16,7 +19,7 @@
 <meta name="twitter:card" content="summary">
 <meta name="twitter:site" content="@segfaultevents">
 <meta name="twitter:title" content="{{ $title }}">
-{{ partial "headers.image.twitter.html" . }}
+<meta name="twitter:image" content="{{ $image_square }}">
 <meta name="twitter:description" content="{{ $description }}">
 
 <!-- Social: Facebook / Open Graph -->
@@ -24,7 +27,8 @@
 <meta property="og:title"  content="{{ $title }}">
 <meta property="og:type" content="website">
 <meta property="og:description" content="{{ $description }}">
-{{ partial "headers.image.fb.html" . }}
+<meta property="og:image" content="{{ $image_rect }}">
+<meta property="og:image" content="{{ $image_square }}">
 
 {{ $style := resources.Get "sass/main.sass" | resources.ToCSS (dict "targetPath" "segfault-styles.css" "enableSourceMap" true) | fingerprint -}}
 <link rel="stylesheet" href="{{ $style.RelPermalink }}">
