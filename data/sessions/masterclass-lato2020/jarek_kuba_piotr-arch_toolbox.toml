@@ -12,8 +12,8 @@ Czy architekt może mieć swoje narzędzia i procesy niezależnie od tego, któr
 # youtube = "3zOv3kFWnYc"
 
 [opengraph]
-# fb = "rafal_pocztarski-og.png"
-# twitter = "rafal_pocztarski-og-sq.png"
+fb = "skrzynka_arch-og.png"
+twitter = "skrzynka_arch-og-sq.png"
 
 [[speakers]]
 name = "Jarosław Pałka"
