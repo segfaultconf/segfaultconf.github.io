@@ -1,5 +1,12 @@
 [[editions]]
 forthcoming = true
+dateSortable = 2020-10-05
+dateReadable = "5-8 październik 2020"
+city = "masterclass"
+link = "/masterclass-autumn-2020"
+
+[[editions]]
+forthcoming = false
 dateSortable = 2020-07-06
 dateReadable = "6-10 lipca 2020"
 city = "masterclass"
