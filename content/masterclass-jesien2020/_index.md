@@ -11,7 +11,7 @@ dates:
     start: 2020-10-05
     end: 2020-10-08
 tickets: 
-    link: https://segfault-online-autumn.konfeo.com/
+    link: https://segfault-online-jesien.konfeo.com
 conference:
     attendees: 200
     tracks: 2
