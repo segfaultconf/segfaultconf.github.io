@@ -2,12 +2,12 @@
 type: event
 title: Masterclass Jesień 2020
 social:
-    description: 6-10 lipca 2020. Esencja doświadczenia od praktyków IT na wyciągnięcie ręki.
+    description: 5-8 października 2020. Esencja doświadczenia od praktyków IT na wyciągnięcie ręki.
     opengraph:
         twitter: masterclass-sq.png
         fb: masterclass.png
 dates: 
-    readable: 05-08 października 2020
+    readable: 5-8 października 2020
     start: 2020-10-05
     end: 2020-10-08
 tickets: 
