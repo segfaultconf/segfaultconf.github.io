@@ -16,6 +16,24 @@ conference:
     attendees: 200
     tracks: 2
     afterparty: false
+agenda:
+    - tracks: 
+        - 
+        # - Ścieżka 2
+      slots:
+        - "<span class=text-nowrap>5 pażdziernik,</span> <span class=text-nowrap>15:00 - 16:30</span>":
+            - "konrad_jakubiec_modelowanie_zdarzen_sterowanych_czasem"
+        - "<span class=text-nowrap>6 pażdziernik,</span> <span class=text-nowrap>15:00 - 16:30</span>":
+            - "latos_grochowina_wyzwania_leadera"
+        - "<span class=text-nowrap>7 pażdziernik,</span> <span class=text-nowrap>15:00 - 16:30</span>":
+            - "pawel_kapala_data_first"
+        - "<span class=text-nowrap>8 pażdziernik,</span> <span class=text-nowrap>15:00 - 16:30</span>":
+            - "mariusz_gil"                                    
+        # - "16:00":
+        #     - "Zakończenie pierwszego dnia"
+        # - "21:00":
+        #     - "After party - Maverick w Gdańsku, ul Partyzantów 8"
+
 ---
 
 ## Segfault Masterclass
