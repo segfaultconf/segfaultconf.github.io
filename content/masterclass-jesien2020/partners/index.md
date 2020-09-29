@@ -13,4 +13,7 @@ resources:
   - src: "media/dailyweb cmyk black.png"
     params:
       url : "https://dailyweb.pl/"
+  - src: "media/jobsora.jpg"
+    params:
+      url: "https://pl.jobsora.com"
 ---
