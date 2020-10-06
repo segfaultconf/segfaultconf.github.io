@@ -26,9 +26,9 @@ agenda:
         - "<span class=text-nowrap>6 październik,</span> <span class=text-nowrap>15:00 - 16:30</span>":
             - "latos_grochowina_wyzwania_leadera"
         - "<span class=text-nowrap>7 październik,</span> <span class=text-nowrap>15:00 - 16:30</span>":
-            - "pawel_kapala_data_first"
-        - "<span class=text-nowrap>8 październik,</span> <span class=text-nowrap>15:00 - 16:30</span>":
-            - "mariusz_gil"                                    
+            - "jaroslaw_palka_quality_as_performance"
+        - "<span class=text-nowrap>8 pażdziernik,</span> <span class=text-nowrap>15:00 - 16:30</span>":
+            - "jakub_marchwicki-microservices"                                    
         # - "16:00":
         #     - "Zakończenie pierwszego dnia"
         # - "21:00":

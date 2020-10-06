@@ -1,0 +1,14 @@
+title = "Microservices... decisions, decisions, decisions everywhere "
+abstract = """
+“Micro Service Architecture is an architectural concept that aims to decouple a solution by decomposing functionality into discrete services. Think of it as applying many of the principles of SOLID at an architectural level, instead of classes you've got services” - yes, we all know it, we all talk about it, some of us actually seen it, a few successfully implemented it. 
+
+In theory, it sounds simple. In theory, there is no difference between theory and practice. But, in practice, there is. There are many approaches, mental, technical or process frameworks, loads of intermediary steps, millions of decisions to make. During this session, I'd like to focus on the "microservice approach", which allowed us to move away from legacy, by changing the way we approached the problems and become less dogmatic about certain things: duplication - it can be ok, failing fast - we can handle that, piecemeal migration - sounds like a good idea. It's context that matters. 
+"""
+
+[[speakers]]
+name = "Jakub Marchwicki"
+bio = "Jakub is a software craftsman with over a decade of commercial experience in programming, wearing multiple hats, getting hands dirty in multiple environments. Some languages, some frameworks, blah blah blah - doesn’t really matter. Architect, programmer, manager, technical trainer, tech lead, wannabe entrepreneur, JUG leader. There is a fair chance he does non of those right."
+photo = "jakub-marchwicki.png"
+
+
+
