@@ -1,8 +1,0 @@
-title = "Data First"
-abstract = "Dużo ostatnio słyszy się o DDD oraz o Event Driven. Rzadziej się mówi głośno o komplementarnym podejściu: Data Driven Programming. Weźmiemy pod lupę prostą domenę: grę planszową i spróbujemy zaprogramować jej model.Podczas prezentacji poznamy pułapki i niebezpieczeństwa podejścia Top-Down (albo Api First Design) i spróbujemy alternatywnego sposobu: Bottom-up (albo Data First)."
-
-[[speakers]]
-name = "Paweł Kapała"
-bio = "Paweł jest programistą - generalistą z kilkunastoletnim komercyjnym stażem. Jego ikigai to dzielenie się wiedzą i rozwiązywanie problemów. Jest współorganizatorem Toruń JUG.Ostatnio, w swojej pracy, pomaga brytyjskim startupom jako konsultant."
-photo = "pawel-kapala.jpg"
-
