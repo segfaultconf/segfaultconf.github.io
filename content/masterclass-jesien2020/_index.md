@@ -26,7 +26,7 @@ agenda:
         - "<span class=text-nowrap>6 październik,</span> <span class=text-nowrap>15:00 - 16:30</span>":
             - "latos_grochowina_wyzwania_leadera"
         - "<span class=text-nowrap>7 październik,</span> <span class=text-nowrap>15:00 - 16:30</span>":
-            - "jaroslaw_palka_quality_as_performance"
+            - "jaroslaw_palka_performance_as_quality"
         - "<span class=text-nowrap>8 pażdziernik,</span> <span class=text-nowrap>15:00 - 16:30</span>":
             - "jakub_marchwicki-microservices"                                    
         # - "16:00":
