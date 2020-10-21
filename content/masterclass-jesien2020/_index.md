@@ -29,10 +29,6 @@ agenda:
             - "jaroslaw_palka_performance_as_quality"
         - "<span class=text-nowrap>8 pażdziernik,</span> <span class=text-nowrap>15:00 - 16:30</span>":
             - "jakub_marchwicki-microservices"                                    
-        # - "16:00":
-        #     - "Zakończenie pierwszego dnia"
-        # - "21:00":
-        #     - "After party - Maverick w Gdańsku, ul Partyzantów 8"
 
 ---
 

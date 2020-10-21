@@ -38,7 +38,7 @@
                     </button>             
                     <ul class="dropdown__list">                                
                         {{ range (sort (where .Site.Data.conferences.editions "forthcoming" true) "dateSortable") }}                                
-                        <li class="text-nowrap dropdown__item"><a href="{{ .link }}">{{ .city }}, {{ .dateReadable -}}</a></li>
+                        <li class="text-nowrap dropdown__item"><a href="{{ .link }}">{{ .city }},<br/> {{ .dateReadable -}}</a></li>
                         {{ end }}
                     </ul>                                       
                     {{ end }}
