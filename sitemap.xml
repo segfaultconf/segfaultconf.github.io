@@ -15,7 +15,7 @@
   </url>
   
   <url>
-    <loc>https://segfault.events/krakow2020/sessions/</loc>
+    <loc>https://segfault.events/masterclass-zima2020/</loc>
   </url>
   
   <url>
@@ -23,7 +23,15 @@
   </url>
   
   <url>
-    <loc>https://segfault.events/krakow2020/</loc>
+    <loc>https://segfault.events/masterclass-zima2020/sessions/</loc>
+  </url>
+  
+  <url>
+    <loc>https://segfault.events/unconference2021/sessions/</loc>
+  </url>
+  
+  <url>
+    <loc>https://segfault.events/unconference2021/</loc>
   </url>
   
 </urlset>
