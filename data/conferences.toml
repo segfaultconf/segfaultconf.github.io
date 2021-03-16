@@ -6,7 +6,7 @@ city = "masterclass"
 link = "/masterclass-jesien2020"
 
 [[editions]]
-forthcoming = true
+forthcoming = false
 dateSortable = 2020-10-05
 dateReadable = "16-19 października 2020"
 city = "Masterclass Zima"
@@ -21,8 +21,8 @@ link = "/masterclass-lato2020"
 
 [[editions]]
 forthcoming = true
-dateSortable = 2020-05-13
-dateReadable = "13-14 maja 2021"
+dateSortable = 2020-09-08
+dateReadable = "8-9 września 2021"
 city = "Kraków"
 link = "/unconference2021"
 
