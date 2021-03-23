@@ -1,7 +1,7 @@
 baseURL = "https://segfault.events/"
 languageCode = "pl-pl"
 title = "Segfault"
-staticDir = ["segfault-static"]
+staticDir = ["segfault-static","static"]
 disableKinds = ["RSS", "taxonomyTerm"]
 
 ignorefiles = [ "automation/.*" ]
