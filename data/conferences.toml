@@ -1,4 +1,11 @@
 [[editions]]
+forthcoming = true
+dateSortable = 2021-05-19
+dateReadable = "5-8 października 2020"
+city = "online"
+link = "/event-driven-online-2021"
+
+[[editions]]
 forthcoming = false
 dateSortable = 2020-10-05
 dateReadable = "5-8 października 2020"

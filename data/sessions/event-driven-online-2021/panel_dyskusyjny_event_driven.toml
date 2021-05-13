@@ -1,0 +1,35 @@
+title = "Event sourcing - lekarstwo na całe zło czy tylko hype?"
+abstract = """
+Architektura oparta o zdarzenia jest jak święty Graal, miasto ze złota ukryte w dżungli, buddyjski klasztor z dala od utartych szlaków, który skrywa tajemnice wiecznego szczęścia.
+Wielu o tym rozmawia, marzy, planuje samobójcze wyprawy. Niewielu jednak tam dociera.
+Jedną ze ścieżek, która tam prowadzi jest Event Sourcing.
+Podczas naszego spotkania, zaprawieni w bojach podróżnicy: Oskar Dudycz, Andrzej Ludwikowski i Piotr Wyczesany, przeprowadzą Was przez meandry Event Sourcing. Bazując na swoim doświadczeniu zdobytym w boju, podczas wdrażania systemów opartych o zdarzenia, przybliżą Wam dobre i złe strony tego podejścia. Chcecie od ekspertów dowiedzieć się czy Apache Kafka to dobry wybór, czy JSON ma sens, czym jest “zdarzenie” i jak przekonać biznes? Wszystkiego tego dowiecie się podczas spotkania, moderowanego przez Wiktora Sztajerowskiego. 
+Zero slajdów, tylko szczere pytania i bolesna prawda!
+Czas na pytania? Będzie! Wszystko w sprawdzonej formule Segfault Online. Zarejestruj się za darmo już dziś!
+"""
+
+[[speakers]]
+name = "Andrzej Ludwikowski"
+bio = "Architekt oprogramowania z ponad 10- letnim doświadczeniem w tworzeniu komercyjnego oprogramowania. Wyznawca DDD, Event Sourcing i Polyglot Persistence. Cały czas poszukujący tej idealnej architektury kodu, która nie istnieje, ale sama droga do niej jest celem. Pasjonata mierzenia wydajności i wykrywania wąskich gardeł w systemach rozproszonych. Trener (https://academy.softwaremill.com/) i jeden z młynarzy w SoftwareMill."
+photo = "andrzej-ludwikowski.jpeg"
+
+[[speakers]]
+name = "Oskar Dudycz"
+bio = """Od prawie 14 lat, tworzę systemy informatyczne bliskie biznesowi. Zaczynałem karierę gdy StackOverflow jeszcze nie istniał. Jestem programistą, liderem technicznym, architektem. Lubię tworzyć dobrze przemyślane systemy, narzędzia i frameworki, które są używane na produkcji i robią życie ludzi łatwiejszym.
+
+Wierzę, żę Event Sourcing, CQRS, i w ogólności, Architektury oparte na zdarzeniach są dobrymi podstawami dzięki którymi można to osiągnąć. Praca przy OSS i współdzielenie wiedzy są dla mnie dużą motywacją.
+
+Aktualnie pracuję jako DevAdvocate w Event Store pomagając w rozbudowie unikalnego produktu bazodanowego, w którym zdarzenia są obywatelem pierwszej klasy.
+
+Jestem również współmainainerem biblioteki .NET Marten, która pozwala zamienić Postgres w bazę dokumentową oraz Event Store.
+"""
+photo = "bg-1.jpg"
+
+[[speakers]]
+name = "Piotr Wyczesany"
+bio = """
+Niezależny Domain-Driven Designer, konsultant i mentor. Specjalizuje się w modelowaniu złożonych dziedzin biznesowych z podejściem Domain-Driven Design oraz pracą z systemami odziedziczonymi. Z sukcesem wdrożył DDD w dużych i małych projektach komercyjnych - zarówno nadgryzionych zębem czasu, jak i całkiem nowych - wliczając w to swoje własne dwa startupy. Mieszka i pracuje w Krakowie, gdzie jest też założycielem grupy Domain-Driven Design Kraków. W wolnym czasie tweetuje jako @pwyczes.
+"""
+photo = "piotrek_wyczesany.jpg"
+
+

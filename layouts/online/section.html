@@ -1,0 +1,214 @@
+{{ define "main" }}
+
+<section class="section section--event-header pb-5">
+    <div class="section__background">
+      <img src="{{ .Params.details.heroImg | default "/images/header.jpg" }}" alt="">
+      <!-- <video autoplay muted loop>
+            <source src="images/unconference.mp4" type="video/mp4">
+          </video> -->
+      <div class="section__gradient-overlay bg-gradient-vertical-white-primary"></div>
+    </div>
+    <div class="container">
+      <h2 class="section__title font-48 mt-4 mb-5 text-white text-md-secondary el-animated">fundamenty.od/nowa.</h2>
+      <article class="event event--single pb-3">
+        <div class="event__wrapper el-animated">
+          <div class="event__content">
+            <svg class="event__logo mb-3">
+              <use xlink:href="#{{ .Params.details.logo | default "svg-segfault-logo" }}" />
+            </svg>
+            <div class="font-bold font-24">
+              <p class="mb-1">{{ .Params.dates.readable }}</p>
+              <p>{{if .Params.details.venue }}{{ .Params.details.venue }}, {{end}}{{ .Params.details.city }}</p>
+            </div>
+            <a href="#tickets" class="button button--accent">kup bilet</a>
+          </div>
+        </div>
+      </article>
+    </div>
+  </section>
+
+  <section class="section section--o-czym-mowimy" id="o-czym-mowimy">
+
+    {{ range $key, $session := index .Site.Data.sessions .Section }}
+    <section class="section section--2">
+      <div class="container">
+          <div class="row">
+              <div class="col-sm-7 col-md-8 pr-5">
+                  {{ with $session }}
+                  <h2 class="font-48 font-bold mb-4 el-animated">{{ .title }}</h2>
+                  <div class="mb-4 el-animated">
+                      {{ .abstract | safeHTML | markdownify }}
+                      {{ .full_description | default "" | markdownify }}
+                  </div>
+                  {{ end }}
+              </div>  
+    {{ end }}
+
+  </section>
+
+  <section class="section pt-0" id="speakers">
+    <div class="container">
+      <h2 class="section__title font-60 mt-4 el-animated">Prelegenci</h2>
+      <div class="row">
+        {{ partial "speakers.html" . }}
+      </div>
+    </div>
+  </section>  
+
+  <section class="section section--o-czym-mowimy" id="o-czym-mowimy">
+    {{ if .Content }} 
+    <div class="container event-lead el-animated">
+        {{ .Content }}
+    </div>
+    {{ end }}
+  </section>
+
+  <section class="banner banner--small">
+    <div class="banner__wrapper bg-secondary">
+      <div class="banner__background">
+        <img src="/images/price-increase-background.jpg" alt="">
+        <div class="banner__gradient-overlay bg-gradient-vertical-secondary"></div>
+      </div>
+    </div>
+    <div class="container">
+      <h2 class="banner__title font-48 mb-5 text-white el-animated">
+        Nie przegap nieczego<br> co w segfaultcie piszczy
+      </h2>
+      <div class="boxed boxed--secondary">
+        <div class="el-animated">
+          <a href="https://www.facebook.com/segfaultevents" class="button button--outline-white mt-4 mx-2"><span class="icon-facebook mr-2"></span>Śledź nas na fejsbuku</a>
+          <a href="https://www.instagram.com/segfaultevents/" class="button button--outline-white mt-4 mx-2"><span class="icon-instagram mr-2"></span>Segfault backstage</a>
+          <a href="https://www.youtube.com/channel/UCV38Do_3C5uVk3lWePkyxTA" class="button button--outline-white mt-4 mx-2"><span class="icon-youtube mr-2"></span>Filmy i prezki</a>
+          <a href="https://www.twitter.com/segfaultevents" class="button button--outline-white mt-4 mx-2"><span class="icon-twitter mr-2"></span>Tutaj ćwierkamy</a>
+          <!-- <a href="https://www.linkedin.com/company/segfaultevents/" class="button button--outline-white mt-4 mx-2"><span class="icon-linkedin mr-2"></span>Pro-linkedinowe</a> -->
+        </div>
+      </div>
+    </div>
+  </section>
+
+  {{ if .Params.tickets }}
+  <section class="section" id="tickets">
+    <div class="container">
+      <h2 class="section__title font-60 mt-4 el-animated">Bilety</h2>
+        <style>iframe { width: 1px; min-width: 100%; }</style>
+        <iframe src="{{ .Params.tickets.link }}/pl/groups?iframe=2"
+        id="iframe31152" onload="iFrameResize({}, '#iframe31152')" frameborder="0"></iframe>
+        <script type="text/javascript" src="{{ .Params.tickets.link }}/iframeResizer-4.min.js"></script>
+    </div>
+  </section>  
+  {{ end }}
+
+  {{ with .Site.GetPage (printf "%s%s" .Dir "partners") }}
+  <section class="section" id="partners">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-8 pr-md-5">
+          <h2 class="section__title font-48 mb-5 el-animated">Partnerzy</h2>
+        </div>
+      </div>
+
+      <div class="text-center mt-5 el-animated">
+        {{ with (.Resources.Match (printf "%s/*" "principal")) }}
+        <h3 class="text-accent font-bold font-36 border--bottom pt-3 mt-5">Partner principal</h3>
+          {{ partial "partners.html" . }}
+        {{ end }}
+
+        {{ with (.Resources.Match (printf "%s/*" "architect")) }}
+        <h4 class="font-bold font-22">Architect</h4>
+          {{ partial "partners.html" . }}
+        {{ end }}
+
+        {{ with (.Resources.Match (printf "%s/*" "senior")) }}
+        <h4 class="font-bold font-22">Senior</h4>
+          {{ partial "partners.html" . }}
+        {{ end }}
+
+        {{ with (.Resources.Match (printf "%s/*" "technology")) }}
+          <h3 class="text-accent font-bold font-36 border--bottom pt-3 mt-5">Partnerzy technologiczni</h3>
+          {{ partial "partners.html" . }}
+        {{ end }}
+
+        {{ with (.Resources.Match (printf "%s/*" "media")) }}
+        <h3 class="text-accent font-bold font-36 border--bottom pt-3 mt-5">Partnerzy medialni</h3>
+          {{ partial "partners.html" . }}
+        {{ end }}
+
+        {{ with (.Resources.Match (printf "%s/*" "community")) }}
+        <h3 class="text-accent font-bold font-36 border--bottom pt-3 mt-5">Społeczności</h3>
+          {{ partial "partners.html" . }}
+        {{ end }}
+      </div>
+
+      <div class="row">
+        <div class="list__item list__item--accent el-animated">
+          {{ range .Site.Data.partners.pitch }}
+            <p>{{.}}</p>
+          {{ end }}
+        </div>
+      </div>
+
+    </div>
+  </section>
+  {{end}}
+
+  <section class="banner">
+    <div class="banner__wrapper bg-secondary">
+      <div class="banner__background">
+        <img src="images/background-partners.jpg" alt="">
+        <div class="banner__gradient-overlay bg-gradient-vertical-secondary"></div>
+      </div>
+    </div>
+    <div class="container">
+      <h2 class="banner__title font-48 mb-5 text-white text-md-primary el-animated">{{ .Site.Data.partners.title }}</h2>
+      <div class="boxed boxed--secondary">
+        <div class="row">
+          <div class="col-md-8">
+            <ul class="list font-24 font-bold text-white">
+              {{ range .Site.Data.partners.content }}
+                <li class="list__item el-animated">{{ . }}</li>
+              {{ end }}
+            </ul>
+            <!-- <div class="el-animated">
+              <a href="#" class="button button--outline-white mt-4 ml-md-100">pobierz ofertę</a>
+            </div> -->
+          </div>
+          <div class="col-md-4">
+            <div class="row text-white">
+              {{ range .Site.Data.team.sales }}
+              {{ partial "person.html"  (dict "sales" true "person" .) }}
+              {{ end }}
+            </div>
+          </div>  
+        </div>
+      </div>
+    </div>
+  </section>  
+
+  <section class="section pt-5">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-8 pr-md-5">
+          <h2 class="section__title font-48 mb-5 el-animated">Rada programowa</h2>
+          <ul class="list mr-md-4 pr-md-5 el-animated">
+            <li class="list__item list__item--accent">
+                Symentis Events to grupa profesjonalistów z pasją, którzy od ponad 10 lat dostarczają wartość w obszarze rozwoju oprogramowania, architekturysystemów IT i rozwoju organizacji (R&D) poprzez organizację konferencji, warsztatów, szkoleń i usług konsultacyjnych.
+                <div class="row my-5">
+                  <div class="col-7">
+                    <img src="/images/symentis-events.png" alt="">
+                  </div>
+                </div>
+            </li>
+          </ul>
+        </div>
+          <div class="col-md-4 px-4">
+            <div class="row">
+              {{ range .Site.Data.team.organizers }}
+              {{ partial "person.html"  (dict "organizer" true "person" .) }}
+              {{ end }}                                
+            </div>
+          </div>
+      </div>
+    </div>
+  </section>
+
+{{ end }}
