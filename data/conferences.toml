@@ -1,7 +1,14 @@
 [[editions]]
 forthcoming = true
+dateSortable = 2021-06-17
+dateReadable = "17 czerwca 2021"
+city = "online"
+link = "/java-c-erlang-online-2021"
+
+[[editions]]
+forthcoming = false
 dateSortable = 2021-05-19
-dateReadable = "5-8 października 2020"
+dateReadable = "19 maja 2021"
 city = "online"
 link = "/event-driven-online-2021"
 
