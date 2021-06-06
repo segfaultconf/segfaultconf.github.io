@@ -18,5 +18,6 @@ photo = "konrad_kokosa.jpg"
 
 [[speakers]]
 name = "Konrad Kaplita"
-bio = ""
+bio = """Konrad jest CTO w firmie Appliscale. Związany profesjonalnie z branżą IT od ponad 14 lat. Od zawsze zafascynowany programowaniem funkcyjnym. Pracuje z językiem Erlang już od 12 lat, wdrażając go w wielu komercyjnych projektach, od małych startupów po duże międzynarodowe firmy. Z satysfakcją obserwuję jak wiele koncepcji obecnych od dawna w programowaniu funkcyjnym i Erlangu zyskuje uznanie i popularność w innych środowiskach.
+"""
 photo = "konrad_kaplita.jpeg"

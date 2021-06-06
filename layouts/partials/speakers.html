@@ -3,7 +3,7 @@
     {{ range $speaker := $session.speakers }}
 
     <!-- this generates session pages --> 
-    {{ $filePath := printf "%ssessions/%s.html" $.CurrentSection.RelPermalink ($session.title | replaceRE "[ęóąśłżźćń]" "" | urlize) }}
+    {{ $filePath := printf "%ssessions/%s.html" $.CurrentSection.RelPermalink ($session.title | replaceRE "[ęóąśłżźćń#]" "" | urlize ) }}
     {{ $this.Scratch.Set "session" $session }}
     {{ $speaker_page := resources.Get "session.tpl.html" | resources.ExecuteAsTemplate $filePath $this }}    
     {{ .Scratch.Delete "session" }}
