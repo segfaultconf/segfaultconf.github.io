@@ -1,0 +1,27 @@
+title = "Developers Kryptonite"
+abstract = """Clark Kent AKA Superman jest jednym z największych superbohaterów
+naszych czasów, ale nawet on ma coś, co sprawia, że jest on podatny na 
+obrażenia oraz mniej niesamowity. To właśnie kryptonit go osłabia. 
+Developerzy niczym superbohaterowie, również mają swój kryptonit. 
+W trakcie prezentacji postaram się Wam przedstawić, co i dlaczego sprawia, 
+że developerzy są mniej skuteczni, a zarazem mniej zadowoleni ze swoich 
+projektów. Porozmawiamy o architekturze jak i również poruszymy 
+tematy psychologii. Zapraszam."""
+
+[links]
+# youtube = "3zOv3kFWnYc"
+
+[opengraph]
+# fb = "adam_dudczak-og.png"
+# twitter = "adam_dudczak-og-sq.png"
+
+[[speakers]]
+name = "Sebastian Rabiej"
+bio = """Odkąd pamiętam, fascynowały mnie języki programowania i wszystko, 
+co było z nimi związane. Tworzenie czegoś z „niczego” jest ekscytujące 
+na tyle, że postanowiłem iść tą ścieżką kariery. Pracuję jako developer 
+od ponad 4 lat. Ciągle poszukuję odpowiedzi na pytanie 
+„co to znaczy być profesjonalny” i wątpię, abym szybko znalazł odpowiedź 
+na to pytanie. Jestem entuzjastą tematów związanych z czystym kodem, 
+software craftsmanship i metodykami zwinnymi."""
+photo = "25aq7L97.jpg"

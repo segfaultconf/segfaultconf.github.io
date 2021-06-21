@@ -1,0 +1,26 @@
+title = "TLA+ i model-checking w praktyce."
+abstract = """Testowanie systemów rozproszonych do zadań prostych nie należy.
+Dlatego warto w tym celu sięgać po metody spoza standardowej palety testów 
+automatycznych (testy jednostokowe, integracyjne, akceptacyjne etc.). 
+TLA+ (Temporal Logic of Actions) to narzędzie służące to model-checking'u 
+tj. weryfikacji systemu w oparciu o formalną specyfikację. 
+Brzmi skomplikowanie ale na szczęście nie jest.
+
+W swojej prezentacji opowiem czym TLA+ jest, w jakich sytuacjach 
+model-checking może przynieść korzyści i jak model-checking 
+wygląda w praktyce. Wszystko na przykładzie weryfikacji 
+algorytmu Outbox do atomowego przetwarzania wiadomości 
+w systemach kolejkowych.
+"""
+
+[links]
+# youtube = "3zOv3kFWnYc"
+
+[opengraph]
+# fb = "adam_dudczak-og.png"
+# twitter = "adam_dudczak-og-sq.png"
+
+[[speakers]]
+name = "Tomasz Masternak"
+bio = "Tomek pracuje jako inżynier w Particular Software, gdzie rozwija platformę do budowy systemów opartych o wymianę wiadomości. Systemami rozproszonymi zajmuje się od kilkunastu lat, zarówno w teorii, jak i w praktyce. Lubi wiedzieć, dlaczego systemy rozproszone się psują, i co to właściwie oznacza, źe działają poprawnie."
+photo = "204299309_1159558577898248_8193732066262663848_n.png"
