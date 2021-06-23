@@ -12,7 +12,7 @@ details:
     logo: svg-event-unconference
     heroImg: images/krakow.jpg
 dates: 
-    readable: 6-7 wrzesnia 2021
+    readable: 6-7 września 2021
     start: 2021-09-06
     end: 2021-09-07
 tickets: 

@@ -1,0 +1,29 @@
+title = "Krok od Wikipedii - Wiedza Zrozumiała Maszynowo"
+abstract = """Każdy zna Wikipedią, prawda? To wspaniałe źródło wiedzy od 20 lat pomogło niezliczonej liczbie osób. Czy chciałbyś obliczyć obwód koła, dowiedzieć się czy hieny żyją stadnie lub co tak naprawdę stało się z Imperium Ottomańskim - Wikipedia stanie na wysokości zadania.
+No chyba, że jesteś komputerem.
+
+Całkiem niemałym problemem Wikipedii jest to, że wiedza w niej zawarta jest słabo ustrukturyzowana. Jasne, że masz linki pomiędzy artykułami, ale bez zrozumienia kontekstu linku, nie zrozumiesz też powiązania pomiędzy dwoma stronami. Rzecz jasna, w to graj wszelkiej maści ekspertom AI/ML - i wielu z nich już teraz przekopuje Wikipedią w poszukiwaniu relacji. Szczęśliwie, cała reszta z nas nie została z niczym.
+
+Poznajcie Wikidane (Wikidata) - młodszą siostrę Wikipedii. Wikidane to również źródło wiedzy, także utrzymywanej przez społeczność, ale dostępne w formie grafu wiedzy. Taki sposób prezentacji ma ogromne znaczenie - nie tylko ułatwia stosowanie jej w oprogramowaniu w łatwy sposób, ale pozwala też tworzyć nową wiedzę z tej już istniejącej. Jest w tej chwili również najszybciej rozwijającym się projektem w Fundacji.
+
+Istnieją różne metody komunikacji z Wikidanymi, ale w tej prezentacji skupię się na usłudze Wikidata Query Service - nad którą pracuje mój zespół. Dostarcza ona silnik zapytań, który wykorzystują język zapytań oparty o strukturę RDF zwany SPARQL (tak, jest to kolejna technologia mająca w nazwie “spark” - w branży nie grzeszymy kreatywnością w nazewnictwie)."""
+
+[links]
+# youtube = "3zOv3kFWnYc"
+
+[opengraph]
+# fb = "adam_dudczak-og.png"
+# twitter = "adam_dudczak-og-sq.png"
+
+[[speakers]]
+name = "Zbyszko Papierski"
+bio = """Zbyszko jest inżynierem z 14 latami doświadczenia w IT. 
+Pomagał w kategoryzowaniu ofert w Allegro, poprawiał jakość API w 
+Jira Cloud i rozplątywał logi w Dynatrace. Ostatnimi czasy pomaga 
+poprawić dostęp do sumy całej wiedzy w Fundacji Wikimedia, 
+poprzez pracę nad wyszukiwarką Wikipedii i usługą Wikidata Query Service. 
+Gada w kółko o trafności, wyszukiwarkach, DDD, JVM, grafach i 
+grach (wszystkich). Po godzinach zajmuje się 
+(jak pandemia pozwala) organizacją trójmiejskiego JUGa i 
+próbuje poznać (bezskutecznie) jak najwięcej ludzkich języków."""
+photo = "zbyszkop.jpg"

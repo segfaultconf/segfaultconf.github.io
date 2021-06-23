@@ -1,0 +1,40 @@
+title = "Problemy i Trade-offy podczas optymalizowania hot-path: Kiedy przedwczesna optymalizacja staje się poprawną optymalizacją?"
+abstract = """Budując nasze systemy, wymagania odnośnie wydajności są często 
+kluczowe.
+
+Mając dane o SLA, możemy zbudować takie testy wydajnościowe które pozwalają 
+nam wnioskować o systemach przed wdrożeniem na produkcję. Bardzo ważną 
+obserwacją odnośnie wielu systemów jest to że kod który przynosi najwięcej 
+wartości biznesowej, często jest zawarty w bardzo małym procencie kodu 
+całej aplikacji. Ta obserwacja bazuje na zasadzie Pareto i została 
+potwierdzona w wielu domenach biznesowych, nie tylko oprogramowaniu.
+Bazując na tych obserwacjach, możemy zaprojektować proces który pozwala 
+nam na znajdowanie hot-path w naszym kodzie. Hot-path to ścieżka która 
+jest wykonywana dla prawie wszystkich zapytań użytkowników. 
+Kiedy wykryjemy hot-path w naszym kodzie, możemy skupić się na 
+optymalizacji małej części naszego kodu, znacząco poprawiając wydajność. 
+Dzięki temu, możemy pracować bardziej efektywnie. Ta prezentacja skupi 
+się na analizie systemów i zastosowania metody opartej na zasadzie Pareto, 
+SLA and testów wydajnościowych aby znaleźć i zoptymalizować hot-path. 
+Każdy krok będzie poparty testami wydajnościowymi i danymi aby móc 
+zweryfikować czy nasze optymalizacje idą w dobrym kierunku."""
+
+[links]
+# youtube = "3zOv3kFWnYc"
+
+[opengraph]
+# fb = "adam_dudczak-og.png"
+# twitter = "adam_dudczak-og-sq.png"
+
+[[speakers]]
+name = "Tomasz Lelek"
+bio = """Tomasz obecnie pracuje w DataStax, budując produkty wokół jednej z najpopularniejszych rozproszonych baz danych na świecie - Cassandra. Jest kontrybutorem do Java-Driver, Cassandra-Quarkus, Cassandra-Connector i Stargate.
+
+Opublikowany autor książki pt. "Software Mistakes and Tradeoffs: Making good programming decisions" która skupia się na liście realnych problemów ze świata oprogramowania które możesz napotkać w swoich systemach produkcyjnych. Książka próbuje analizować każdą sytuację w różnych kontekstach i rozważa jej wszystkie trade-offy. Również prezentuje nie oczywiste błędy które mogą znacząco wpłynąć na nasz system na wielu płaszczyznach (nie tylko poprawności)
+
+Jest dostępna pod: https://www.manning.com/books/software-mistakes-and-tradeoffs?utm_source=tomekl007&utm_medium=affiliate&utm_campaign=book_lelek_software_6_10_21&a_aid=tomekl007&a_bid=078cdd94 
+
+Poprzednio pracował w Allegro nad systemami przetwarzania streaming, batch, i online które obsługują miliony użytkowników. 
+
+Sprawdź jego GitHub na https://github.com/tomekl007, Twitter https://twitter.com/tomekl007 i linkedIn: https://www.linkedin.com/in/tomaszlelek """
+photo = "tomasz-lelek.jpeg"
