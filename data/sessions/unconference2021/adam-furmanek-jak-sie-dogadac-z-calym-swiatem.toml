@@ -1,0 +1,28 @@
+title = "Jak dogadać się z całym światem - przegląd systemu multikomunikatora wspierającego ponad 20 różnych sieci komunikacji"
+abstract = """Messenger dominuje na świecie. Co nie? A co z WhatsAppem, Slackiem, Signalem, Skypem, 
+Discordem, Viberem, QQ i tuzinem innych sieci? 
+Jak porozmawiać ze znajomym używającym innego komunikatora bez instalowania kolejnej aplikacji?
+
+Tak zaczęła się moja historia, gdy w 2017 roku zacząłem budować własny komunikator. 
+Obecnie wspiera on ponad 20 różnych protokołów, potrafi działać bez dostępu do Internetu, 
+używa własnej bazy NoSQL, narzędzi do synchronizacji, systemu kolejkowego i potrafi przetrwać 
+nawet krytyczną awarię. W trakcie prezentacji opowiem o różnicach między sieciami, 
+problemach przy łączeniu komunikatorów i masie innych rzeczy, których nauczyłem się w trakcie 
+pracy nad systemem."""
+
+[links]
+# youtube = "3zOv3kFWnYc"
+
+[opengraph]
+# fb = "adam_dudczak-og.png"
+# twitter = "adam_dudczak-og-sq.png"
+
+[[speakers]]
+name = "Adam Furmanek"
+bio = """Nazywam się Adam Furmanek i od dekady jestem inżynierem oprogramowania. Obecnie pracuję w Amazonie,
+gdzie zajmuję się uczeniem maszynowym, Big Data, generowaniem głosu i systemami rekomendacji. Zawsze jestem
+zainteresowany szczegółami technicznymi używanych przeze mnie narzędzi, aby móc lepiej je wykorzystać, 
+debuguję, dekompiluję, deasembluję, analizuję modele pamięci, problemy z wielodostępem i inne ukryte 
+szczegóły implementacji. W wolnym czasie gram na pianinie, 
+jeżdżę na rolkach i bloguję na http://blog.adamfurmanek.pl"""
+photo = "adam-furmanek.jpg"
