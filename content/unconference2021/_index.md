@@ -8,7 +8,7 @@ social:
         fb: conference.png     
 details:
     city: Kraków
-    venue: QHotel
+    venue: Q Hotel Plus
     logo: svg-event-unconference
     heroImg: images/krakow.jpg
 dates: 
