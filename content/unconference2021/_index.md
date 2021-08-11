@@ -21,6 +21,41 @@ conference:
     attendees: 150
     tracks: 1
     afterparty: false
+agenda:
+    - tracks: 
+        - "6 września, dzień konferencyjny"
+      slots:
+        - "<span class=text-nowrap>9:00 - 9:15</span>":
+            - "Otwarcie konferencji"
+        - "<span class=text-nowrap>9:15-10:30</span>":
+            - "adam-furmanek-jak-sie-dogadac-z-calym-swiatem"
+        - "<span class=text-nowrap>10:45 - 11:30</span>":
+            - "sebastian-rabiej-developers-kryptonite"
+        - "<span class=text-nowrap>11:45 - 12:30</span>":
+            - "tomasz-lelek-problemy-trade-off-przedwczesna-optymalizacja"       
+        - "<span class=text-nowrap>12:30 - 13:30</span>":
+            - "Lunch zwany też obiadem"
+        - "<span class=text-nowrap>13:30 - 14:15</span>":
+            - "tomasz-masternak-tla-plus"
+        - "<span class=text-nowrap>14:30 - 15:15</span>":
+            - "zbyszko-papierski-wikipedia-wiedza-zrozumiala-maszynowo"
+        - "<span class=text-nowrap>15:30 - 16:15</span>":
+            - "TBD"
+        - "<span class=text-nowrap>16:30 - 17:15</span>":
+            - "TBD"
+    - tracks: 
+        - "7 września, unconference"
+      slots:
+        - "<span class=text-nowrap>9:30 - 10:15</span>":
+            - "Keynote"
+        - "<span class=text-nowrap>10:30-12:30</span>":
+            - "unconference, część pierwsza"
+        - "<span class=text-nowrap>12:30 - 13:30</span>":
+            - "Lunch zwany też obiadem"
+        - "<span class=text-nowrap>13:30-16:30</span>":
+            - "unconference, część druga"
+        - "<span class=text-nowrap>16:45-17:00</span>":
+            - "Wielkie zakończenie"
 ---
 
 ## Segfault Unconference - inspiracje, których szukasz!
