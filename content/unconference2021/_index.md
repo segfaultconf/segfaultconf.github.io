@@ -38,7 +38,7 @@ agenda:
         - "<span class=text-nowrap>13:30 - 14:15</span>":
             - "tomasz-masternak-tla-plus"
         - "<span class=text-nowrap>14:30 - 15:15</span>":
-            - "zbyszko-papierski-wikipedia-wiedza-zrozumiala-maszynow"
+            - "zbyszko-papierski-wikipedia-wiedza-zrozumiala-maszynowo"
         - "<span class=text-nowrap>15:30 - 16:15</span>":
             - "radoslaw-sokol-transformacja-serverless"
         - "<span class=text-nowrap>16:30 - 17:15</span>":
