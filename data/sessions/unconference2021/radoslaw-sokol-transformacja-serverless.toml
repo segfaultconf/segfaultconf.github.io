@@ -1,0 +1,15 @@
+title = "Transformacja serverless - studium przypadku"
+abstract = """Z technicznego punktu widzenia przeniesienie systemu do chmury w postaci serverless nie jest niczym niezwykłym. Chciałbym przedstawić jednak historię systemu, którego przeniesienie stało się koniecznością biznesową, a zakończyło sukcesem. Pokażę Wam, jakie były przyczyny podjęcia decyzji o przenosinach, jakie zespół podjął kroki i z czego one wynikały - tak, abyście mogli, będąc w podobnej sytuacji, skorzystać z naszych doświadczeń."""
+
+[links]
+# youtube = "3zOv3kFWnYc"
+
+[opengraph]
+# fb = "adam_dudczak-og.png"
+# twitter = "adam_dudczak-og-sq.png"
+
+[[speakers]]
+name = "Radosław Sokół"
+bio = """Programista i architekt oprogramowania. Wiele lat propagował IT i programowanie jako autor książek, nauczyciel akademicki i trener kursów. Od 2014 roku skupia się wyłącznie na projektowaniu i realizowaniu rozwiązań informatycznych. Od 2020 roku - jako Lead Software Engineer i architekt - jest członkiem zespołu Future Processing realizującego system obsługi transakcji finansowych dla dużego klienta, co obejmuje transformację do serverless i wprowadzanie nowych funkcjonalności.
+Po godzinach pasjonuje się retro-informatyką i prowadzi blog techniczny https://swiat-owocow.pl/"""
+photo = "rs.jpeg"
