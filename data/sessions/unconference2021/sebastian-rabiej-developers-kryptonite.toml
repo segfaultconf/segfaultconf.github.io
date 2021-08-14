@@ -17,11 +17,5 @@ tematy psychologii. Zapraszam."""
 
 [[speakers]]
 name = "Sebastian Rabiej"
-bio = """Odkąd pamiętam, fascynowały mnie języki programowania i wszystko, 
-co było z nimi związane. Tworzenie czegoś z „niczego” jest ekscytujące 
-na tyle, że postanowiłem iść tą ścieżką kariery. Pracuję jako developer 
-od ponad 4 lat. Ciągle poszukuję odpowiedzi na pytanie 
-„co to znaczy być profesjonalny” i wątpię, abym szybko znalazł odpowiedź 
-na to pytanie. Jestem entuzjastą tematów związanych z czystym kodem, 
-software craftsmanship i metodykami zwinnymi."""
-photo = "25aq7L97.jpg"
+bio = """Odkąd pamiętam, fascynowały mnie języki programowania i wszystko, co było z nimi związane. Tworzenie czegoś z „niczego” jest ekscytujące na tyle, że postanowiłem iść tą ścieżką kariery. Pracuję jako developer od ponad 6 lat. Ciągle poszukuję odpowiedzi na pytanie „co to znaczy być profesjonalny”. Swoich odpowiedzi szukam razem z firmą softwaremill, dla której aktualnie zdalnie pracuje. Jestem entuzjastą tematów związanych z czystym kodem, software craftsmanship i metodykami zwinnymi."""
+photo = "sebastian_rabiej.jpg"
