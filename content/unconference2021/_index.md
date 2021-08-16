@@ -32,7 +32,7 @@ agenda:
         - "<span class=text-nowrap>10:45 - 11:30</span>":
             - "sebastian-rabiej-developers-kryptonite"
         - "<span class=text-nowrap>11:45 - 12:30</span>":
-            - "tomasz-lelek-problemy-trade-off-przedwczesna-optymalizacja"       
+            - "tomasz-lelek-problemy-trade-off-przedwczesna-optymalizacja"
         - "<span class=text-nowrap>12:30 - 13:30</span>":
             - "Lunch zwany też obiadem"
         - "<span class=text-nowrap>13:30 - 14:15</span>":
@@ -42,7 +42,7 @@ agenda:
         - "<span class=text-nowrap>15:30 - 16:15</span>":
             - "radoslaw-sokol-transformacja-serverless"
         - "<span class=text-nowrap>16:30 - 17:15</span>":
-            - "TBD"
+            - "artur-skowronski-porozmawiajmy-o-legacy"
     - tracks: 
         - "7 września, unconference"
       slots:

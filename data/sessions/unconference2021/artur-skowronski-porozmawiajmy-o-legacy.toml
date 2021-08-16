@@ -1,0 +1,19 @@
+title = "Panie, kto tu Panu tak ... - czyli porozmawiajmy o Legacy"
+abstract = """Reakcję z tytułu zna z pewnością każdy, kto kiedykolwiek miał przyjemność korzystania z usług mechanika, speców od remontu... a także zespołu programistów, który musi dotknąć się jakiegokolwiek Legacy.  
+
+W ramach dzisiejszego case study postaram się nieco odczarować temat. Na przykładzie realnego procesu modernizacji części systemu porozmawiamy o tym, co sprawia, że systemy gniją od środka - i czemu dzieje się tak nawet wtedy, gdy większość podejmowanych przez dekady wyborów była całkiem trafna.
+
+Prezentacja nie ograniczy się jednak do samego filozofowania. Przechodząc krok po kroku przez proces migracji, podzielę się pewnymi niekonwencjonalnymi, praktycznymi pomysłami, które w ostatecznym rozrachunku okazały się być zaskakująco skuteczne. Włożę też kilka kijów w mrowisko - mam nadzieję co poniektórym podniosą ciśnienie i zainspirują ciekawe rozmowy podczas Unconference 😈.
+"""
+
+[links]
+# youtube = "3zOv3kFWnYc"
+
+[opengraph]
+# fb = "adam_dudczak-og.png"
+# twitter = "adam_dudczak-og-sq.png"
+
+[[speakers]]
+name = "Artur Skowroński"
+bio = """W tym roku stuknęła mu dycha w branży. Dekadę tą spędził przy bardzo różnych projektach - od takich które startował od zera, do grubo starszych od niego. Całe życie walczy o to, żeby nie musieć klepać CRUDów... nawet jeśli oznacza to robotę szambonurka w systemach legacy. Po trzech latach fascynującej (bez ironii) przygody w ponad czterdziestoletniej architekturze, aktualnie pracuje jako Tech Lead w VirtusLab przy projekcie https://vived.io"""
+photo = "artur-skowronski.jpg"
