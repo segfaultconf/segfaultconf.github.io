@@ -1,9 +1,9 @@
 ---
 headless: true
 resources:
-  - src: "principal/220px-Gain-capital-logo.PNG"
+  - src: "principal/StoneXLogo.png"
     params:
-      url: https://www.gaincapital.com/
+      url: https://www.stonex.com/
   - src: "architect/Future-Processing_LOGO_RGB_black.png"
     params:
       url: https://kariera.future-processing.pl/
