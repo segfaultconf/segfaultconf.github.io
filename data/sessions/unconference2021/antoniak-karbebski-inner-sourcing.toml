@@ -1,0 +1,22 @@
+title = "Inner Sourcing i developer community jako narzędzie do standaryzacji technologii w dużych organizacjach"
+abstract = """Dzisiejszy świat technologii jest bardzo dynamiczny, codziennie słyszymy o nowych rozwiązaniach, frameworkach czy produktach, które pomogą nam wytwarzać software efektywniej. Z perspektywy dużej organizacji często prowadzi to do duplikacji effortu oraz trudności z tak zwanym “stay on top of the technology”.
+
+W naszej prezentacji opowiemy o tym jak poprzez budowanie wewnętrznych repozytoriów kodu dostępnych dla całej organizacji w oparciu o model inner sourcing, możemy ustandaryzować technologiczny stack i obniżyć czas przepisywania poszczególnych komponentów na nowo. Porozmawiamy również jak zbudować wspólną przestrzeń dla każdego żeby dzielić się wiedzą
+"""
+
+[links]
+# youtube = "3zOv3kFWnYc"
+
+[opengraph]
+# fb = "adam_dudczak-og.png"
+# twitter = "adam_dudczak-og-sq.png"
+
+[[speakers]]
+name = "Bartek Antoniak"
+bio = """Engineering Manager w VirtusLab. Na co dzień buduje platformy cloudowe, pomaga klientom w transformacji technologicznej w świecie cloud-native oraz jest zaangażowany w wewnętrzne inicjatywy produktowe oraz open source"""
+photo = "bartek-antoniak.png"
+
+[[speakers]]
+name = "Mikołaj Karebski"
+bio = """Były Javowy backendowiec, obecnie Cloud Engineer w VirtusLabie. Entuzjasta kultury DevOps i cyberbezpieczeństwa. Prywatnie miłośnik gier wideo i zagadnień związanych z gamedevem."""
+photo = "mikolaj-karebski.jpg"

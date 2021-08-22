@@ -47,7 +47,7 @@ agenda:
         - "7 września, unconference"
       slots:
         - "<span class=text-nowrap>9:30 - 10:15</span>":
-            - "Keynote"
+            - "Inner Sourcing i developer community jako narzędzie do standaryzacji technologii w dużych organizacjach"
         - "<span class=text-nowrap>10:30-12:30</span>":
             - "unconference, część pierwsza"
         - "<span class=text-nowrap>12:30 - 13:30</span>":
