@@ -12,7 +12,7 @@ resources:
       url: https://virtuslab.com/
   - src: "senior/Touk.png"
     params:
-      url: https://virtuslab.com/
+      url: https://touk.pl/
   - src: "technology/logo-blue-300x133.webp"
     params:
       url: https://buddy.works/
