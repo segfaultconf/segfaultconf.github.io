@@ -25,4 +25,7 @@ resources:
   - src: "media/outsourcing_portal.png"
     params:
       url: http://www.outsourcingportal.eu/
+  - src: "media/programista.png"
+    params:
+      url: https://programistamag.pl/
 ---
