@@ -25,6 +25,8 @@ agenda:
     - tracks: 
         - "6 września, dzień konferencyjny"
       slots:
+        - "<span class=text-nowrap>8:30 - 9:00</span>":
+            - "Rejestracja"
         - "<span class=text-nowrap>9:00 - 9:15</span>":
             - "Otwarcie konferencji"
         - "<span class=text-nowrap>9:15-10:30</span>":

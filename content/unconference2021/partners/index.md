@@ -22,4 +22,7 @@ resources:
   - src: "media/justjoinit.png"
     params:
       url: https://justjoin.it/
+  - src: "media/outsourcing_portal.png"
+    params:
+      url: http://www.outsourcingportal.eu/
 ---
