@@ -34,11 +34,18 @@ city = "masterclass"
 link = "/masterclass-lato2020"
 
 [[editions]]
-forthcoming = true
+forthcoming = false
 dateSortable = 2021-09-06
 dateReadable = "6-7 września 2021"
 city = "Kraków"
 link = "/unconference2021"
+
+[[editions]]
+forthcoming = true
+dateSortable = 2022-03-14
+dateReadable = "14-15 marca 2022"
+city = "Kraków"
+link = "/unconference2022spring"
 
 [[editions]]
 forthcoming = false
