@@ -1,0 +1,16 @@
+title = " Zbudujmy najgorszy system Event Sourcing!"
+abstract = """Każdy lubi rozmawiać o najlepszych praktykach. Pójdziemy w drugą stronę i zbierzemy wszystkie najgorsze praktyki, aby dowiedzieć się, jak zbudować najgorszy system Event Sourcing! Event Sourcing jest postrzegany jako złożony wzorzec, który jest trudny do zrozumienia. W rzeczywistości jest to dość proste, ale sposób, w jaki jest nauczany, mogą prowadzić do takiego wniosku. Wystarczy obejrzeć "best practices" z pierwszej strony Google by zrozumieć, że może się to nie udać. W trakcie prelekcji przechodząc przez najgorsze pomysły, poznamy przy okazji istotę Event Sourcing i jak zrobić to dobrze."""
+
+[links]
+# youtube = "3zOv3kFWnYc"
+
+[opengraph]
+# fb = "adam_dudczak-og.png"
+# twitter = "adam_dudczak-og-sq.png"
+
+[[speakers]]
+name = "Oskar Dudycz"
+bio = """Od ponad 14 lat tworzę pragmatycznie systemy bliskie procesowi biznesowemu. Karierę rozpocząłem przed istnieniem StackOverflow (czyli ponad 14 lat temu). Jestem programistą, bywam liderem technicznym, architektem. Aktualnie pracuję jako Developer Advocate w Event Store gdzie tworzymy bazę dedykowaną do Event Sourcing.
+
+Aktywnie działam w społeczności Open Source. Jestem jednym z maintainerów biblioteki Marten. Moim obecnie największym zainteresowaniem jest Event Sourcing i tworzenie systemów, które robią to co powinny. Staram się pokazywać praktycznie, jak to robić na co dzień."""
+photo = "oskar-dudycz.jpg"
