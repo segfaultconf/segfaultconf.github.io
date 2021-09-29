@@ -1,0 +1,14 @@
+title = "TBD"
+abstract = """Prace trwają..."""
+
+[links]
+# youtube = "3zOv3kFWnYc"
+
+[opengraph]
+# fb = "adam_dudczak-og.png"
+# twitter = "adam_dudczak-og-sq.png"
+
+[[speakers]]
+name = "Weronika Mularczyk"
+bio = """Programistka łącząca również inne role, m.in. związane z zarządzaniem projektami. Na co dzień bloguje na https://www.programmer-girl.com i aktywnie udziela się we wrocławskim świecie IT. Microsoft MVP oraz współorganizator Wrocławskiej grupy .NET https://www.wrocnet.org. Od kilku lat kieruje projektem open source https://www.devadventcalendar.pl. Poza światem IT skupia się na swoich hobby: planszówkach i escape roomach."""
+photo = "wmularczyk.jpg"
