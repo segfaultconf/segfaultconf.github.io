@@ -1,0 +1,20 @@
+title = "Przychodzi zapytanie do bazy danych... i co dalej?"
+abstract = """Robiliście kiedyś zapytanie do bazy danych? Założę się, że małego, niewinnego SELECTa napisał tu każdy. Prawdopodobnie każdy z nas już pracował w projekcie CRUDowym lub będzie w takowym pracować i będzie korzystać w jeden lub drugi sposób z bazy danych...
+Prawdopodobnie też wiele z nas chce być bardzo dobrymi programist(k)ami, dlatego w pewnym momencie swojej ścieżki warto zadać sobie pytanie -
+"A jak właściwie działa to z czego korzystam?".
+Jeśli zatem chcesz dowiedzieć się jak pod spodem działają bazy danych, jak przechowywane i zapisywane są dane i jak to jest, że umiemy je odczytać - to świetnie!
+Zrobię wszystko co umiem, by w sposób przyjemny przekazać tą wiedzę!"""
+
+[links]
+# youtube = "3zOv3kFWnYc"
+
+[opengraph]
+# fb = "adam_dudczak-og.png"
+# twitter = "adam_dudczak-og-sq.png"
+
+[[speakers]]
+name = "Anna Wójcik"
+bio = """Anna Wójcik - od ponad 6 lat piszę kod w Javie. Pomagam ludziom przejść na ciemną stronę mocy i zostać programistami oraz prowadzę jedyne w swoim rodzaju konto programistyczne na Instagramie - PaniOdProgramowania.
+Aby tłumaczyć, że ta magia wcale nie jest taka straszna i wbrew pozorom bardzo przypomina naszą rzeczywistość, sama nieustannie poznaję jej głębokie tajniki.
+W wolnym czasie tańczę amatorsko balet, podróżuję, oglądam Titanica i czytam czasopisma psychologiczne."""
+photo = "anna_wojcik.jpg"
