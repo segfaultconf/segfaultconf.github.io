@@ -42,10 +42,10 @@ link = "/unconference2021"
 
 [[editions]]
 forthcoming = true
-dateSortable = 2022-03-14
-dateReadable = "14-15 marca 2022"
+dateSortable = 2022-09-07
+dateReadable = "07-08 września 2022"
 city = "Kraków"
-link = "/unconference2022spring"
+link = "/unconference2022"
 
 [[editions]]
 forthcoming = false

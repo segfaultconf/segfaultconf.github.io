@@ -2,7 +2,7 @@
 title: Unconference 2022
 type: event
 social:
-    description: 14-15 marca 2022 w Krakowie. Najbardziej nie-konferencja której szukasz
+    description: 7-8 września 2022 w Krakowie. Najbardziej nie-konferencja której szukasz
     opengraph:
         twitter: conference-sq.png
         fb: conference.png     
@@ -12,9 +12,9 @@ details:
     logo: svg-event-unconference
     heroImg: images/krakow.jpg
 dates: 
-    readable: 14-15 marca 2022
-    start: 2022-03-14
-    end: 2022-03-15
+    readable: 7-8 września 2022
+    start: 2022-09-07
+    end: 2022-09-08
 tickets: 
     link: https://segfault-unconf-2022.konfeo.com/
 conference:
