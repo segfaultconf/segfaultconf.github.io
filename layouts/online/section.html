@@ -98,7 +98,7 @@
   </section>  
   {{ end }}
 
-  {{ with .Site.GetPage (printf "%s%s" .Dir "partners") }}
+  {{ with .Site.GetPage (printf "%s%s" .File.Dir "partners") }}
   <section class="section" id="partners">
     <div class="container">
       <div class="row">
