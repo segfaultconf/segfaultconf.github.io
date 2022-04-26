@@ -21,6 +21,43 @@ conference:
     attendees: 150
     tracks: 1
     afterparty: false
+agenda:
+    - tracks: 
+        - "7 września, dzień konferencyjny"
+      slots:
+        - "<span class=text-nowrap>8:30 - 9:00</span>":
+            - "Rejestracja"
+        - "<span class=text-nowrap>9:00 - 9:15</span>":
+            - "Otwarcie konferencji"
+        - "<span class=text-nowrap>9:15-10:00</span>":
+            - "oskar-dudycz-event-sourcing"
+        - "<span class=text-nowrap>10:15 - 11:00</span>":
+            - "anna-wojcik-przychodzi-zapytanie-do-bazy-danych"
+        - "<span class=text-nowrap>11:15 - 12:00</span>":
+            - "konrad-kokosa"
+        - "<span class=text-nowrap>12:00 - 13:15</span>":
+            - "Lunch zwany też obiadem"
+        - "<span class=text-nowrap>13:15 - 14:00</span>":
+            - "weronika-mularczyk"
+        - "<span class=text-nowrap>14:15 - 15:00</span>":
+            - "jaroslaw-palka-reference-capability-concurrency"
+        - "<span class=text-nowrap>15:15 - 16:00</span>":
+            - "TBD"
+        - "<span class=text-nowrap>16:15 - 17:00</span>":
+            - "TBD"
+    - tracks: 
+        - "8 września, unconference"
+      slots:
+        - "<span class=text-nowrap>10:15 - 11:00</span>":
+            - "TBD"
+        - "<span class=text-nowrap>11:15 - 12:00</span>":
+            - "katarzyna-leszczynska"
+        - "<span class=text-nowrap>12:00 - 13:15</span>":
+            - "Lunch zwany też obiadem"
+        - "<span class=text-nowrap>13:15 - 16:00</span>":
+            - "Unconference"
+        - "<span class=text-nowrap>16:00 -16:15</span>":
+            - "Zamknięcie konferencji"
 ---
 
 ## Segfault Unconference - inspiracje, których szukasz!
