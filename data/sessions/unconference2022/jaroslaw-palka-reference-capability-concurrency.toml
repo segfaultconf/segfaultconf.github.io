@@ -1,0 +1,48 @@
+title = "Reference capabilities, systemy typów i droga ku współbieżności"
+abstract = """
+W 2005 roku Herb Sutter opublikował, kultowy już w pewnych kręgach, artykuł "The Free Lunch Is Over. A Fundamental Turn Toward Concurrency in Software".
+Herb w swoim artykule roztaczał katastroficzną wizję końca programowania z jakim mieliśmy do tej pory do czynienia. Wraz z rosnącą ilością rdzeni,
+rozmiarem pamięci cache, wydajnością magistrali pomiędzy gniazdami procesorów, programiści muszą być bardziej swiadomi jak działa CPU i RAM, 
+by w pełni wykorzystać ich możliwości.
+
+Witaj współbieżności.
+
+Czy chcemy tego czy nie, rzeczy, które tak bardzo staraliśmy się ignorować, schowani za murami "frameworków", zaczynają docierać do naszej świadomości.
+Bariery, spójność, "false sharing" i inne niskopoziomowe detale. Możemy oczywiście wybrać drogę niezmienności ("immutability"), ale ona ma też swoją cenę.
+
+A gdyby istniał inny sposób? Czy możemy zjeść ciastko i mieć ciastko? Czy możemy mieć mutowalne obiekty i być w stanie udowodnić, 
+że Twój program jest wolny od zakleszczeń i wyścigu danych?
+
+Witamy w świecie "reference capability model". Podczas prezentacji wyjaśnię czym jest "reference capability", "destructive reads" i "object consumption".
+Pokażę implementację tego modelu w języku Pony, a także spróbuje pokazać jak można zaimplementować ten model w istniejących językach. Będzie trochę o 
+teorii (i praktyce) kompilatorów, "control flow" i "data flow graphs".
+Mam nadzieję, że na koniec wszyscy będziemy kiwać głowami w zachwycie i zadawać sobie to fundamentalne  pytanie: „Po co to wszystko?”."""
+
+[links]
+# youtube = "3zOv3kFWnYc"
+
+[opengraph]
+# fb = "adam_dudczak-og.png"
+# twitter = "adam_dudczak-og-sq.png"
+
+[[speakers]]
+name = "Jarosław Pałka"
+bio = """Od ponad 20 lat w branży IT jako administrator baz danych, programista, architekt, manager
+i „inżynier od spraw katastrof”.
+Brałem udział w małych, średnich i nonsensownie dużych projektach, prowadzonych
+zgodnie zasadami „waterfall”, Agile oraz przy braku jakichkolwiek metodyk - z tym samym
+zawsze skutkiem. Wszystko to doprowadziło mnie do wniosku, że nieważne co robisz,
+ważne byś robił to dobrze, w najprostszy z możliwych sposobów i przy użyciu właściwych
+narzędzi, które wykonają pracę za Ciebie. W międzyczasie dałem się porwać ideom TDD
+oraz Software Craftmanship, do granic możliwości wyeksploatować tak piękne w swej
+prostocie pomysły jak REST i NoSQL. Porzuciłem je, by zgłębić tajniki „system thinking” i
+zachwycić się siłą, jaką niesie ze sobą „metafora” oraz by odkryć, że rządzą nami te same
+prawa „natury”.
+Niepokorny wyznawca kościoła JVM, badacz bytecode’u i JIT oraz wszelkiej maści
+parserów, interpreterów i kompilatorów. Na co dzień walczący o lepszą wydajność w Neo4j.
+Od czasu do czasu można usłyszeć moje niskiej jakości żarty na temat architektury na
+konferencjach w Polsce.
+W wolnych chwilach trener w Symentis, autor bloga na
+http://geekyprimitives.wordpress.com/ oraz samozwańczy dyktator w Radzie Programowej
+konferencji SegFault."""
+photo = "jpalka.jpg"
