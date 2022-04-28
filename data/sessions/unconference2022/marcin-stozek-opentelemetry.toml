@@ -1,0 +1,17 @@
+title = "Logi, metryki i trejsy kontra OpenTelemetry"
+abstract = """Obserwowalność i monitoring nie są nowymi konceptami, natomiast do tej pory trzeba było używać różnych narzędzi żeby zbierać wszystkie sygnały - logi, metryki i trejsy. Ale krajobraz się zmienia, a jeden z projektów zasługuje na szczególną uwagę - mowa o OpenTelemetry, który aktualnie jest drugim najbardziej aktywnym projektem w CNCF. Podczas prezentacji dowiesz się czym jest OpenTelemetry, czym różni się od agenta Otelcol oraz jak zbierać i przetwarzać dane używając jednego narzędzia."""
+
+[links]
+# youtube = "3zOv3kFWnYc"
+
+[opengraph]
+# fb = "adam_dudczak-og.png"
+# twitter = "adam_dudczak-og-sq.png"
+
+[[speakers]]
+name = "Marcin Stożek"
+bio = """Za dnia prowadzę zespół programistów i jestem ewangelistą devopsa, po nocach czytam co słychać na Hacker News. Wierny fan pracy zdalnej.
+Programowanie zaczynałem od zeszytu w kratkę, w którym w drugiej klasie podstawówki na piechotę wyliczałem bajty potrzebne do wyświetlenia obrazka na C64.
+Od tego czasu brałem udział w wielu projektach z różnych dziedzin, od bezpieczeństwa w kolejkach po Hadoopa, od monolitu do mikroserwisów poprzez Dockera i Kubernetes. Pracowałem jako tester, developer, administrator - zawsze gdzieś wokół infrastruktury. Ostatnimi czasy jako menadżer.
+Szerzę zarazę automatyzacji, GNU/Linuksa oraz Vima. Niekoniecznie w tej kolejności."""
+photo = "marcin_stozek.png"

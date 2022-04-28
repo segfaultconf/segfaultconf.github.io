@@ -1,5 +1,6 @@
-title = "TBD"
-abstract = """Prace trwają..."""
+title = "Pokaż, że można inaczej/lepiej/szybciej"
+abstract = """Na co dzień pracujemy z procesami/rozwiązaniami/narzędziami. Czasami widzimy, że są one powolne, przestarzałe, a może po prostu utrudniają pracę. Jak możemy to zmienić? Jak postawić wyzwanie samemu sobie i sprawić, żeby nasza codzienna praca stała się trochę lepsza/wydajniejsza/przyjemniejsza? Na podstawie konkretnych przykładów pokażę Wam, jak nawet jedna osoba jest w stanie wpłynąć na procesy zachodzące w całym projekcie.
+Wykorzystamy m.in. Power Platform do automatyzacji maili i pilnowania porządku w Backlogu czy Azure DevOps Branch Policies do dbania o jakość kodu i rozwiązań."""
 
 [links]
 # youtube = "3zOv3kFWnYc"

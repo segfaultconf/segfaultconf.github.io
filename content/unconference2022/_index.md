@@ -42,7 +42,7 @@ agenda:
         - "<span class=text-nowrap>14:15 - 15:00</span>":
             - "jaroslaw-palka-reference-capability-concurrency"
         - "<span class=text-nowrap>15:15 - 16:00</span>":
-            - "TBD"
+            - "marcin-stozek-opentelemetry"
         - "<span class=text-nowrap>16:15 - 17:00</span>":
             - "TBD"
     - tracks: 
