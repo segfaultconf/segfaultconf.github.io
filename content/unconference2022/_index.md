@@ -20,7 +20,7 @@ tickets:
 conference:
     attendees: 150
     tracks: 1
-    afterparty: false
+    afterparty: true
 agenda:
     - tracks: 
         - "7 września, dzień konferencyjny"

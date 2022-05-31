@@ -116,16 +116,6 @@
 
       {{ partial "agenda.html" . }}
 
-      {{ if .Param "conference.afterparty" }}      
-      <!-- <div class="row" id="media">
-        <div class="col-12 col-md-8">
-          <p class="font-bold font-24 el-animated">A po całym dniu intensywnego zdobywania wiedzy czeka Cię kapitalne afterparty.</p>
-        </div>
-      </div>
-
-      @@include("./includes/gallery.html") -->
-      {{ end }}
-
       <!-- <div class="row">
         <div class="col-md-7">
           <div class="list__item list__item--accent font-24 font-bold el-animated">
@@ -171,7 +161,7 @@
         {{ end }}
 
         {{ with (.Resources.Match (printf "%s/*" "architect")) }}
-        <h4 class="font-bold font-22 border--bottom">Architect</h4>
+        <h4 class="font-bold font-22 border--bottom">Partner Architect</h4>
           {{ partial "partners.html" . }}
         {{ end }}
 
@@ -194,6 +184,12 @@
         <h3 class="text-accent font-bold font-36 border--bottom pt-3 mt-5">Społeczności</h3>
           {{ partial "partners.html" . }}
         {{ end }}
+
+        {{ with (.Resources.Match (printf "%s/*" "afterparty")) }}
+        <h3 class="text-accent font-bold font-36 border--bottom pt-3 mt-5">Sponsor afterparty</h3>
+          {{ partial "partners.html" . }}
+        {{ end }}
+
       </div>
 
       <div class="row">
