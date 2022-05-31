@@ -7,4 +7,7 @@ resources:
   - src: "principal/StoneXLogo.png"
     params:
       url: https://www.stonex.com/careers/
+  - src: "architect/Ocado Tech_Logo_H_2018_RGB.png"
+    params:
+      url: "http://www.ocadogroup.com/" 
 ---
