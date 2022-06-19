@@ -1,0 +1,15 @@
+title = "Przekroczyłem developerski Rubikon, a jednak wróciłem na ścieżkę deva"
+abstract = """Ścieżka kariery potrafi być zawiła i kręta. Ponad 10 letnie doświadczenie w branży IT pokazało mi, że można wpaść w pułapkę myślenia, że naturalną drogą po byciu senior deweloperem jest przejście na ścieżkę menadżerską. Wynikało to z mojego zainteresowania zwinnymi metodykami i chęcią pracy nad motywacją oraz zaangażowaniem zespołów. Tak zostałem Team Leaderem. Początki były bardzo budujące i ciekawe, jednak przyjście pandemii spowodowało, że moje oczekiwania względem tej roli się zmieniły. Coraz większa liczba godzin spędzanych na spotkaniach zaczęła oddalać mnie od kodu. Moje serce inżyniera dosłownie pękło, więc podjąłem decyzję, że to moment na zmianę… i tak wróciłem zza developerskiego Rubikony bycia menadżerem do prostego życia developerskiego rzemieślnika."""
+
+[links]
+# youtube = "3zOv3kFWnYc"
+
+[opengraph]
+# fb = "adam_dudczak-og.png"
+# twitter = "adam_dudczak-og-sq.png"
+
+[[speakers]]
+name = "Maciej Trojniarz"
+bio = """Uczeń czarnoksiężnika aka czeladnik rzemiosła programistycznego w Ocado Technology z ponad 10 letnim doświadczeniem zdobytym w różnych branżach i funkcjach. Entuzjasta i ewangelista zwinnych metodyk zarządzania oraz dobrych praktyk inżynierskich. Wolny czas zajmują mu żona i 2 córeczki, wolontariat w Fundacji Gra o Sens oraz gry planszowe.
+Jeśli chcecie dowiedzieć się więcej możecie znaleźć go na LinkedIn i Twitterze @MaciejTrojniarz"""
+photo = "Maciej_Trojniarz.jpg"

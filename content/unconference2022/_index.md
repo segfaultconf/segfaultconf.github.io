@@ -44,7 +44,7 @@ agenda:
         - "<span class=text-nowrap>15:15 - 16:00</span>":
             - "marcin-stozek-opentelemetry"
         - "<span class=text-nowrap>16:15 - 17:00</span>":
-            - "TBD"
+            - "maciej-trojniarz-rubikon"
     - tracks: 
         - "8 września, unconference"
       slots:
