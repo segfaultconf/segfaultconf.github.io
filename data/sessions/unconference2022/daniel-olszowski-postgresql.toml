@@ -1,6 +1,6 @@
 title = "Co warto wiedzieć o postgresie, żeby nie zostać zaskoczonym? O indeksach, transakcjach i procesie vacuum."
-abstract = """Na co dzień pracujemy z procesami/rozwiązaniami/narzędziami. Czasami widzimy, że są one powolne, przestarzałe, a może po prostu utrudniają pracę. Jak możemy to zmienić? Jak postawić wyzwanie samemu sobie i sprawić, żeby nasza codzienna praca stała się trochę lepsza/wydajniejsza/przyjemniejsza? Na podstawie konkretnych przykładów pokażę Wam, jak nawet jedna osoba jest w stanie wpłynąć na procesy zachodzące w całym projekcie.
-Wykorzystamy m.in. Power Platform do automatyzacji maili i pilnowania porządku w Backlogu czy Azure DevOps Branch Policies do dbania o jakość kodu i rozwiązań."""
+abstract = """Co warto wiedzieć o postgresie, żeby nie zostać zaskoczonym? O indeksach, transakcjach i procesie vacuum.
+Pewnego dnia padła nam baza danych. Tak po prostu. Nie byłoby w tym pewnie nic zaskakującego, gdyby nie fakt, że stało się to na środowisku przedprodukcyjnym (a to raczej nie zdarza się zbyt często, prawda?) jak również fakt,  że jej postawienie na przysłowiowe nogi zajęło prawie 2 dni. Podczas odkrywania przyczyn awarii (w chwili obecnej jeszcze nie w pełni poznanych), poza ujawnieniem ciekawych zachowań naszego systemu, poznaliśmy pewne cechy postgresa, których kompletnie nie byliśmy świadomi, a które, w mojej opinii, warto znać. Opowiem trochę o tym, co wpływa na rozmiar bazy danych, o tym czego (być może), nie wiecie o transakcjach i o procesie vacuum."""
 
 [links]
 # youtube = "3zOv3kFWnYc"
