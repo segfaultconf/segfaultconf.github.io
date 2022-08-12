@@ -49,7 +49,7 @@ agenda:
         - "8 września, unconference"
       slots:
         - "<span class=text-nowrap>10:15 - 11:00</span>":
-            - "TBD"
+            - "daniel-olszowski-postgresql"
         - "<span class=text-nowrap>11:15 - 12:00</span>":
             - "katarzyna-leszczynska"
         - "<span class=text-nowrap>12:00 - 13:15</span>":
