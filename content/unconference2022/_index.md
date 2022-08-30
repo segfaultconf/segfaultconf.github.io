@@ -45,6 +45,8 @@ agenda:
             - "marcin-stozek-opentelemetry"
         - "<span class=text-nowrap>16:15 - 17:00</span>":
             - "maciej-trojniarz-rubikon"
+        - "<span class=text-nowrap>19:30</span>": 
+            - epickie afterparty, Barka, ul. Podgórska 16
     - tracks: 
         - "8 września, unconference"
       slots:
