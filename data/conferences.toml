@@ -1,4 +1,18 @@
 [[editions]]
+forthcoming = true
+dateSortable = 2023-03-29
+dateReadable = "29-30 marca 2023"
+city = "Kraków"
+link = "/unconference2023wiosna"
+
+[[editions]]
+forthcoming = true
+dateSortable = 2022-09-06
+dateReadable = "06-07 września 2022"
+city = "Kraków"
+link = "/unconference2023jesien"
+
+[[editions]]
 forthcoming = false
 dateSortable = 2021-06-17
 dateReadable = "17 czerwca 2021"
@@ -41,7 +55,7 @@ city = "Kraków"
 link = "/unconference2021"
 
 [[editions]]
-forthcoming = true
+forthcoming = false
 dateSortable = 2022-09-07
 dateReadable = "07-08 września 2022"
 city = "Kraków"
