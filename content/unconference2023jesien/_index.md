@@ -13,8 +13,8 @@ details:
     heroImg: images/krakow.jpg
 dates: 
     readable: 6-7 września 2023
-    start: 2022-09-06
-    end: 2022-09-07
+    start: 2023-09-06
+    end: 2023-09-07
 tickets: 
     link: https://segfault-unconf-jesien-2023.konfeo.com/
 conference:

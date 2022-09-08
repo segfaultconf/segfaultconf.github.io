@@ -12,9 +12,9 @@ details:
     logo: svg-event-unconference
     heroImg: images/krakow.jpg
 dates: 
-    readable: 29-30 września 2023
+    readable: 29-30 marca 2023
     start: 2023-03-29
-    end: 2022-03-30
+    end: 2023-03-30
 tickets: 
     link: https://segfault-unconf-wiosna-2023.konfeo.com/
 conference:
