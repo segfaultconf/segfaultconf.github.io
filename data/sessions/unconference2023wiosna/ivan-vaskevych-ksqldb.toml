@@ -1,0 +1,20 @@
+title = "ksqlDB in production: how to create a billing system with 4 SQL statements"
+abstract = """ksqlDB is a Real-time Kafka-native database built for stream processing applications.
+Open source, of course.
+Under the hood it builds on top of Kafka Streams.
+You can create a processing with SQL-like DDL, query intermediary and end results with SQL-like DML (“SELECT * FROM”), and more.
+Let’s hear about how you can build a highly available event-driven billing processing system with a few “CREATE” SQL commands."""
+
+[links]
+# youtube = "3zOv3kFWnYc"
+
+[opengraph]
+# fb = "adam_dudczak-og.png"
+# twitter = "adam_dudczak-og-sq.png"
+
+[[speakers]]
+name = "Ivan Vaskevych"
+bio = """Od 15 lat Ivan poznaje Zen programowania, debugowania, skalowania i innych "owań".
+Probował Allegro, Airly, Amazon, Zyte. Od A do Z, można powiedzieć.
+On uważa że nie poznał. Przełożony mówi że poznał, ale podwyżki i tak nie daje."""
+photo = "ivan_vaskevych.jpg"
