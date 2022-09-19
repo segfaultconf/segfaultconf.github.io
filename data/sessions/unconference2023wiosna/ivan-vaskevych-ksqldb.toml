@@ -16,5 +16,6 @@ Let’s hear about how you can build a highly available event-driven billing pro
 name = "Ivan Vaskevych"
 bio = """Od 15 lat Ivan poznaje Zen programowania, debugowania, skalowania i innych "owań".
 Probował Allegro, Airly, Amazon, Zyte. Od A do Z, można powiedzieć.
-On uważa że nie poznał. Przełożony mówi że poznał, ale podwyżki i tak nie daje."""
+On uważa że nie poznał. Przełożony mówi że poznał, ale podwyżki i tak nie daje.
+Czasem pisze posty na http://ensam.pl/"""
 photo = "ivan_vaskevych.jpg"
