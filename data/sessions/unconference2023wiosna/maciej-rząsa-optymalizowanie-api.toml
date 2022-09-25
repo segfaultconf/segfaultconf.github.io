@@ -1,0 +1,24 @@
+title = "Rzecz o optymalizowaniu API: Zmierz, popraw i na produkcję! (choćby w piątek)"
+abstract = """Piątek popołudniu, widzę zielony build na jenkinsie. Wiem, że muszę wysłać go na produkcję przed weekendem. Wiem też dobrze, jak źle może się skończyć deploy o tej porze. Już raz położyłem produkcję i naprawiałem ją po godzinach. Znałem ryzyko.
+
+Podczas wydzielania serwisu z monolitu, uświadomiliśmy sobie, że nasze wewnętrzne RESTowe API jest kompletnie niewydajne. Nie było w stanie udźwignąć nawet ułamka produkcyjnego ruchu. Postanowiliśmy je zoptymalizwać i przepisać na GraphQL. Ta radykalna zmiana odbywała się w serii małych kroków - mój deploy był jednym z nich. W trakcie tego projektu zauważyliśmy kilka wzorców pozwalających na wydajne i niezawodne konsumowanie GraphQLowego API.
+
+W prezentacji zobaczycie, jak dobry monitoring ułatwia na precyzyjną optymalizację API.  Przeanalizujecie wzorce pozwalające na poprawienie wydajności GraphQLa - zarówno po stronie serwera, jak i klienta. Zrozumiecie metody bezpiecznego wdrażania tych zmian na produkcji. Wreszcie - zobaczycie granice tych wszystkich technik i usłyszycie, co może pójść nie tak.
+
+Dlaczego deployowałem tak późno w piątek? Jak mierzyliśmy efekty migracji API? I przede wszystkim - dlaczego testowałem kod na produkcji? Odpowiem opowiadając Wam historię o robieniu wielkich zmian małymi krokami, monitorowaniu API i stosowaniu starych sztuczek w nowym środowisku. Poprowadzę Was przez nadzieję, desperację i walkę z zepsutą produkcją.
+"""
+
+[links]
+# youtube = "3zOv3kFWnYc"
+
+[opengraph]
+# fb = "adam_dudczak-og.png"
+# twitter = "adam_dudczak-og-sq.png"
+
+[[speakers]]
+name = "Maciej Rząsa"
+bio = """Developer z ponad 10-letnim doświadczeniem. Tworzył aplikacji z różnorodnych dziedzin (TV, recycling, turystyka, tłumaczenia, rekrutacja). W Toptalu, gdzie pracuje, spędził półtora roku w projekcie Billing Extraction, który miał na celu wydzielenie złożonej części monolitu do osobnego serwisu. Zainteresowany systemami rozproszonymi, samoorganizującymi się zespołami i metodami tworzenia oprogramowania.
+
+Lubi dzielić się wiedzą. Współorganizator Rzeszów Ruby User Group (http://rrug.pl) oraz Rails Girls Rzeszów. Od czasu do czasu - prelegent na branżowych konferencjach i meetupach. Po godzinach - instruktor i wykładowca na Politechnice Rzeszowskiej.
+"""
+photo = "maciej-rzasa.webp"
