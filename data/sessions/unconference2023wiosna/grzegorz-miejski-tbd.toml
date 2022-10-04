@@ -1,0 +1,17 @@
+title = "TBD"
+abstract = """"""
+
+[links]
+# youtube = "3zOv3kFWnYc"
+
+[opengraph]
+# fb = "adam_dudczak-og.png"
+# twitter = "adam_dudczak-og-sq.png"
+
+[[speakers]]
+name = "Grzegorz Miejski"
+bio = """Przez kilka lat pracował w takich firmach jak Allegro, Brainly, SmartRecruiters. Od jakiegoś czasu najbardziej kręci go to, żeby innym developerom w firmie pracowało się dobrze, stąd obecnie w Zowie pracuje nad migracją infrastruktury do clouda, CICD i reliability systemów.
+
+Tworzył aplikacje w wielu językach i stackach, ale nie kłóci się które są najlepsze bo w żadnym nie jest mistrzem. Wierzy, że przetestować da się wszystko ale nie zawsze warto. Po pracy ucieka sprzed kompa, żeby poczytać dokumentację o tym jak działa człowiek.
+"""
+photo = "grzegorz-miejski.jpg"

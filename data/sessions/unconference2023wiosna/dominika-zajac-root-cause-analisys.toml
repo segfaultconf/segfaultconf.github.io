@@ -1,0 +1,14 @@
+title = "RCA czyli co tak naprawdę tu się wydarzyło?"
+abstract = """Błędy się zdarzają, zdarzały i będą się zdarzać. Nie możemy tego uniknąć — także w świecie IT. Rosnąca złożoność naszych systemów i rozwiązań sprawia, że są one bardziej podatne na błędy ludzkie, techniczne i integracyjne. Możemy (i powinniśmy!) starać się ich unikać, ale też powinniśmy być przygotowani na problemy. I nie tylko jak je naprawiać ale również jak wyciągać z nich wnioski i poprawiać nasze rozwiązania. W tej prelekcji chcę podzielić się swoimi przemyśleniami na temat procesu zwanego Root Cause Analysis — jednej z najbardziej przydatnych technik uczenia się na błędach."""
+
+[links]
+# youtube = "3zOv3kFWnYc"
+
+[opengraph]
+# fb = "adam_dudczak-og.png"
+# twitter = "adam_dudczak-og-sq.png"
+
+[[speakers]]
+name = "Dominika Zając"
+bio = """Full-stack developerka, która uwielbia dzielić się wiedzą i śpiewanie. Google Developer Expert w Web Technologies, software engineer w firmie Qualtrics, prelegentka, trenerka i blogerka. Głównie zainteresowana technologiami webowymi, dostępnością, uczeniem innych programowania oraz dobrymi praktykami w programowaniu."""
+photo = "dominika-zajac.jpg"
