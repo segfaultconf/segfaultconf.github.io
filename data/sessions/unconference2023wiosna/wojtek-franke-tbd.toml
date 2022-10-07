@@ -1,0 +1,16 @@
+title = "TBD"
+abstract = """"""
+
+[links]
+# youtube = "3zOv3kFWnYc"
+
+[opengraph]
+# fb = "adam_dudczak-og.png"
+# twitter = "adam_dudczak-og-sq.png"
+
+[[speakers]]
+name = "Wojtek Franke"
+bio = """Po przeczytaniu „Starego człowieka i morze” postanowił zostać generalistą. Konsekwentnie realizuje to prowadząc wydawnictwa muzyczne (apogsasis.org), grając na rave’ach i tworząc software.
+ Absolwent krakowskiego Base Lab. Ostatnio jarają go ML i Unreal Engine. Jak mu się wystarczająco zbierze pod czaszką to daje talka.
+ """
+photo = "wojtek-franke.jpg"
