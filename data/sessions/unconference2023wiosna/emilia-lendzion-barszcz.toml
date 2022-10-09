@@ -1,0 +1,18 @@
+title = "Zejdźmy niżej z testami wydajnościowymi"
+abstract = """
+Zapewne myśląc o testach wydajnościowych masz na myśli testy na poziomie API lub GUI. I masz rację! Bo zazwyczaj są wystarczające. A jak potrzebujemy czegoś więcej? 
+Czy znane jest Ci podejście Shift-Left? A co jeśli byśmy odnieśli ten koncept do testów wydajnościowych? Podczas naszego spotkania chcę podzielić się swoimi przygodami oraz przemyśleniami na temat tego konceptu.
+"""
+
+[links]
+# youtube = "3zOv3kFWnYc"
+
+[opengraph]
+# fb = "adam_dudczak-og.png"
+# twitter = "adam_dudczak-og-sq.png"
+
+[[speakers]]
+name = "Emilia Lendzion-Barszcz"
+bio = """Od dziecka testuje wydajność. Na początku stress testy na rodzicach, później endurance testy na składanych komputerach, a od 7 lat płacą jej za wykonywanie testów wydajnościowych 😉. QA Architect w SII Polska, QA Platform Lead w Wordline, szkoleniowiec, a w  sercu po prostu testerka. Dzieli się wiedzą współorganizując konferencję test:fest, prowadząc stronę na FB JavaGirl oraz organizując wiele akcji i warsztatów charytatywnych. Podczas SegFault będzie chciała wzbudzić w Tobie ciekawość i wyjście poza strefę komfortu w testach wydajnościowych. 
+"""
+photo = "emilia-lendzion.jpg"
