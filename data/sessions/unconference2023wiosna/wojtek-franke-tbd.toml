@@ -1,5 +1,5 @@
-title = "TBD"
-abstract = """"""
+title = "Przepraszam, jestem tylko dużym modelem językowym - wyzwania i możliwości użycia AI w pracy programisty"
+abstract = """Szybki rozwój sztucznej inteligencji i przetwarzania języka naturalnego doprowadził do powstania dużych modeli językowych, takich jak GPT-3 i BERT, które mają zdolność generowania tekstu w języku naturalnym na szeroki zakres tematów. Modele te są bardzo obiecujące dla różnych zastosowań, w tym programowania. Przyjrzymy się wyzwaniom i perspektywom stosowania ogólnych i wyspecjalizowanych w kodowaniu modeli w codziennej pracy. Omówimy ograniczenia tych modeli, takie jak brak wiedzy specyficznej dla domeny, a także ich potencjalne korzyści, takie jak ulepszone uzupełnianie kodu i wykrywanie błędów. Zbadamy również kwestie etyczne stosowania takich modeli, w tym ich potencjalny wpływ na rynek pracy dla programistów."""
 
 [links]
 # youtube = "3zOv3kFWnYc"
