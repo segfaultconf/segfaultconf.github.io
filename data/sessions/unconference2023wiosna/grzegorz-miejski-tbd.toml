@@ -1,5 +1,8 @@
-title = "TBD"
-abstract = """"""
+title = "Wspólne rozwiązania techniczne obecne w popularnych projektach Open Source"
+abstract = """Popularne projekty open source - takie jak Kafka, Redis, Postgres, ElasticSearch i inne - wydają się być magicznymi czarnymi skrzynkami, a próba zrozumienia wszystkich ich aspektów technicznych jest potencjalnie niemożliwa przez pojedynczą osobę.
+Jednak jak się okazuje, wiele decyzji architektonicznych oraz algorytmów jest wspólna dla na pozór odmiennych projektów open source.
+
+Razem wejdziemy do środka popularnych projektów open source i odkryjemy jakie wspólne elementy tych systemów sprawiają, że są one tak skuteczne w realizowaniu zadań przed nimi postawionych."""
 
 [links]
 # youtube = "3zOv3kFWnYc"
