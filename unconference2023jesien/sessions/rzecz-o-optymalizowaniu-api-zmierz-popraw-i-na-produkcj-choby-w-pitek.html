@@ -13,27 +13,27 @@
 <meta name="facebook-domain-verification" content="zzo3swtewclhqxmv51y05c928a2grs" />
 <link rel="shortcut icon" href="/favicon.ico">
 <title>    
-    RCA czyli co tak naprawdę tu się wydarzyło?. Prelekcje i prelegenci. Segfault. Unconference 2023 Wiosna 
+    Rzecz o optymalizowaniu API: Zmierz, popraw i na produkcję! (choćby w piątek). Prelekcje i prelegenci. Segfault. Unconference 2023 
 </title>
 
 <meta name="author" content="Segfault Events">
-<meta name="description" content="Błędy się zdarzają, zdarzały i będą się zdarzać. Nie możemy tego uniknąć — także w świecie IT. Rosnąca złożoność naszych systemów i rozwiązań sprawia, że są one bardziej podatne na błędy ludzkie, techniczne i integracyjne. Możemy (i powinniśmy!) starać się ich unikać, ale też powinniśmy być przygotowani na problemy. I nie tylko jak je naprawiać ale również jak wyciągać z nich wnioski i poprawiać nasze rozwiązania. W tej prelekcji chcę podzielić się swoimi przemyśleniami na temat procesu zwanego Root Cause Analysis — jednej z najbardziej przydatnych technik uczenia się na błędach.">
+<meta name="description" content="Piątek popołudniu, widzę zielony build na jenkinsie. Wiem, że muszę wysłać go na produkcję przed weekendem. Wiem też dobrze, jak źle może się skończyć deploy o tej porze. Już raz położyłem produkcję i naprawiałem ją po godzinach. Znałem ryzyko.Podczas wydzielania serwisu z monolitu, uświadomiliśmy sobie, że nasze wewnętrzne RESTowe API jest kompletnie niewydajne. Nie było w stanie udźwignąć nawet ułamka produkcyjnego ruchu. Postanowiliśmy je zoptymalizwać i przepisać na GraphQL. Ta radykalna zmiana odbywała się w serii małych kroków - mój deploy był jednym z nich. W trakcie tego projektu zauważyliśmy kilka wzorców pozwalających na wydajne i niezawodne konsumowanie GraphQLowego API.W prezentacji zobaczycie, jak dobry monitoring ułatwia na precyzyjną optymalizację API.  Przeanalizujecie wzorce pozwalające na poprawienie wydajności GraphQLa - zarówno po stronie serwera, jak i klienta. Zrozumiecie metody bezpiecznego wdrażania tych zmian na produkcji. Wreszcie - zobaczycie granice tych wszystkich technik i usłyszycie, co może pójść nie tak.Dlaczego deployowałem tak późno w piątek? Jak mierzyliśmy efekty migracji API? I przede wszystkim - dlaczego testowałem kod na produkcji? Odpowiem opowiadając Wam historię o robieniu wielkich zmian małymi krokami, monitorowaniu API i stosowaniu starych sztuczek w nowym środowisku. Poprowadzę Was przez nadzieję, desperację i walkę z zepsutą produkcją.">
 <meta name="keywords" content="Software architecture, artificial intelligence, machine learning, software engineering, delivery, quality">
 
 
 <meta name="twitter:card" content="summary">
 <meta name="twitter:site" content="@segfaultevents">
-<meta name="twitter:title" content="RCA czyli co tak naprawdę tu się wydarzyło?. Prelekcje i prelegenci. Segfault. Unconference 2023 Wiosna ">
-<meta name="twitter:image" content="https://segfault.events/unconference2023wiosna/sessions/images">
-<meta name="twitter:description" content="Błędy się zdarzają, zdarzały i będą się zdarzać. Nie możemy tego uniknąć — także w świecie IT. Rosnąca złożoność naszych systemów i rozwiązań sprawia, że są one bardziej podatne na błędy ludzkie, techniczne i integracyjne. Możemy (i powinniśmy!) starać się ich unikać, ale też powinniśmy być przygotowani na problemy. I nie tylko jak je naprawiać ale również jak wyciągać z nich wnioski i poprawiać nasze rozwiązania. W tej prelekcji chcę podzielić się swoimi przemyśleniami na temat procesu zwanego Root Cause Analysis — jednej z najbardziej przydatnych technik uczenia się na błędach.">
+<meta name="twitter:title" content="Rzecz o optymalizowaniu API: Zmierz, popraw i na produkcję! (choćby w piątek). Prelekcje i prelegenci. Segfault. Unconference 2023 ">
+<meta name="twitter:image" content="https://segfault.events/unconference2023jesien/sessions/images">
+<meta name="twitter:description" content="Piątek popołudniu, widzę zielony build na jenkinsie. Wiem, że muszę wysłać go na produkcję przed weekendem. Wiem też dobrze, jak źle może się skończyć deploy o tej porze. Już raz położyłem produkcję i naprawiałem ją po godzinach. Znałem ryzyko.Podczas wydzielania serwisu z monolitu, uświadomiliśmy sobie, że nasze wewnętrzne RESTowe API jest kompletnie niewydajne. Nie było w stanie udźwignąć nawet ułamka produkcyjnego ruchu. Postanowiliśmy je zoptymalizwać i przepisać na GraphQL. Ta radykalna zmiana odbywała się w serii małych kroków - mój deploy był jednym z nich. W trakcie tego projektu zauważyliśmy kilka wzorców pozwalających na wydajne i niezawodne konsumowanie GraphQLowego API.W prezentacji zobaczycie, jak dobry monitoring ułatwia na precyzyjną optymalizację API.  Przeanalizujecie wzorce pozwalające na poprawienie wydajności GraphQLa - zarówno po stronie serwera, jak i klienta. Zrozumiecie metody bezpiecznego wdrażania tych zmian na produkcji. Wreszcie - zobaczycie granice tych wszystkich technik i usłyszycie, co może pójść nie tak.Dlaczego deployowałem tak późno w piątek? Jak mierzyliśmy efekty migracji API? I przede wszystkim - dlaczego testowałem kod na produkcji? Odpowiem opowiadając Wam historię o robieniu wielkich zmian małymi krokami, monitorowaniu API i stosowaniu starych sztuczek w nowym środowisku. Poprowadzę Was przez nadzieję, desperację i walkę z zepsutą produkcją.">
 
 
 <meta property="og:site_name" content="Segfault Events">
-<meta property="og:title"  content="RCA czyli co tak naprawdę tu się wydarzyło?. Prelekcje i prelegenci. Segfault. Unconference 2023 Wiosna ">
+<meta property="og:title"  content="Rzecz o optymalizowaniu API: Zmierz, popraw i na produkcję! (choćby w piątek). Prelekcje i prelegenci. Segfault. Unconference 2023 ">
 <meta property="og:type" content="website">
-<meta property="og:description" content="Błędy się zdarzają, zdarzały i będą się zdarzać. Nie możemy tego uniknąć — także w świecie IT. Rosnąca złożoność naszych systemów i rozwiązań sprawia, że są one bardziej podatne na błędy ludzkie, techniczne i integracyjne. Możemy (i powinniśmy!) starać się ich unikać, ale też powinniśmy być przygotowani na problemy. I nie tylko jak je naprawiać ale również jak wyciągać z nich wnioski i poprawiać nasze rozwiązania. W tej prelekcji chcę podzielić się swoimi przemyśleniami na temat procesu zwanego Root Cause Analysis — jednej z najbardziej przydatnych technik uczenia się na błędach.">
-<meta property="og:image" content="https://segfault.events/unconference2023wiosna/sessions/images">
-<meta property="og:image" content="https://segfault.events/unconference2023wiosna/sessions/images">
+<meta property="og:description" content="Piątek popołudniu, widzę zielony build na jenkinsie. Wiem, że muszę wysłać go na produkcję przed weekendem. Wiem też dobrze, jak źle może się skończyć deploy o tej porze. Już raz położyłem produkcję i naprawiałem ją po godzinach. Znałem ryzyko.Podczas wydzielania serwisu z monolitu, uświadomiliśmy sobie, że nasze wewnętrzne RESTowe API jest kompletnie niewydajne. Nie było w stanie udźwignąć nawet ułamka produkcyjnego ruchu. Postanowiliśmy je zoptymalizwać i przepisać na GraphQL. Ta radykalna zmiana odbywała się w serii małych kroków - mój deploy był jednym z nich. W trakcie tego projektu zauważyliśmy kilka wzorców pozwalających na wydajne i niezawodne konsumowanie GraphQLowego API.W prezentacji zobaczycie, jak dobry monitoring ułatwia na precyzyjną optymalizację API.  Przeanalizujecie wzorce pozwalające na poprawienie wydajności GraphQLa - zarówno po stronie serwera, jak i klienta. Zrozumiecie metody bezpiecznego wdrażania tych zmian na produkcji. Wreszcie - zobaczycie granice tych wszystkich technik i usłyszycie, co może pójść nie tak.Dlaczego deployowałem tak późno w piątek? Jak mierzyliśmy efekty migracji API? I przede wszystkim - dlaczego testowałem kod na produkcji? Odpowiem opowiadając Wam historię o robieniu wielkich zmian małymi krokami, monitorowaniu API i stosowaniu starych sztuczek w nowym środowisku. Poprowadzę Was przez nadzieję, desperację i walkę z zepsutą produkcją.">
+<meta property="og:image" content="https://segfault.events/unconference2023jesien/sessions/images">
+<meta property="og:image" content="https://segfault.events/unconference2023jesien/sessions/images">
 
 <link rel="stylesheet" href="/segfault-styles.a3c18745c9defedf37e4a6f10378d6cad792302037a043cd46cadf1b9978586c.css">
 
@@ -117,7 +117,7 @@ ga('send', 'pageview');
             </a>            
             
             <p class="font-18 text-secondary ml-3 mb-2 d-none d-md-block">
-                <a href="/unconference2023wiosna/">Unconference 2023 Wiosna</a>
+                <a href="/unconference2023jesien/">Unconference 2023</a>
             </p>
             
         </div>
@@ -131,28 +131,21 @@ ga('send', 'pageview');
                 <div class="dropdown order-3 order-md-1">
                     
                     
-                    <button class="dropdown__button button button--expandable button--link text-primary mt-2 mx-lg-2 pb-2">
-                        <span class="link">nadchodzące wydarzenia</span>
+                    <button class="dropdown__button button button--link text-primary mt-2 mx-lg-2 pb-2">
+                        <span class="link"><a href="/unconference2023jesien/">Segfault Unconference 2023</a></span>
                     </button>             
-                    <ul class="dropdown__list">                                
-                                                        
-                        <li class="text-nowrap dropdown__item"><a href="/unconference2023wiosna">Kraków,<br/> 29-30 marca 2023</a></li>
-                                                        
-                        <li class="text-nowrap dropdown__item"><a href="/unconference2023jesien">Kraków,<br/> 06-07 września 2022</a></li>
-                        
-                    </ul>                                       
                     
                 </div>                
                  
                 <ul class="menu-items text-center list-unstyled">
-                    <li><a href="/unconference2023wiosna#speakers">Prelegenci</a></li>
-                    <li><a href="/unconference2023wiosna#agenda">Agenda</a></li>
-                    <li><a href="/unconference2023wiosna#partners">Partnerzy</a></li>
-                    <li><a href="/unconference2023wiosna/faq">FAQ</a></li>
+                    <li><a href="/unconference2023jesien#speakers">Prelegenci</a></li>
+                    <li><a href="/unconference2023jesien#agenda">Agenda</a></li>
+                    <li><a href="/unconference2023jesien#partners">Partnerzy</a></li>
+                    <li><a href="/unconference2023jesien/faq">FAQ</a></li>
                     <li><a href="/docs/RegulaminV2.pdf">Regulamin</a></li>                    
                 </ul>
                 
-                <a href="/unconference2023wiosna#tickets" class="button button--accent order-1 order-md-3">kup bilet</a>
+                <a href="/unconference2023jesien#tickets" class="button button--accent order-1 order-md-3">kup bilet</a>
                 
             </div>
         </div>
@@ -166,16 +159,20 @@ ga('send', 'pageview');
             <ul class="breadcrumbs list-unstyled">
                 <li class="breadcrumbs__item"><a href="/">Segfault</a></li>
                 <li class="breadcrumbs__item"><a
-                        href="/unconference2023wiosna/">Unconference 2023 Wiosna</a></li>
-                <li class="breadcrumbs__item">RCA czyli co tak naprawdę tu się wydarzyło?</li>
+                        href="/unconference2023jesien/">Unconference 2023</a></li>
+                <li class="breadcrumbs__item">Rzecz o optymalizowaniu API: Zmierz, popraw i na produkcję! (choćby w piątek)</li>
             </ul>
         </nav>
         <div class="row">
             <div class="col-sm-7 col-md-8 pr-5">
                 
-                <h2 class="font-48 font-bold mb-4 el-animated">RCA czyli co tak naprawdę tu się wydarzyło?</h2>
+                <h2 class="font-48 font-bold mb-4 el-animated">Rzecz o optymalizowaniu API: Zmierz, popraw i na produkcję! (choćby w piątek)</h2>
                 <div class="mb-4 el-animated">
-                    Błędy się zdarzają, zdarzały i będą się zdarzać. Nie możemy tego uniknąć — także w świecie IT. Rosnąca złożoność naszych systemów i rozwiązań sprawia, że są one bardziej podatne na błędy ludzkie, techniczne i integracyjne. Możemy (i powinniśmy!) starać się ich unikać, ale też powinniśmy być przygotowani na problemy. I nie tylko jak je naprawiać ale również jak wyciągać z nich wnioski i poprawiać nasze rozwiązania. W tej prelekcji chcę podzielić się swoimi przemyśleniami na temat procesu zwanego Root Cause Analysis — jednej z najbardziej przydatnych technik uczenia się na błędach.
+                    <p>Piątek popołudniu, widzę zielony build na jenkinsie. Wiem, że muszę wysłać go na produkcję przed weekendem. Wiem też dobrze, jak źle może się skończyć deploy o tej porze. Już raz położyłem produkcję i naprawiałem ją po godzinach. Znałem ryzyko.</p>
+<p>Podczas wydzielania serwisu z monolitu, uświadomiliśmy sobie, że nasze wewnętrzne RESTowe API jest kompletnie niewydajne. Nie było w stanie udźwignąć nawet ułamka produkcyjnego ruchu. Postanowiliśmy je zoptymalizwać i przepisać na GraphQL. Ta radykalna zmiana odbywała się w serii małych kroków - mój deploy był jednym z nich. W trakcie tego projektu zauważyliśmy kilka wzorców pozwalających na wydajne i niezawodne konsumowanie GraphQLowego API.</p>
+<p>W prezentacji zobaczycie, jak dobry monitoring ułatwia na precyzyjną optymalizację API.  Przeanalizujecie wzorce pozwalające na poprawienie wydajności GraphQLa - zarówno po stronie serwera, jak i klienta. Zrozumiecie metody bezpiecznego wdrażania tych zmian na produkcji. Wreszcie - zobaczycie granice tych wszystkich technik i usłyszycie, co może pójść nie tak.</p>
+<p>Dlaczego deployowałem tak późno w piątek? Jak mierzyliśmy efekty migracji API? I przede wszystkim - dlaczego testowałem kod na produkcji? Odpowiem opowiadając Wam historię o robieniu wielkich zmian małymi krokami, monitorowaniu API i stosowaniu starych sztuczek w nowym środowisku. Poprowadzę Was przez nadzieję, desperację i walkę z zepsutą produkcją.</p>
+
                     
                 </div>
                 
@@ -187,9 +184,9 @@ ga('send', 'pageview');
                         <div class="avatar avatar--extra-large avatar--accent">
                             
                             <img class="avatar__photo"
-                                src="/unconference2023wiosna/sessions/images/dominika-zajac.jpg" alt="">
+                                src="/unconference2023jesien/sessions/images/maciej-rzasa.webp" alt="">
                         </div>
-                        <p class="font-bold text-accent text-center mb-2 mt-3">Dominika Zając</p>
+                        <p class="font-bold text-accent text-center mb-2 mt-3">Maciej Rząsa</p>
                         
                     </div>
                     
@@ -200,27 +197,29 @@ ga('send', 'pageview');
         
         <div class="row mt-4 col-12">
             <div class="d-flex align-items-center el-animated">
-                <h2 class="font-48 font-bold text-accent mr-4">Dominika Zając</h2>
+                <h2 class="font-48 font-bold text-accent mr-4">Maciej Rząsa</h2>
                 
                 
             </div>
             <div>
                 
                 <p class="mb-4 el-animated">
-                    Full-stack developerka, która uwielbia dzielić się wiedzą i śpiewanie. Google Developer Expert w Web Technologies, software engineer w firmie Qualtrics, prelegentka, trenerka i blogerka. Głównie zainteresowana technologiami webowymi, dostępnością, uczeniem innych programowania oraz dobrymi praktykami w programowaniu.
+                    <p>Developer z ponad 10-letnim doświadczeniem. Tworzył aplikacji z różnorodnych dziedzin (TV, recycling, turystyka, tłumaczenia, rekrutacja). W Toptalu, gdzie pracuje, spędził półtora roku w projekcie Billing Extraction, który miał na celu wydzielenie złożonej części monolitu do osobnego serwisu. Zainteresowany systemami rozproszonymi, samoorganizującymi się zespołami i metodami tworzenia oprogramowania.</p>
+<p>Lubi dzielić się wiedzą. Współorganizator Rzeszów Ruby User Group (<a href="http://rrug.pl">http://rrug.pl</a>) oraz Rails Girls Rzeszów. Od czasu do czasu - prelegent na branżowych konferencjach i meetupach. Po godzinach - instruktor i wykładowca na Politechnice Rzeszowskiej.</p>
+
                 </p>
             </div>
         </div>
         
         <div class="col-12 d-flex flex-column justify-content-end">
             <p>
-                <a href="/unconference2023wiosna/#speakers"
-                    class="link link--back text-accent font-bold el-animated"><span class="icon-arrow-back"></span>Unconference 2023 Wiosna, wróć
+                <a href="/unconference2023jesien/#speakers"
+                    class="link link--back text-accent font-bold el-animated"><span class="icon-arrow-back"></span>Unconference 2023, wróć
                     do prelegentów</a>
             </p>
             <p>
-                <a href="/unconference2023wiosna/#agenda"
-                    class="link link--back text-accent font-bold el-animated"><span class="icon-arrow-back"></span>Unconference 2023 Wiosna, wróć
+                <a href="/unconference2023jesien/#agenda"
+                    class="link link--back text-accent font-bold el-animated"><span class="icon-arrow-back"></span>Unconference 2023, wróć
                     do agendy</a>
             </p>
         </div>
