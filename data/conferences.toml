@@ -1,14 +1,7 @@
 [[editions]]
 forthcoming = true
-dateSortable = 2023-03-29
-dateReadable = "29-30 marca 2023"
-city = "Kraków"
-link = "/unconference2023wiosna"
-
-[[editions]]
-forthcoming = true
 dateSortable = 2023-09-06
-dateReadable = "06-07 września 2022"
+dateReadable = "06-07 września 2023"
 city = "Kraków"
 link = "/unconference2023jesien"
 
