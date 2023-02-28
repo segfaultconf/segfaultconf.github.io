@@ -2,7 +2,7 @@
 title: Unconference 2023
 type: event
 social:
-    description: 6-7 września 2023 w Krakowie. Najbardziej nie-konferencja której szukasz
+    description: 7-8 września 2023 w Krakowie. Najbardziej nie-konferencja której szukasz
     opengraph:
         twitter: conference-sq.png
         fb: conference.png     
@@ -12,9 +12,9 @@ details:
     logo: svg-event-unconference
     heroImg: images/krakow.jpg
 dates: 
-    readable: 6-7 września 2023
-    start: 2023-09-06
-    end: 2023-09-07
+    readable: 7-8 września 2023
+    start: 2023-09-07
+    end: 2023-09-08
 tickets: 
     link: https://segfault-unconf-jesien-2023.konfeo.com/
 conference:
